@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Release</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhone</Platform>
+    <ProjectGuid>{9F635E4C-93C4-454B-AEA5-CEDB4EE5970F}</ProjectGuid>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>DocViewer</RootNamespace>
+    <AssemblyName>DocViewer</AssemblyName>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchUseSGen>true</MtouchUseSGen>
+    <MtouchUseRefCounting>true</MtouchUseRefCounting>
+    <MtouchFloat32>true</MtouchFloat32>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <MtouchTlsProvider>Default</MtouchTlsProvider>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.iOS" />
+    <Reference Include="iCarousel">
+      <HintPath>..\Components\icarousel-1.8.2.1\lib\ios-unified\iCarousel.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Contents.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="LaunchScreen.storyboard" />
+    <InterfaceDefinition Include="Main.storyboard" />
+    <InterfaceDefinition Include="DocViewController.xib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Info.plist" />
+    <None Include="Entitlements.plist" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <Compile Include="ViewController.cs" />
+    <Compile Include="ViewController.designer.cs">
+      <DependentUpon>ViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DocViewController.cs" />
+    <Compile Include="DocViewController.designer.cs">
+      <DependentUpon>DocViewController.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <XamarinComponentReference Include="icarousel">
+      <Version>1.8.2.1</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\AppIcons.appiconset\Contents.json" />
+    <BundleResource Include="Resources\AppIcons.appiconset\Icon-40.png" />
+    <BundleResource Include="Resources\AppIcons.appiconset\Icon-40%402x.png" />
+    <BundleResource Include="Resources\AppIcons.appiconset\Icon-40%403x.png" />
+    <BundleResource Include="Resources\AppIcons.appiconset\Icon-60%402x.png" />
+    <BundleResource Include="Resources\AppIcons.appiconset\Icon-60%403x.png" />
+    <BundleResource Include="Resources\AppIcons.appiconset\Icon-72.png" />
+    <BundleResource Include="Resources\AppIcons.appiconset\Icon-72%402x.png" />
+    <BundleResource Include="Resources\AppIcons.appiconset\Icon-76.png" />
+    <BundleResource Include="Resources\AppIcons.appiconset\Icon-76%402x.png" />
+    <BundleResource Include="Resources\AppIcons.appiconset\Icon-Small-50.png" />
+    <BundleResource Include="Resources\AppIcons.appiconset\Icon-Small-50%402x.png" />
+    <BundleResource Include="Resources\AppIcons.appiconset\Icon-Small.png" />
+    <BundleResource Include="Resources\AppIcons.appiconset\Icon-Small%402x.png" />
+    <BundleResource Include="Resources\AppIcons.appiconset\Icon-Small%403x.png" />
+    <BundleResource Include="Resources\AppIcons.appiconset\Icon.png" />
+    <BundleResource Include="Resources\AppIcons.appiconset\Icon%402x.png" />
+    <BundleResource Include="Resources\LaunchImage.launchimage\Contents.json" />
+    <BundleResource Include="Resources\LaunchImage.launchimage\Default-568h%402x.png" />
+    <BundleResource Include="Resources\LaunchImage.launchimage\Default-HD47.png" />
+    <BundleResource Include="Resources\LaunchImage.launchimage\Default-HD55.png" />
+    <BundleResource Include="Resources\LaunchImage.launchimage\Default-Landscape-HD55.png" />
+    <BundleResource Include="Resources\LaunchImage.launchimage\Default-Landscape%402x~ipad-nostatus.png" />
+    <BundleResource Include="Resources\LaunchImage.launchimage\Default-Landscape%402x~ipad.png" />
+    <BundleResource Include="Resources\LaunchImage.launchimage\Default-Landscape~ipad-nostatus.png" />
+    <BundleResource Include="Resources\LaunchImage.launchimage\Default-Landscape~ipad.png" />
+    <BundleResource Include="Resources\LaunchImage.launchimage\Default-Portrait%402x~ipad-nostatus.png" />
+    <BundleResource Include="Resources\LaunchImage.launchimage\Default-Portrait%402x~ipad.png" />
+    <BundleResource Include="Resources\LaunchImage.launchimage\Default-Portrait~ipad-nostatus.png" />
+    <BundleResource Include="Resources\LaunchImage.launchimage\Default-Portrait~ipad.png" />
+    <BundleResource Include="Resources\LaunchImage.launchimage\Default.png" />
+    <BundleResource Include="Resources\LaunchImage.launchimage\Default%402x.png" />
+    <BundleResource Include="Resources\background.png" />
+    <BundleResource Include="Resources\page.png" />
+    <BundleResource Include="Resources\placeholder.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+</Project>

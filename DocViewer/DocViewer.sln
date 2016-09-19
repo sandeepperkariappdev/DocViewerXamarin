@@ -1,0 +1,49 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocViewer", "DocViewer\DocViewer.csproj", "{9F635E4C-93C4-454B-AEA5-CEDB4EE5970F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F635E4C-93C4-454B-AEA5-CEDB4EE5970F}.Release|iPhone.ActiveCfg = Release|iPhone
+		{9F635E4C-93C4-454B-AEA5-CEDB4EE5970F}.Release|iPhone.Build.0 = Release|iPhone
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = None
+		$1.ResourceNamePolicy = FileFormatDefault
+		$0.StandardHeader = $2
+		$2.Text = 
+		$2.IncludeInNewFiles = True
+		$0.NameConventionPolicy = $3
+		$3.Rules = $4
+		$4.NamingRule = $5
+		$5.Name = Type Parameters
+		$5.AffectedEntity = TypeParameter
+		$5.VisibilityMask = VisibilityMask
+		$5.NamingStyle = PascalCase
+		$5.IncludeInstanceMembers = True
+		$5.IncludeStaticEntities = True
+		$5.RequiredPrefixes = $6
+		$6.String = T
+		$5.RequiredSuffixes = $7
+		$7.String = Exception
+		$0.TextStylePolicy = $8
+		$8.inheritsSet = null
+		$8.scope = application/xml
+		$8.FileWidth = 120
+		$8.TabsToSpaces = False
+		$8.inheritsScope = text/plain
+		$0.XmlFormattingPolicy = $9
+		$9.inheritsSet = Mono
+		$9.scope = application/xml
+		$9.inheritsScope = application/xml
+	EndGlobalSection
+EndGlobal

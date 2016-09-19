@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{9F635E4C-93C4-454B-AEA5-CEDB4EE5970F}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DocViewer/DocViewController.cs">
+    <Files>
+      <File FileName="DocViewer/AppDelegate.cs" Line="3" Column="1" />
+      <File FileName="DocViewer/DocViewController.cs" Line="85" Column="28" />
+      <File FileName="DocViewer/Info.plist" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DocViewer" expanded="True" selected="True">
+            <Node name="DocViewer" expanded="True">
+              <Node name="ComponentReferenceFolder" expanded="True" />
+              <Node name="Resources" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <AuthorInfo Name="urocrtt-mac2" Email="sandeep.perkari@gmail.com" Copyright="urocrtt-mac2" Company="" Trademark="" />
+  <MonoDevelop.Ide.ItemProperties.DocViewer PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.a0e3576a785418f174ad3f8b24cedc7193237b64" />
+</Properties>

@@ -1,0 +1,6 @@
+/Users/urocrtt-mac2/Documents/MyApplications/Xamarin/DocViewer/DocViewer/obj/iPhone/Debug/build-iphone7.1-9.3.2/mtouch-cache/Link/Xamarin.iOS.dll
+/Users/urocrtt-mac2/Documents/MyApplications/Xamarin/DocViewer/DocViewer/obj/iPhone/Debug/build-iphone7.1-9.3.2/mtouch-cache/Link/iCarousel.dll
+/Users/urocrtt-mac2/Documents/MyApplications/Xamarin/DocViewer/DocViewer/obj/iPhone/Debug/build-iphone7.1-9.3.2/mtouch-cache/Link/System.dll
+/Users/urocrtt-mac2/Documents/MyApplications/Xamarin/DocViewer/DocViewer/obj/iPhone/Debug/build-iphone7.1-9.3.2/mtouch-cache/Link/mscorlib.dll
+/Users/urocrtt-mac2/Documents/MyApplications/Xamarin/DocViewer/DocViewer/obj/iPhone/Debug/build-iphone7.1-9.3.2/mtouch-cache/Link/System.Core.dll
+/Users/urocrtt-mac2/Documents/MyApplications/Xamarin/DocViewer/DocViewer/obj/iPhone/Debug/build-iphone7.1-9.3.2/mtouch-cache/Link/DocViewer.exe
