@@ -811,6 +811,595 @@ exception_handling:;
 }
 
 
+static UIColor * native_to_managed_trampoline_19 (id self, SEL _cmd, MonoMethod **managed_method_ptr, const char *r0, const char *r1)
+{
+	MonoObject *retval = NULL;
+	guint32 exception_gchandle = 0;
+	UIColor * res = {0};
+	MonoMethod *managed_method = *managed_method_ptr;
+	void *arg_ptrs [0];
+	MONO_ASSERT_GC_SAFE;
+	MONO_THREAD_ATTACH;
+
+	MonoObject *mthis = NULL;
+	if (self) {
+		mthis = xamarin_get_managed_object_for_ptr_fast (self, &exception_gchandle);
+		if (exception_gchandle != 0) goto exception_handling;
+	}
+	if (!managed_method) {
+		managed_method = xamarin_get_reflection_method_method (xamarin_get_method_direct(r0, r1, 0, NULL, &exception_gchandle));
+		if (exception_gchandle != 0) goto exception_handling;
+		*managed_method_ptr = managed_method;
+	}
+	xamarin_check_for_gced_object (mthis, _cmd, self, managed_method, &exception_gchandle);
+	if (exception_gchandle != 0) goto exception_handling;
+	retval = mono_runtime_invoke (managed_method, mthis, arg_ptrs, NULL);
+
+	if (!retval) {
+		res = NULL;
+	} else {
+		id retobj;
+		retobj = xamarin_get_nsobject_handle (retval);
+		xamarin_framework_peer_lock ();
+		[retobj retain];
+		xamarin_framework_peer_unlock ();
+		[retobj autorelease];
+		mt_dummy_use (retval);
+		res = retobj;
+	}
+
+exception_handling:;
+	MONO_THREAD_DETACH;
+	if (exception_gchandle != 0)
+		xamarin_process_managed_exception_gchandle (exception_gchandle);
+	return res;
+}
+
+
+static void native_to_managed_trampoline_20 (id self, SEL _cmd, MonoMethod **managed_method_ptr, UIColor * p0, const char *r0, const char *r1, const char *r2)
+{
+	NSObject *nsobj0 = NULL;
+	MonoObject *mobj0 = NULL;
+	int32_t created0 = false;
+	MonoType *paramtype0 = NULL;
+	guint32 exception_gchandle = 0;
+	MonoMethod *managed_method = *managed_method_ptr;
+	void *arg_ptrs [1];
+	MONO_ASSERT_GC_SAFE;
+	MONO_THREAD_ATTACH;
+
+	MonoObject *mthis = NULL;
+	if (self) {
+		mthis = xamarin_get_managed_object_for_ptr_fast (self, &exception_gchandle);
+		if (exception_gchandle != 0) goto exception_handling;
+	}
+	if (!managed_method) {
+		const char *paramptr[1] = { r0 };
+		managed_method = xamarin_get_reflection_method_method (xamarin_get_method_direct(r1, r2, 1, paramptr, &exception_gchandle));
+		if (exception_gchandle != 0) goto exception_handling;
+		*managed_method_ptr = managed_method;
+	}
+	xamarin_check_for_gced_object (mthis, _cmd, self, managed_method, &exception_gchandle);
+	if (exception_gchandle != 0) goto exception_handling;
+	nsobj0 = (NSObject *) p0;
+	if (nsobj0) {
+		paramtype0 = xamarin_get_parameter_type (managed_method, 0);
+		mobj0 = xamarin_get_nsobject_with_type_for_ptr_created (nsobj0, false, paramtype0, &created0, &exception_gchandle);
+		if (exception_gchandle != 0) goto exception_handling;
+	}
+	arg_ptrs [0] = mobj0;
+
+	mono_runtime_invoke (managed_method, mthis, arg_ptrs, NULL);
+
+exception_handling:;
+	MONO_THREAD_DETACH;
+	if (exception_gchandle != 0)
+		xamarin_process_managed_exception_gchandle (exception_gchandle);
+	return;
+}
+
+
+static float native_to_managed_trampoline_21 (id self, SEL _cmd, MonoMethod **managed_method_ptr, const char *r0, const char *r1)
+{
+	MonoObject *retval = NULL;
+	guint32 exception_gchandle = 0;
+	float res = {0};
+	MonoMethod *managed_method = *managed_method_ptr;
+	void *arg_ptrs [0];
+	MONO_ASSERT_GC_SAFE;
+	MONO_THREAD_ATTACH;
+
+	MonoObject *mthis = NULL;
+	if (self) {
+		mthis = xamarin_get_managed_object_for_ptr_fast (self, &exception_gchandle);
+		if (exception_gchandle != 0) goto exception_handling;
+	}
+	if (!managed_method) {
+		managed_method = xamarin_get_reflection_method_method (xamarin_get_method_direct(r0, r1, 0, NULL, &exception_gchandle));
+		if (exception_gchandle != 0) goto exception_handling;
+		*managed_method_ptr = managed_method;
+	}
+	xamarin_check_for_gced_object (mthis, _cmd, self, managed_method, &exception_gchandle);
+	if (exception_gchandle != 0) goto exception_handling;
+	retval = mono_runtime_invoke (managed_method, mthis, arg_ptrs, NULL);
+
+	res = *(float *) mono_object_unbox ((MonoObject *) retval);
+
+exception_handling:;
+	MONO_THREAD_DETACH;
+	if (exception_gchandle != 0)
+		xamarin_process_managed_exception_gchandle (exception_gchandle);
+	return res;
+}
+
+
+static void native_to_managed_trampoline_22 (id self, SEL _cmd, MonoMethod **managed_method_ptr, float p0, const char *r0, const char *r1, const char *r2)
+{
+	guint32 exception_gchandle = 0;
+	MonoMethod *managed_method = *managed_method_ptr;
+	void *arg_ptrs [1];
+	MONO_ASSERT_GC_SAFE;
+	MONO_THREAD_ATTACH;
+
+	MonoObject *mthis = NULL;
+	if (self) {
+		mthis = xamarin_get_managed_object_for_ptr_fast (self, &exception_gchandle);
+		if (exception_gchandle != 0) goto exception_handling;
+	}
+	if (!managed_method) {
+		const char *paramptr[1] = { r0 };
+		managed_method = xamarin_get_reflection_method_method (xamarin_get_method_direct(r1, r2, 1, paramptr, &exception_gchandle));
+		if (exception_gchandle != 0) goto exception_handling;
+		*managed_method_ptr = managed_method;
+	}
+	xamarin_check_for_gced_object (mthis, _cmd, self, managed_method, &exception_gchandle);
+	if (exception_gchandle != 0) goto exception_handling;
+	arg_ptrs [0] = &p0;
+
+	mono_runtime_invoke (managed_method, mthis, arg_ptrs, NULL);
+
+exception_handling:;
+	MONO_THREAD_DETACH;
+	if (exception_gchandle != 0)
+		xamarin_process_managed_exception_gchandle (exception_gchandle);
+	return;
+}
+
+
+static UIImage * native_to_managed_trampoline_23 (id self, SEL _cmd, MonoMethod **managed_method_ptr, const char *r0, const char *r1)
+{
+	MonoObject *retval = NULL;
+	guint32 exception_gchandle = 0;
+	UIImage * res = {0};
+	MonoMethod *managed_method = *managed_method_ptr;
+	void *arg_ptrs [0];
+	MONO_ASSERT_GC_SAFE;
+	MONO_THREAD_ATTACH;
+
+	MonoObject *mthis = NULL;
+	if (self) {
+		mthis = xamarin_get_managed_object_for_ptr_fast (self, &exception_gchandle);
+		if (exception_gchandle != 0) goto exception_handling;
+	}
+	if (!managed_method) {
+		managed_method = xamarin_get_reflection_method_method (xamarin_get_method_direct(r0, r1, 0, NULL, &exception_gchandle));
+		if (exception_gchandle != 0) goto exception_handling;
+		*managed_method_ptr = managed_method;
+	}
+	xamarin_check_for_gced_object (mthis, _cmd, self, managed_method, &exception_gchandle);
+	if (exception_gchandle != 0) goto exception_handling;
+	retval = mono_runtime_invoke (managed_method, mthis, arg_ptrs, NULL);
+
+	if (!retval) {
+		res = NULL;
+	} else {
+		id retobj;
+		retobj = xamarin_get_nsobject_handle (retval);
+		xamarin_framework_peer_lock ();
+		[retobj retain];
+		xamarin_framework_peer_unlock ();
+		[retobj autorelease];
+		mt_dummy_use (retval);
+		res = retobj;
+	}
+
+exception_handling:;
+	MONO_THREAD_DETACH;
+	if (exception_gchandle != 0)
+		xamarin_process_managed_exception_gchandle (exception_gchandle);
+	return res;
+}
+
+
+static void native_to_managed_trampoline_24 (id self, SEL _cmd, MonoMethod **managed_method_ptr, UIImage * p0, const char *r0, const char *r1, const char *r2)
+{
+	NSObject *nsobj0 = NULL;
+	MonoObject *mobj0 = NULL;
+	int32_t created0 = false;
+	MonoType *paramtype0 = NULL;
+	guint32 exception_gchandle = 0;
+	MonoMethod *managed_method = *managed_method_ptr;
+	void *arg_ptrs [1];
+	MONO_ASSERT_GC_SAFE;
+	MONO_THREAD_ATTACH;
+
+	MonoObject *mthis = NULL;
+	if (self) {
+		mthis = xamarin_get_managed_object_for_ptr_fast (self, &exception_gchandle);
+		if (exception_gchandle != 0) goto exception_handling;
+	}
+	if (!managed_method) {
+		const char *paramptr[1] = { r0 };
+		managed_method = xamarin_get_reflection_method_method (xamarin_get_method_direct(r1, r2, 1, paramptr, &exception_gchandle));
+		if (exception_gchandle != 0) goto exception_handling;
+		*managed_method_ptr = managed_method;
+	}
+	xamarin_check_for_gced_object (mthis, _cmd, self, managed_method, &exception_gchandle);
+	if (exception_gchandle != 0) goto exception_handling;
+	nsobj0 = (NSObject *) p0;
+	if (nsobj0) {
+		paramtype0 = xamarin_get_parameter_type (managed_method, 0);
+		mobj0 = xamarin_get_nsobject_with_type_for_ptr_created (nsobj0, false, paramtype0, &created0, &exception_gchandle);
+		if (exception_gchandle != 0) goto exception_handling;
+	}
+	arg_ptrs [0] = mobj0;
+
+	mono_runtime_invoke (managed_method, mthis, arg_ptrs, NULL);
+
+exception_handling:;
+	MONO_THREAD_DETACH;
+	if (exception_gchandle != 0)
+		xamarin_process_managed_exception_gchandle (exception_gchandle);
+	return;
+}
+
+
+static NSInteger native_to_managed_trampoline_25 (id self, SEL _cmd, MonoMethod **managed_method_ptr, const char *r0, const char *r1)
+{
+	MonoObject *retval = NULL;
+	guint32 exception_gchandle = 0;
+	NSInteger res = {0};
+	MonoMethod *managed_method = *managed_method_ptr;
+	void *arg_ptrs [0];
+	MONO_ASSERT_GC_SAFE;
+	MONO_THREAD_ATTACH;
+
+	MonoObject *mthis = NULL;
+	if (self) {
+		mthis = xamarin_get_managed_object_for_ptr_fast (self, &exception_gchandle);
+		if (exception_gchandle != 0) goto exception_handling;
+	}
+	if (!managed_method) {
+		managed_method = xamarin_get_reflection_method_method (xamarin_get_method_direct(r0, r1, 0, NULL, &exception_gchandle));
+		if (exception_gchandle != 0) goto exception_handling;
+		*managed_method_ptr = managed_method;
+	}
+	xamarin_check_for_gced_object (mthis, _cmd, self, managed_method, &exception_gchandle);
+	if (exception_gchandle != 0) goto exception_handling;
+	retval = mono_runtime_invoke (managed_method, mthis, arg_ptrs, NULL);
+
+	res = *(NSInteger *) mono_object_unbox ((MonoObject *) retval);
+
+exception_handling:;
+	MONO_THREAD_DETACH;
+	if (exception_gchandle != 0)
+		xamarin_process_managed_exception_gchandle (exception_gchandle);
+	return res;
+}
+
+
+static void native_to_managed_trampoline_26 (id self, SEL _cmd, MonoMethod **managed_method_ptr, NSInteger p0, const char *r0, const char *r1, const char *r2)
+{
+	long long nativeEnum0 = p0;
+	guint32 exception_gchandle = 0;
+	MonoMethod *managed_method = *managed_method_ptr;
+	void *arg_ptrs [1];
+	MONO_ASSERT_GC_SAFE;
+	MONO_THREAD_ATTACH;
+
+	MonoObject *mthis = NULL;
+	if (self) {
+		mthis = xamarin_get_managed_object_for_ptr_fast (self, &exception_gchandle);
+		if (exception_gchandle != 0) goto exception_handling;
+	}
+	if (!managed_method) {
+		const char *paramptr[1] = { r0 };
+		managed_method = xamarin_get_reflection_method_method (xamarin_get_method_direct(r1, r2, 1, paramptr, &exception_gchandle));
+		if (exception_gchandle != 0) goto exception_handling;
+		*managed_method_ptr = managed_method;
+	}
+	xamarin_check_for_gced_object (mthis, _cmd, self, managed_method, &exception_gchandle);
+	if (exception_gchandle != 0) goto exception_handling;
+	arg_ptrs [0] = &nativeEnum0;
+
+	mono_runtime_invoke (managed_method, mthis, arg_ptrs, NULL);
+
+exception_handling:;
+	MONO_THREAD_DETACH;
+	if (exception_gchandle != 0)
+		xamarin_process_managed_exception_gchandle (exception_gchandle);
+	return;
+}
+
+
+static CGFloat native_to_managed_trampoline_27 (id self, SEL _cmd, MonoMethod **managed_method_ptr, const char *r0, const char *r1)
+{
+	MonoObject *retval = NULL;
+	guint32 exception_gchandle = 0;
+	CGFloat res = {0};
+	MonoMethod *managed_method = *managed_method_ptr;
+	void *arg_ptrs [0];
+	MONO_ASSERT_GC_SAFE;
+	MONO_THREAD_ATTACH;
+
+	MonoObject *mthis = NULL;
+	if (self) {
+		mthis = xamarin_get_managed_object_for_ptr_fast (self, &exception_gchandle);
+		if (exception_gchandle != 0) goto exception_handling;
+	}
+	if (!managed_method) {
+		managed_method = xamarin_get_reflection_method_method (xamarin_get_method_direct(r0, r1, 0, NULL, &exception_gchandle));
+		if (exception_gchandle != 0) goto exception_handling;
+		*managed_method_ptr = managed_method;
+	}
+	xamarin_check_for_gced_object (mthis, _cmd, self, managed_method, &exception_gchandle);
+	if (exception_gchandle != 0) goto exception_handling;
+	retval = mono_runtime_invoke (managed_method, mthis, arg_ptrs, NULL);
+
+	res = *(CGFloat *) mono_object_unbox ((MonoObject *) retval);
+
+exception_handling:;
+	MONO_THREAD_DETACH;
+	if (exception_gchandle != 0)
+		xamarin_process_managed_exception_gchandle (exception_gchandle);
+	return res;
+}
+
+
+static void native_to_managed_trampoline_28 (id self, SEL _cmd, MonoMethod **managed_method_ptr, CGFloat p0, const char *r0, const char *r1, const char *r2)
+{
+	guint32 exception_gchandle = 0;
+	MonoMethod *managed_method = *managed_method_ptr;
+	void *arg_ptrs [1];
+	MONO_ASSERT_GC_SAFE;
+	MONO_THREAD_ATTACH;
+
+	MonoObject *mthis = NULL;
+	if (self) {
+		mthis = xamarin_get_managed_object_for_ptr_fast (self, &exception_gchandle);
+		if (exception_gchandle != 0) goto exception_handling;
+	}
+	if (!managed_method) {
+		const char *paramptr[1] = { r0 };
+		managed_method = xamarin_get_reflection_method_method (xamarin_get_method_direct(r1, r2, 1, paramptr, &exception_gchandle));
+		if (exception_gchandle != 0) goto exception_handling;
+		*managed_method_ptr = managed_method;
+	}
+	xamarin_check_for_gced_object (mthis, _cmd, self, managed_method, &exception_gchandle);
+	if (exception_gchandle != 0) goto exception_handling;
+	arg_ptrs [0] = &p0;
+
+	mono_runtime_invoke (managed_method, mthis, arg_ptrs, NULL);
+
+exception_handling:;
+	MONO_THREAD_DETACH;
+	if (exception_gchandle != 0)
+		xamarin_process_managed_exception_gchandle (exception_gchandle);
+	return;
+}
+
+
+static NSString * native_to_managed_trampoline_29 (id self, SEL _cmd, MonoMethod **managed_method_ptr, const char *r0, const char *r1)
+{
+	MonoObject *retval = NULL;
+	guint32 exception_gchandle = 0;
+	NSString * res = {0};
+	MonoMethod *managed_method = *managed_method_ptr;
+	void *arg_ptrs [0];
+	MONO_ASSERT_GC_SAFE;
+	MONO_THREAD_ATTACH;
+
+	MonoObject *mthis = NULL;
+	if (self) {
+		mthis = xamarin_get_managed_object_for_ptr_fast (self, &exception_gchandle);
+		if (exception_gchandle != 0) goto exception_handling;
+	}
+	if (!managed_method) {
+		managed_method = xamarin_get_reflection_method_method (xamarin_get_method_direct(r0, r1, 0, NULL, &exception_gchandle));
+		if (exception_gchandle != 0) goto exception_handling;
+		*managed_method_ptr = managed_method;
+	}
+	xamarin_check_for_gced_object (mthis, _cmd, self, managed_method, &exception_gchandle);
+	if (exception_gchandle != 0) goto exception_handling;
+	retval = mono_runtime_invoke (managed_method, mthis, arg_ptrs, NULL);
+
+	if (!retval) {
+		res = NULL;
+	} else {
+		char *str = mono_string_to_utf8 ((MonoString *) retval);
+		NSString *nsstr = [[NSString alloc] initWithUTF8String:str];
+		[nsstr autorelease];
+		mono_free (str);
+		res = nsstr;
+	}
+
+exception_handling:;
+	MONO_THREAD_DETACH;
+	if (exception_gchandle != 0)
+		xamarin_process_managed_exception_gchandle (exception_gchandle);
+	return res;
+}
+
+
+static void native_to_managed_trampoline_30 (id self, SEL _cmd, MonoMethod **managed_method_ptr, NSString * p0, const char *r0, const char *r1, const char *r2)
+{
+	guint32 exception_gchandle = 0;
+	MonoMethod *managed_method = *managed_method_ptr;
+	void *arg_ptrs [1];
+	MONO_ASSERT_GC_SAFE;
+	MONO_THREAD_ATTACH;
+
+	MonoObject *mthis = NULL;
+	if (self) {
+		mthis = xamarin_get_managed_object_for_ptr_fast (self, &exception_gchandle);
+		if (exception_gchandle != 0) goto exception_handling;
+	}
+	if (!managed_method) {
+		const char *paramptr[1] = { r0 };
+		managed_method = xamarin_get_reflection_method_method (xamarin_get_method_direct(r1, r2, 1, paramptr, &exception_gchandle));
+		if (exception_gchandle != 0) goto exception_handling;
+		*managed_method_ptr = managed_method;
+	}
+	xamarin_check_for_gced_object (mthis, _cmd, self, managed_method, &exception_gchandle);
+	if (exception_gchandle != 0) goto exception_handling;
+	arg_ptrs [0] = p0 ? mono_string_new (mono_domain_get (), [p0 UTF8String]) : NULL;
+
+	mono_runtime_invoke (managed_method, mthis, arg_ptrs, NULL);
+
+exception_handling:;
+	MONO_THREAD_DETACH;
+	if (exception_gchandle != 0)
+		xamarin_process_managed_exception_gchandle (exception_gchandle);
+	return;
+}
+
+
+static void native_to_managed_trampoline_31 (id self, SEL _cmd, MonoMethod **managed_method_ptr, NSSet * p0, UIEvent * p1, const char *r0, const char *r1, const char *r2, const char *r3)
+{
+	NSObject *nsobj0 = NULL;
+	MonoObject *mobj0 = NULL;
+	int32_t created0 = false;
+	MonoType *paramtype0 = NULL;
+	NSObject *nsobj1 = NULL;
+	MonoObject *mobj1 = NULL;
+	int32_t created1 = false;
+	MonoType *paramtype1 = NULL;
+	guint32 exception_gchandle = 0;
+	MonoMethod *managed_method = *managed_method_ptr;
+	void *arg_ptrs [2];
+	MONO_ASSERT_GC_SAFE;
+	MONO_THREAD_ATTACH;
+
+	MonoObject *mthis = NULL;
+	if (self) {
+		mthis = xamarin_get_managed_object_for_ptr_fast (self, &exception_gchandle);
+		if (exception_gchandle != 0) goto exception_handling;
+	}
+	if (!managed_method) {
+		const char *paramptr[2] = { r0, r1 };
+		managed_method = xamarin_get_reflection_method_method (xamarin_get_method_direct(r2, r3, 2, paramptr, &exception_gchandle));
+		if (exception_gchandle != 0) goto exception_handling;
+		*managed_method_ptr = managed_method;
+	}
+	xamarin_check_for_gced_object (mthis, _cmd, self, managed_method, &exception_gchandle);
+	if (exception_gchandle != 0) goto exception_handling;
+	nsobj0 = (NSObject *) p0;
+	if (nsobj0) {
+		paramtype0 = xamarin_get_parameter_type (managed_method, 0);
+		mobj0 = xamarin_get_nsobject_with_type_for_ptr_created (nsobj0, false, paramtype0, &created0, &exception_gchandle);
+		if (exception_gchandle != 0) goto exception_handling;
+	}
+	arg_ptrs [0] = mobj0;
+	nsobj1 = (NSObject *) p1;
+	if (nsobj1) {
+		paramtype1 = xamarin_get_parameter_type (managed_method, 1);
+		mobj1 = xamarin_get_nsobject_with_type_for_ptr_created (nsobj1, false, paramtype1, &created1, &exception_gchandle);
+		if (exception_gchandle != 0) goto exception_handling;
+	}
+	arg_ptrs [1] = mobj1;
+
+	mono_runtime_invoke (managed_method, mthis, arg_ptrs, NULL);
+
+exception_handling:;
+	MONO_THREAD_DETACH;
+	if (exception_gchandle != 0)
+		xamarin_process_managed_exception_gchandle (exception_gchandle);
+	return;
+}
+
+
+static void native_to_managed_trampoline_32 (id self, SEL _cmd, MonoMethod **managed_method_ptr, CGRect p0, const char *r0, const char *r1, const char *r2)
+{
+	guint32 exception_gchandle = 0;
+	MonoMethod *managed_method = *managed_method_ptr;
+	void *arg_ptrs [1];
+	MONO_ASSERT_GC_SAFE;
+	MONO_THREAD_ATTACH;
+
+	MonoObject *mthis = NULL;
+	if (self) {
+		mthis = xamarin_get_managed_object_for_ptr_fast (self, &exception_gchandle);
+		if (exception_gchandle != 0) goto exception_handling;
+	}
+	if (!managed_method) {
+		const char *paramptr[1] = { r0 };
+		managed_method = xamarin_get_reflection_method_method (xamarin_get_method_direct(r1, r2, 1, paramptr, &exception_gchandle));
+		if (exception_gchandle != 0) goto exception_handling;
+		*managed_method_ptr = managed_method;
+	}
+	xamarin_check_for_gced_object (mthis, _cmd, self, managed_method, &exception_gchandle);
+	if (exception_gchandle != 0) goto exception_handling;
+	arg_ptrs [0] = &p0;
+
+	mono_runtime_invoke (managed_method, mthis, arg_ptrs, NULL);
+
+exception_handling:;
+	MONO_THREAD_DETACH;
+	if (exception_gchandle != 0)
+		xamarin_process_managed_exception_gchandle (exception_gchandle);
+	return;
+}
+
+
+
+@protocol CALayerDelegate
+@end
+
+@interface UIKit_UIControlEventProxy : NSObject {
+	XamarinObject __monoObjectGCHandle;
+}
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(void) BridgeSelector;
+	-(BOOL) conformsToProtocol:(void *)p0;
+@end
+@implementation UIKit_UIControlEventProxy { } 
+	-(void) release
+	{
+		xamarin_release_trampoline (self, _cmd);
+	}
+
+	-(id) retain
+	{
+		return xamarin_retain_trampoline (self, _cmd);
+	}
+
+	-(int) xamarinGetGCHandle
+	{
+		return __monoObjectGCHandle.gc_handle;
+	}
+
+	-(void) xamarinSetGCHandle: (int) gc_handle
+	{
+		__monoObjectGCHandle.gc_handle = gc_handle;
+		__monoObjectGCHandle.native_object = self;
+	}
+
+
+	-(void) BridgeSelector
+	{
+		static MonoMethod *managed_method = NULL;
+		native_to_managed_trampoline_1 (self, _cmd, &managed_method, "UIKit.UIControlEventProxy, Xamarin.iOS", "Activated");
+	}
+
+	-(BOOL) conformsToProtocol:(void *)p0
+	{
+		static MonoMethod *managed_method = NULL;
+		return native_to_managed_trampoline_2 (self, _cmd, &managed_method, p0, "System.IntPtr, mscorlib", "Foundation.NSObject, Xamarin.iOS", "InvokeConformsToProtocol");
+	}
+@end
 
 @interface __MonoMac_NSActionDispatcher : NSObject {
 	XamarinObject __monoObjectGCHandle;
@@ -902,9 +1491,6 @@ exception_handling:;
 		static MonoMethod *managed_method = NULL;
 		return native_to_managed_trampoline_2 (self, _cmd, &managed_method, p0, "System.IntPtr, mscorlib", "Foundation.NSObject, Xamarin.iOS", "InvokeConformsToProtocol");
 	}
-@end
-
-@protocol CALayerDelegate
 @end
 
 @interface AppDelegate : NSObject<UIApplicationDelegate> {
@@ -1671,6 +2257,228 @@ exception_handling:;
 	-(id) initWithFrame:(CGRect)p0;
 @end
 
+@interface SignaturePadView : UIView {
+	XamarinObject __monoObjectGCHandle;
+}
+	@property (nonatomic, assign) UIColor * StrokeColor;
+	@property (nonatomic, assign) float StrokeWidth;
+	@property (nonatomic, assign) UIColor * SignatureLineColor;
+	@property (nonatomic, assign) UIImage * BackgroundImage;
+	@property (nonatomic, assign) NSInteger BackgroundImageContentMode;
+	@property (nonatomic, assign) CGFloat BackgroundImageAlpha;
+	@property (nonatomic, assign) NSString * SignaturePromptText;
+	@property (nonatomic, assign) NSString * CaptionText;
+	@property (nonatomic, assign) NSString * ClearLabelText;
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(UIColor *) StrokeColor;
+	-(void) setStrokeColor:(UIColor *)p0;
+	-(float) StrokeWidth;
+	-(void) setStrokeWidth:(float)p0;
+	-(UIColor *) SignatureLineColor;
+	-(void) setSignatureLineColor:(UIColor *)p0;
+	-(UIImage *) BackgroundImage;
+	-(void) setBackgroundImage:(UIImage *)p0;
+	-(NSInteger) BackgroundImageContentMode;
+	-(void) setBackgroundImageContentMode:(NSInteger)p0;
+	-(CGFloat) BackgroundImageAlpha;
+	-(void) setBackgroundImageAlpha:(CGFloat)p0;
+	-(NSString *) SignaturePromptText;
+	-(void) setSignaturePromptText:(NSString *)p0;
+	-(NSString *) CaptionText;
+	-(void) setCaptionText:(NSString *)p0;
+	-(NSString *) ClearLabelText;
+	-(void) setClearLabelText:(NSString *)p0;
+	-(void) touchesBegan:(NSSet *)p0 withEvent:(UIEvent *)p1;
+	-(void) touchesMoved:(NSSet *)p0 withEvent:(UIEvent *)p1;
+	-(void) touchesEnded:(NSSet *)p0 withEvent:(UIEvent *)p1;
+	-(void) drawRect:(CGRect)p0;
+	-(void) layoutSubviews;
+	-(BOOL) conformsToProtocol:(void *)p0;
+	-(id) init;
+@end
+@implementation SignaturePadView { } 
+	-(void) release
+	{
+		xamarin_release_trampoline (self, _cmd);
+	}
+
+	-(id) retain
+	{
+		return xamarin_retain_trampoline (self, _cmd);
+	}
+
+	-(int) xamarinGetGCHandle
+	{
+		return __monoObjectGCHandle.gc_handle;
+	}
+
+	-(void) xamarinSetGCHandle: (int) gc_handle
+	{
+		__monoObjectGCHandle.gc_handle = gc_handle;
+		__monoObjectGCHandle.native_object = self;
+	}
+
+
+	-(UIColor *) StrokeColor
+	{
+		static MonoMethod *managed_method = NULL;
+		return native_to_managed_trampoline_19 (self, _cmd, &managed_method, "SignaturePad.SignaturePadView, SignaturePad", "get_StrokeColor");
+	}
+
+	-(void) setStrokeColor:(UIColor *)p0
+	{
+		static MonoMethod *managed_method = NULL;
+		native_to_managed_trampoline_20 (self, _cmd, &managed_method, p0, "UIKit.UIColor, Xamarin.iOS", "SignaturePad.SignaturePadView, SignaturePad", "set_StrokeColor");
+	}
+
+	-(float) StrokeWidth
+	{
+		static MonoMethod *managed_method = NULL;
+		return native_to_managed_trampoline_21 (self, _cmd, &managed_method, "SignaturePad.SignaturePadView, SignaturePad", "get_StrokeWidth");
+	}
+
+	-(void) setStrokeWidth:(float)p0
+	{
+		static MonoMethod *managed_method = NULL;
+		native_to_managed_trampoline_22 (self, _cmd, &managed_method, p0, "System.Single, mscorlib", "SignaturePad.SignaturePadView, SignaturePad", "set_StrokeWidth");
+	}
+
+	-(UIColor *) SignatureLineColor
+	{
+		static MonoMethod *managed_method = NULL;
+		return native_to_managed_trampoline_19 (self, _cmd, &managed_method, "SignaturePad.SignaturePadView, SignaturePad", "get_SignatureLineColor");
+	}
+
+	-(void) setSignatureLineColor:(UIColor *)p0
+	{
+		static MonoMethod *managed_method = NULL;
+		native_to_managed_trampoline_20 (self, _cmd, &managed_method, p0, "UIKit.UIColor, Xamarin.iOS", "SignaturePad.SignaturePadView, SignaturePad", "set_SignatureLineColor");
+	}
+
+	-(UIImage *) BackgroundImage
+	{
+		static MonoMethod *managed_method = NULL;
+		return native_to_managed_trampoline_23 (self, _cmd, &managed_method, "SignaturePad.SignaturePadView, SignaturePad", "get_BackgroundImage");
+	}
+
+	-(void) setBackgroundImage:(UIImage *)p0
+	{
+		static MonoMethod *managed_method = NULL;
+		native_to_managed_trampoline_24 (self, _cmd, &managed_method, p0, "UIKit.UIImage, Xamarin.iOS", "SignaturePad.SignaturePadView, SignaturePad", "set_BackgroundImage");
+	}
+
+	-(NSInteger) BackgroundImageContentMode
+	{
+		static MonoMethod *managed_method = NULL;
+		return native_to_managed_trampoline_25 (self, _cmd, &managed_method, "SignaturePad.SignaturePadView, SignaturePad", "get_BackgroundImageContentMode");
+	}
+
+	-(void) setBackgroundImageContentMode:(NSInteger)p0
+	{
+		static MonoMethod *managed_method = NULL;
+		native_to_managed_trampoline_26 (self, _cmd, &managed_method, p0, "UIKit.UIViewContentMode, Xamarin.iOS", "SignaturePad.SignaturePadView, SignaturePad", "set_BackgroundImageContentMode");
+	}
+
+	-(CGFloat) BackgroundImageAlpha
+	{
+		static MonoMethod *managed_method = NULL;
+		return native_to_managed_trampoline_27 (self, _cmd, &managed_method, "SignaturePad.SignaturePadView, SignaturePad", "get_BackgroundImageAlpha");
+	}
+
+	-(void) setBackgroundImageAlpha:(CGFloat)p0
+	{
+		static MonoMethod *managed_method = NULL;
+		native_to_managed_trampoline_28 (self, _cmd, &managed_method, p0, "System.nfloat, Xamarin.iOS", "SignaturePad.SignaturePadView, SignaturePad", "set_BackgroundImageAlpha");
+	}
+
+	-(NSString *) SignaturePromptText
+	{
+		static MonoMethod *managed_method = NULL;
+		return native_to_managed_trampoline_29 (self, _cmd, &managed_method, "SignaturePad.SignaturePadView, SignaturePad", "get_SignaturePromptText");
+	}
+
+	-(void) setSignaturePromptText:(NSString *)p0
+	{
+		static MonoMethod *managed_method = NULL;
+		native_to_managed_trampoline_30 (self, _cmd, &managed_method, p0, "System.String, mscorlib", "SignaturePad.SignaturePadView, SignaturePad", "set_SignaturePromptText");
+	}
+
+	-(NSString *) CaptionText
+	{
+		static MonoMethod *managed_method = NULL;
+		return native_to_managed_trampoline_29 (self, _cmd, &managed_method, "SignaturePad.SignaturePadView, SignaturePad", "get_CaptionText");
+	}
+
+	-(void) setCaptionText:(NSString *)p0
+	{
+		static MonoMethod *managed_method = NULL;
+		native_to_managed_trampoline_30 (self, _cmd, &managed_method, p0, "System.String, mscorlib", "SignaturePad.SignaturePadView, SignaturePad", "set_CaptionText");
+	}
+
+	-(NSString *) ClearLabelText
+	{
+		static MonoMethod *managed_method = NULL;
+		return native_to_managed_trampoline_29 (self, _cmd, &managed_method, "SignaturePad.SignaturePadView, SignaturePad", "get_ClearLabelText");
+	}
+
+	-(void) setClearLabelText:(NSString *)p0
+	{
+		static MonoMethod *managed_method = NULL;
+		native_to_managed_trampoline_30 (self, _cmd, &managed_method, p0, "System.String, mscorlib", "SignaturePad.SignaturePadView, SignaturePad", "set_ClearLabelText");
+	}
+
+	-(void) touchesBegan:(NSSet *)p0 withEvent:(UIEvent *)p1
+	{
+		static MonoMethod *managed_method = NULL;
+		native_to_managed_trampoline_31 (self, _cmd, &managed_method, p0, p1, "Foundation.NSSet, Xamarin.iOS", "UIKit.UIEvent, Xamarin.iOS", "SignaturePad.SignaturePadView, SignaturePad", "TouchesBegan");
+	}
+
+	-(void) touchesMoved:(NSSet *)p0 withEvent:(UIEvent *)p1
+	{
+		static MonoMethod *managed_method = NULL;
+		native_to_managed_trampoline_31 (self, _cmd, &managed_method, p0, p1, "Foundation.NSSet, Xamarin.iOS", "UIKit.UIEvent, Xamarin.iOS", "SignaturePad.SignaturePadView, SignaturePad", "TouchesMoved");
+	}
+
+	-(void) touchesEnded:(NSSet *)p0 withEvent:(UIEvent *)p1
+	{
+		static MonoMethod *managed_method = NULL;
+		native_to_managed_trampoline_31 (self, _cmd, &managed_method, p0, p1, "Foundation.NSSet, Xamarin.iOS", "UIKit.UIEvent, Xamarin.iOS", "SignaturePad.SignaturePadView, SignaturePad", "TouchesEnded");
+	}
+
+	-(void) drawRect:(CGRect)p0
+	{
+		static MonoMethod *managed_method = NULL;
+		native_to_managed_trampoline_32 (self, _cmd, &managed_method, p0, "CoreGraphics.CGRect, Xamarin.iOS", "SignaturePad.SignaturePadView, SignaturePad", "Draw");
+	}
+
+	-(void) layoutSubviews
+	{
+		static MonoMethod *managed_method = NULL;
+		native_to_managed_trampoline_1 (self, _cmd, &managed_method, "SignaturePad.SignaturePadView, SignaturePad", "LayoutSubviews");
+	}
+
+	-(BOOL) conformsToProtocol:(void *)p0
+	{
+		static MonoMethod *managed_method = NULL;
+		return native_to_managed_trampoline_2 (self, _cmd, &managed_method, p0, "System.IntPtr, mscorlib", "Foundation.NSObject, Xamarin.iOS", "InvokeConformsToProtocol");
+	}
+
+	-(id) init
+	{
+		static MonoMethod *managed_method = NULL;
+		bool call_super = false;
+		id rv = native_to_managed_trampoline_5 (self, _cmd, &managed_method, "SignaturePad.SignaturePadView, SignaturePad", ".ctor", &call_super);
+		if (call_super && rv) {
+			struct objc_super super = {  rv, [UIView class] };
+			rv = ((id (*)(objc_super*, SEL)) objc_msgSendSuper) (&super, @selector (init));
+		}
+		return rv;
+	}
+@end
+
 	static MTClassMap __xamarin_class_map [] = {
 		{"NSObject", "Foundation.NSObject, Xamarin.iOS", NULL },
 		{"UIResponder", "UIKit.UIResponder, Xamarin.iOS", NULL },
@@ -1687,8 +2495,13 @@ exception_handling:;
 		{"UIApplication", "UIKit.UIApplication, Xamarin.iOS", NULL },
 		{"UIBarItem", "UIKit.UIBarItem, Xamarin.iOS", NULL },
 		{"UIBezierPath", "UIKit.UIBezierPath, Xamarin.iOS", NULL },
+		{"UIView", "UIKit.UIView, Xamarin.iOS", NULL },
+		{"UIControl", "UIKit.UIControl, Xamarin.iOS", NULL },
+		{"UIButton", "UIKit.UIButton, Xamarin.iOS", NULL },
 		{"UIColor", "UIKit.UIColor, Xamarin.iOS", NULL },
+		{"UIKit_UIControlEventProxy", "UIKit.UIControlEventProxy, Xamarin.iOS", NULL },
 		{"UIDevice", "UIKit.UIDevice, Xamarin.iOS", NULL },
+		{"UIEvent", "UIKit.UIEvent, Xamarin.iOS", NULL },
 		{"UIFont", "UIKit.UIFont, Xamarin.iOS", NULL },
 		{"UIScreen", "UIKit.UIScreen, Xamarin.iOS", NULL },
 		{"UIImage", "UIKit.UIImage, Xamarin.iOS", NULL },
@@ -1699,19 +2512,21 @@ exception_handling:;
 		{"NSAutoreleasePool", "Foundation.NSAutoreleasePool, Xamarin.iOS", NULL },
 		{"NSError", "Foundation.NSError, Xamarin.iOS", NULL },
 		{"UIApplicationShortcutItem", "UIKit.UIApplicationShortcutItem, Xamarin.iOS", NULL },
+		{"NSEnumerator", "Foundation.NSEnumerator, Xamarin.iOS", NULL },
 		{"NSException", "Foundation.NSException, Xamarin.iOS", NULL },
 		{"NSNull", "Foundation.NSNull, Xamarin.iOS", NULL },
 		{"UIFocusAnimationCoordinator", "UIKit.UIFocusAnimationCoordinator, Xamarin.iOS", NULL },
 		{"UIFocusUpdateContext", "UIKit.UIFocusUpdateContext, Xamarin.iOS", NULL },
-		{"UIView", "UIKit.UIView, Xamarin.iOS", NULL },
 		{"UIImageView", "UIKit.UIImageView, Xamarin.iOS", NULL },
 		{"UILabel", "UIKit.UILabel, Xamarin.iOS", NULL },
 		{"UILocalNotification", "UIKit.UILocalNotification, Xamarin.iOS", NULL },
 		{"UINavigationItem", "UIKit.UINavigationItem, Xamarin.iOS", NULL },
+		{"UITouch", "UIKit.UITouch, Xamarin.iOS", NULL },
 		{"UIUserNotificationSettings", "UIKit.UIUserNotificationSettings, Xamarin.iOS", NULL },
 		{"UIWindow", "UIKit.UIWindow, Xamarin.iOS", NULL },
 		{"NSData", "Foundation.NSData, Xamarin.iOS", NULL },
 		{"NSDictionary", "Foundation.NSDictionary, Xamarin.iOS", NULL },
+		{"NSSet", "Foundation.NSSet, Xamarin.iOS", NULL },
 		{"UIActionSheet", "UIKit.UIActionSheet, Xamarin.iOS", NULL },
 		{"UIBarButtonItem", "UIKit.UIBarButtonItem, Xamarin.iOS", NULL },
 		{"AppDelegate", "DocViewer.AppDelegate, DocViewer", NULL },
@@ -1725,6 +2540,7 @@ exception_handling:;
 		{"Carousels_iCarousel__iCarouselDelegate", "Carousels.iCarousel+_iCarouselDelegate, iCarousel", NULL },
 		{"Carousels_iCarousel_iCarouselAppearance", "Carousels.iCarousel+iCarouselAppearance, iCarousel", NULL },
 		{"iCarousel", "Carousels.iCarousel, iCarousel", NULL },
+		{"SignaturePadView", "SignaturePad.SignaturePadView, SignaturePad", NULL },
 		{ NULL, NULL, NULL },
 	};
 
@@ -1734,16 +2550,17 @@ exception_handling:;
 		"mscorlib", 
 		"System", 
 		"System.Core", 
-		"iCarousel"
+		"iCarousel", 
+		"SignaturePad"
 	};
 
 	static struct MTRegistrationMap __xamarin_registration_map = {
 		NULL,
 		__xamarin_registration_assemblies,
 		__xamarin_class_map,
-		6,
-		53,
-		11
+		7,
+		61,
+		12
 	};
 
 void xamarin_create_classes () {
@@ -1762,44 +2579,52 @@ void xamarin_create_classes () {
 	__xamarin_class_map [12].handle = objc_getClass ("UIApplication");
 	__xamarin_class_map [13].handle = objc_getClass ("UIBarItem");
 	__xamarin_class_map [14].handle = objc_getClass ("UIBezierPath");
-	__xamarin_class_map [15].handle = objc_getClass ("UIColor");
-	__xamarin_class_map [16].handle = objc_getClass ("UIDevice");
-	__xamarin_class_map [17].handle = objc_getClass ("UIFont");
-	__xamarin_class_map [18].handle = objc_getClass ("UIScreen");
-	__xamarin_class_map [19].handle = objc_getClass ("UIImage");
-	__xamarin_class_map [20].handle = objc_getClass ("UITraitCollection");
-	__xamarin_class_map [21].handle = objc_getClass ("UINavigationController");
-	__xamarin_class_map [22].handle = objc_getClass ("__MonoMac_NSActionDispatcher");
-	__xamarin_class_map [23].handle = objc_getClass ("__MonoMac_NSAsyncActionDispatcher");
-	__xamarin_class_map [24].handle = objc_getClass ("NSAutoreleasePool");
-	__xamarin_class_map [25].handle = objc_getClass ("NSError");
-	__xamarin_class_map [26].handle = objc_getClass ("UIApplicationShortcutItem");
-	__xamarin_class_map [27].handle = objc_getClass ("NSException");
-	__xamarin_class_map [28].handle = objc_getClass ("NSNull");
-	__xamarin_class_map [29].handle = objc_getClass ("UIFocusAnimationCoordinator");
-	__xamarin_class_map [30].handle = objc_getClass ("UIFocusUpdateContext");
-	__xamarin_class_map [31].handle = objc_getClass ("UIView");
-	__xamarin_class_map [32].handle = objc_getClass ("UIImageView");
-	__xamarin_class_map [33].handle = objc_getClass ("UILabel");
-	__xamarin_class_map [34].handle = objc_getClass ("UILocalNotification");
-	__xamarin_class_map [35].handle = objc_getClass ("UINavigationItem");
-	__xamarin_class_map [36].handle = objc_getClass ("UIUserNotificationSettings");
-	__xamarin_class_map [37].handle = objc_getClass ("UIWindow");
-	__xamarin_class_map [38].handle = objc_getClass ("NSData");
-	__xamarin_class_map [39].handle = objc_getClass ("NSDictionary");
-	__xamarin_class_map [40].handle = objc_getClass ("UIActionSheet");
-	__xamarin_class_map [41].handle = objc_getClass ("UIBarButtonItem");
-	__xamarin_class_map [42].handle = [AppDelegate class];
-	__xamarin_class_map [43].handle = [ViewController class];
-	__xamarin_class_map [44].handle = [DocViewer_DocViewController_CarouselDataSource class];
-	__xamarin_class_map [45].handle = [DocViewController class];
-	__xamarin_class_map [46].handle = objc_getClass ("UIKit_UIActionSheet__UIActionSheetDelegate");
-	__xamarin_class_map [47].handle = objc_getClass ("UIKit_UIBarButtonItem_Callback");
-	__xamarin_class_map [48].handle = objc_getClass ("UIKit_UIView_UIViewAppearance");
-	__xamarin_class_map [49].handle = objc_getClass ("__NSObject_Disposer");
-	__xamarin_class_map [50].handle = [Carousels_iCarousel__iCarouselDelegate class];
-	__xamarin_class_map [51].handle = [Carousels_iCarousel_iCarouselAppearance class];
-	__xamarin_class_map [52].handle = [iCarousel class];
+	__xamarin_class_map [15].handle = objc_getClass ("UIView");
+	__xamarin_class_map [16].handle = objc_getClass ("UIControl");
+	__xamarin_class_map [17].handle = objc_getClass ("UIButton");
+	__xamarin_class_map [18].handle = objc_getClass ("UIColor");
+	__xamarin_class_map [19].handle = objc_getClass ("UIKit_UIControlEventProxy");
+	__xamarin_class_map [20].handle = objc_getClass ("UIDevice");
+	__xamarin_class_map [21].handle = objc_getClass ("UIEvent");
+	__xamarin_class_map [22].handle = objc_getClass ("UIFont");
+	__xamarin_class_map [23].handle = objc_getClass ("UIScreen");
+	__xamarin_class_map [24].handle = objc_getClass ("UIImage");
+	__xamarin_class_map [25].handle = objc_getClass ("UITraitCollection");
+	__xamarin_class_map [26].handle = objc_getClass ("UINavigationController");
+	__xamarin_class_map [27].handle = objc_getClass ("__MonoMac_NSActionDispatcher");
+	__xamarin_class_map [28].handle = objc_getClass ("__MonoMac_NSAsyncActionDispatcher");
+	__xamarin_class_map [29].handle = objc_getClass ("NSAutoreleasePool");
+	__xamarin_class_map [30].handle = objc_getClass ("NSError");
+	__xamarin_class_map [31].handle = objc_getClass ("UIApplicationShortcutItem");
+	__xamarin_class_map [32].handle = objc_getClass ("NSEnumerator");
+	__xamarin_class_map [33].handle = objc_getClass ("NSException");
+	__xamarin_class_map [34].handle = objc_getClass ("NSNull");
+	__xamarin_class_map [35].handle = objc_getClass ("UIFocusAnimationCoordinator");
+	__xamarin_class_map [36].handle = objc_getClass ("UIFocusUpdateContext");
+	__xamarin_class_map [37].handle = objc_getClass ("UIImageView");
+	__xamarin_class_map [38].handle = objc_getClass ("UILabel");
+	__xamarin_class_map [39].handle = objc_getClass ("UILocalNotification");
+	__xamarin_class_map [40].handle = objc_getClass ("UINavigationItem");
+	__xamarin_class_map [41].handle = objc_getClass ("UITouch");
+	__xamarin_class_map [42].handle = objc_getClass ("UIUserNotificationSettings");
+	__xamarin_class_map [43].handle = objc_getClass ("UIWindow");
+	__xamarin_class_map [44].handle = objc_getClass ("NSData");
+	__xamarin_class_map [45].handle = objc_getClass ("NSDictionary");
+	__xamarin_class_map [46].handle = objc_getClass ("NSSet");
+	__xamarin_class_map [47].handle = objc_getClass ("UIActionSheet");
+	__xamarin_class_map [48].handle = objc_getClass ("UIBarButtonItem");
+	__xamarin_class_map [49].handle = [AppDelegate class];
+	__xamarin_class_map [50].handle = [ViewController class];
+	__xamarin_class_map [51].handle = [DocViewer_DocViewController_CarouselDataSource class];
+	__xamarin_class_map [52].handle = [DocViewController class];
+	__xamarin_class_map [53].handle = objc_getClass ("UIKit_UIActionSheet__UIActionSheetDelegate");
+	__xamarin_class_map [54].handle = objc_getClass ("UIKit_UIBarButtonItem_Callback");
+	__xamarin_class_map [55].handle = objc_getClass ("UIKit_UIView_UIViewAppearance");
+	__xamarin_class_map [56].handle = objc_getClass ("__NSObject_Disposer");
+	__xamarin_class_map [57].handle = [Carousels_iCarousel__iCarouselDelegate class];
+	__xamarin_class_map [58].handle = [Carousels_iCarousel_iCarouselAppearance class];
+	__xamarin_class_map [59].handle = [iCarousel class];
+	__xamarin_class_map [60].handle = [SignaturePadView class];
 	xamarin_add_registration_map (&__xamarin_registration_map);
 }
 

@@ -13,6 +13,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{9F635E4C-93C4-454B-AEA5-CEDB4EE5970F}.Release|iPhone.ActiveCfg = Release|iPhone
 		{9F635E4C-93C4-454B-AEA5-CEDB4EE5970F}.Release|iPhone.Build.0 = Release|iPhone
+		{9F635E4C-93C4-454B-AEA5-CEDB4EE5970F}.Debug|iPhone.ActiveCfg = Release|iPhone
+		{9F635E4C-93C4-454B-AEA5-CEDB4EE5970F}.Debug|iPhone.Build.0 = Release|iPhone
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		Policies = $0

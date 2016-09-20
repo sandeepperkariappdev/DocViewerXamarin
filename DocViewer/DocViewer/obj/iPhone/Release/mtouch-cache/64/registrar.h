@@ -13,9 +13,10 @@
 #import <CloudKit/CloudKit.h>
 #import <CoreGraphics/CoreGraphics.h>
 
+@protocol CALayerDelegate;
+@class UIKit_UIControlEventProxy;
 @class __MonoMac_NSActionDispatcher;
 @class __MonoMac_NSAsyncActionDispatcher;
-@protocol CALayerDelegate;
 @class AppDelegate;
 @class ViewController;
 @protocol iCarouselDataSource;
@@ -29,4 +30,5 @@
 @class Carousels_iCarousel__iCarouselDelegate;
 @class Carousels_iCarousel_iCarouselAppearance;
 @class iCarousel;
+@class SignaturePadView;
 

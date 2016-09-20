@@ -1,24 +1,12 @@
 ﻿<Properties StartupConfiguration="{9F635E4C-93C4-454B-AEA5-CEDB4EE5970F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DocViewer/DocViewController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DocViewer/Info.plist">
     <Files>
-      <File FileName="DocViewer/AppDelegate.cs" Line="3" Column="1" />
-      <File FileName="DocViewer/DocViewController.cs" Line="85" Column="28" />
+      <File FileName="DocViewer/AppDelegate.cs" Line="16" Column="10" />
+      <File FileName="DocViewer/DocViewController.cs" Line="74" Column="21" />
       <File FileName="DocViewer/Info.plist" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="DocViewer" expanded="True" selected="True">
-            <Node name="DocViewer" expanded="True">
-              <Node name="ComponentReferenceFolder" expanded="True" />
-              <Node name="Resources" expanded="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhone" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

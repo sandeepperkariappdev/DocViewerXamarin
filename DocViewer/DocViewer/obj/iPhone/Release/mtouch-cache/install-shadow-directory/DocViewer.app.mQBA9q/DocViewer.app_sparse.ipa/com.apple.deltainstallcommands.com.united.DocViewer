@@ -1,0 +1,17 @@
+ipaD
+1
+1.7 1.7
++.monotouch-32/DocViewer.armv7.aotdata
++.monotouch-64/DocViewer.arm64.aotdata
++.monotouch-64/DocViewer.exe
++.uploaded
++DocViewer
++Info.plist
++_CodeSignature/CodeResources
++archived-expanded-entitlements.xcent
++embedded.mobileprovision
+xEOF
+#CreateSparseIPA UUID: 303E16B1-F029-3F97-941E-CE8D57C63A34
+#Bundle id: com.united.DocViewer
+#Old bundle version: 1.7 1.7
+#New bundle version: 1.7 1.7

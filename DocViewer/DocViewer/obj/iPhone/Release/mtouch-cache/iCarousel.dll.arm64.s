@@ -3325,7 +3325,7 @@ Carousels_iCarousel_EnsureiCarouselDelegate:
 .word 0xaa0003fa
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf9419430
+.word 0xf941e430
 .word 0xd63f0200
 .word 0xaa0003f9
 .word 0xaa1903e0
@@ -3359,7 +3359,7 @@ bl Carousels_iCarousel__iCarouselDelegate__ctor
 .word 0xaa1a03e0
 .word 0xaa1903e1
 .word 0xf9400342
-.word 0xf9419050
+.word 0xf941e050
 .word 0xd63f0200
 .word 0xaa1903fa
 .word 0xb4000179
@@ -14171,13 +14171,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 43,1680,167,348,66,923871743,0,5978
-	.long 128,8,8,10,0,14,10272,4288
+	.long 43,1680,167,348,66,923871743,0,6074
+	.long 128,8,8,10,0,14,10368,4288
 	.long 4032,3240,0,3488,3976,3408,0,2560
 	.long 488,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 78,90,17,76,205,17,146,154,36,198,189,21,54,53,22,183
+	.byte 120,106,215,3,83,214,28,58,21,37,98,45,160,167,215,5
 	.globl _mono_aot_module_iCarousel_info
 	.align 3
 _mono_aot_module_iCarousel_info:

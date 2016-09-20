@@ -1,6 +1,7 @@
-/Users/urocrtt-mac2/Documents/MyApplications/Xamarin/DocViewer/DocViewer/obj/iPhone/Release/mtouch-cache/64/Link/Xamarin.iOS.dll
-/Users/urocrtt-mac2/Documents/MyApplications/Xamarin/DocViewer/DocViewer/obj/iPhone/Release/mtouch-cache/64/Link/iCarousel.dll
-/Users/urocrtt-mac2/Documents/MyApplications/Xamarin/DocViewer/DocViewer/obj/iPhone/Release/mtouch-cache/64/Link/System.dll
-/Users/urocrtt-mac2/Documents/MyApplications/Xamarin/DocViewer/DocViewer/obj/iPhone/Release/mtouch-cache/64/Link/mscorlib.dll
-/Users/urocrtt-mac2/Documents/MyApplications/Xamarin/DocViewer/DocViewer/obj/iPhone/Release/mtouch-cache/64/Link/System.Core.dll
-/Users/urocrtt-mac2/Documents/MyApplications/Xamarin/DocViewer/DocViewer/obj/iPhone/Release/mtouch-cache/64/Link/DocViewer.exe
+/Users/urocrtt-mac2/Documents/MyApplications/DocViewerXamarin/DocViewer/DocViewer/obj/iPhone/Release/mtouch-cache/64/Link/Xamarin.iOS.dll
+/Users/urocrtt-mac2/Documents/MyApplications/DocViewerXamarin/DocViewer/DocViewer/obj/iPhone/Release/mtouch-cache/64/Link/iCarousel.dll
+/Users/urocrtt-mac2/Documents/MyApplications/DocViewerXamarin/DocViewer/DocViewer/obj/iPhone/Release/mtouch-cache/64/Link/SignaturePad.dll
+/Users/urocrtt-mac2/Documents/MyApplications/DocViewerXamarin/DocViewer/DocViewer/obj/iPhone/Release/mtouch-cache/64/Link/System.dll
+/Users/urocrtt-mac2/Documents/MyApplications/DocViewerXamarin/DocViewer/DocViewer/obj/iPhone/Release/mtouch-cache/64/Link/mscorlib.dll
+/Users/urocrtt-mac2/Documents/MyApplications/DocViewerXamarin/DocViewer/DocViewer/obj/iPhone/Release/mtouch-cache/64/Link/System.Core.dll
+/Users/urocrtt-mac2/Documents/MyApplications/DocViewerXamarin/DocViewer/DocViewer/obj/iPhone/Release/mtouch-cache/64/Link/DocViewer.exe

@@ -6,79 +6,95 @@
 	<dict>
 		<key>.monotouch-32/DocViewer.armv7.aotdata</key>
 		<data>
-		4fiS3XRD/KT3B6Dkz8iRojMPZ1U=
+		lCBkB8DjaBJpIX42BXM4E0ChBAc=
+		</data>
+		<key>.monotouch-32/SignaturePad.armv7.aotdata</key>
+		<data>
+		01mdiLciFbhP7pnD2jws+XHhPCI=
 		</data>
 		<key>.monotouch-32/System.Core.armv7.aotdata</key>
 		<data>
-		uVmc/sBtw6sRMW4ZIQauaGmjfu4=
+		ONK+SDY0+2docR+kDqS5TBat0gE=
 		</data>
 		<key>.monotouch-32/System.armv7.aotdata</key>
 		<data>
-		TAYs8wEHbMeFWSu6nWur3/pjER0=
+		v+XieeXceSGOfLztXLK49B8Solo=
 		</data>
 		<key>.monotouch-32/Xamarin.iOS.armv7.aotdata</key>
 		<data>
-		Ss5QndjXpCRle8GJaPFZyLY6hf0=
+		fsYSfGKgjPLyrJY+W4lNrVc/eNI=
 		</data>
 		<key>.monotouch-32/Xamarin.iOS.dll</key>
 		<data>
-		9iSVDtSUfdi3dZqBYaAUGRNc5s4=
+		cghKxtb479Y5rttygn9hwX8imp8=
 		</data>
 		<key>.monotouch-32/iCarousel.armv7.aotdata</key>
 		<data>
-		uz1Mif+oUXS+L/xFYNnTAR8kwIU=
+		4f86fotOcjCoyhUyFWt3IZBm8A8=
 		</data>
 		<key>.monotouch-32/mscorlib.armv7.aotdata</key>
 		<data>
-		5nLW3jNT2cTHL7fCdjkPQGv/5nQ=
+		wtiB5XyBg0rMyH+K2iFxFyEDVUc=
 		</data>
 		<key>.monotouch-64/DocViewer.arm64.aotdata</key>
 		<data>
-		l0GziN3orzKNWzQRGRlDb1/90u4=
+		U7RQNf8KIT1wR8TqLBe6DVt9wic=
 		</data>
 		<key>.monotouch-64/DocViewer.exe</key>
 		<data>
-		3QDoVECMpr+j/gMp/thbLDf+Kmw=
+		EocLSZsN1dhcuJdjCVO3SxAh9ek=
+		</data>
+		<key>.monotouch-64/SignaturePad.arm64.aotdata</key>
+		<data>
+		4UocTr0H1t2i6V9oXsHtNgEgLcI=
+		</data>
+		<key>.monotouch-64/SignaturePad.dll</key>
+		<data>
+		bNLuRmet4Wm+jpdaTKLtzcVo6ic=
 		</data>
 		<key>.monotouch-64/System.Core.arm64.aotdata</key>
 		<data>
-		s6tjBkQQoTn07pNKf0hhFlOVxWw=
+		BwzX03vj2vzilfR8CgVaJKP+Kuc=
 		</data>
 		<key>.monotouch-64/System.Core.dll</key>
 		<data>
-		iChFU5WWyresUGoaOtX8k+JL1k8=
+		aqhHRvYOB4ttbk+NHC8I5CgvEN0=
 		</data>
 		<key>.monotouch-64/System.arm64.aotdata</key>
 		<data>
-		VFh+uXPNHcmaTL3lX/FQ1awCmKc=
+		urOh/PFNoRcq8uRktdlmYG9j+00=
 		</data>
 		<key>.monotouch-64/System.dll</key>
 		<data>
-		ANJqG+B07v2IsLVl4lRF1GLt/uE=
+		FN+nh/66CjHy+5+Nc3F15/PHWQc=
 		</data>
 		<key>.monotouch-64/Xamarin.iOS.arm64.aotdata</key>
 		<data>
-		5hqxBBuIedqtjoM8UbWawHn6ngA=
+		Qaxt1Z3ANX2HmsvsArD1vEo1mAc=
 		</data>
 		<key>.monotouch-64/Xamarin.iOS.dll</key>
 		<data>
-		VjvQXYcjp8qL5Lf5wQWJAqvPurk=
+		FWBB3Y932Ztvy26/RP7gAthhGng=
 		</data>
 		<key>.monotouch-64/iCarousel.arm64.aotdata</key>
 		<data>
-		MTUpkHPv+nivyLNylkuFd0ich2A=
+		Mth7/XiJhnzzJhOWHsrcJT5J008=
 		</data>
 		<key>.monotouch-64/iCarousel.dll</key>
 		<data>
-		DNfrqW3V/HBUIVLumHEm6MVBOWU=
+		nZL6a1CYARj04pQYLHZ8zkRBRB0=
 		</data>
 		<key>.monotouch-64/mscorlib.arm64.aotdata</key>
 		<data>
-		nRtmAeHdtoQmIcqz3KzjV9OpouM=
+		suGZ3PP7W2juj8QpLej/JHjwnWo=
 		</data>
 		<key>.monotouch-64/mscorlib.dll</key>
 		<data>
-		A4LDP1TULcUjhGZTIvvszcfnuw0=
+		S/CWMfWuErl0lpFUcaj0l7tYzPM=
+		</data>
+		<key>.uploaded</key>
+		<data>
+		nknq19Bl5PYdpkY9nA0b4XVQAIU=
 		</data>
 		<key>AppIcons.appiconset/Contents.json</key>
 		<data>
@@ -150,11 +166,11 @@
 		</data>
 		<key>DocViewController.nib</key>
 		<data>
-		+JdM/6tlJ36ByXDfwAVMMr3MXHU=
+		rhLtkE3h3wLCcXu3mMa4e+vFLPk=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		E9TtBT0sagJObeUea58Cd9RXEdU=
+		PRgvZbfWwUEf0iq+Gcw/8SqRHs0=
 		</data>
 		<key>LaunchImage.launchimage/Contents.json</key>
 		<data>
@@ -218,7 +234,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		jVvSVXMx8oB7wKvhNYgA/6U+VfI=
+		QUt3Oh7Ys+MilpVVnwPbUweDYdE=
 		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -226,11 +242,11 @@
 		</data>
 		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		dSRS6O3kfnunPy/OhLm9VYajRL8=
+		xC/VWyPpTFORZ4aTPm6lWKkFWlw=
 		</data>
 		<key>Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
-		sBI65UNpgQEuIZYTCpkBj/bmeWM=
+		ob17hNZrN9xp9uBAWeMDnzFMmbE=
 		</data>
 		<key>Main.storyboardc/Info.plist</key>
 		<data>
@@ -238,7 +254,7 @@
 		</data>
 		<key>Main.storyboardc/UIViewController-BYZ-38-t0r.nib</key>
 		<data>
-		HIHcOdZI7LPpUUFSjyfxeYqevS8=
+		iTKjEmZ1YD6s0vz1jmZpLq4PnUw=
 		</data>
 		<key>NOTICE</key>
 		<data>
@@ -275,11 +291,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4fiS3XRD/KT3B6Dkz8iRojMPZ1U=
+			lCBkB8DjaBJpIX42BXM4E0ChBAc=
 			</data>
 			<key>hash2</key>
 			<data>
-			ESCnmodGddvwFBUfASDrEmc1uYzrH5YbSkqpyvC+tCU=
+			/+NMN9tCuf8MsxU+MxIFnRAes9Y85+MV8gTcBXf2P6Y=
 			</data>
 		</dict>
 		<key>.monotouch-32/DocViewer.exe</key>
@@ -287,15 +303,31 @@
 			<key>symlink</key>
 			<string>../.monotouch-64/DocViewer.exe</string>
 		</dict>
+		<key>.monotouch-32/SignaturePad.armv7.aotdata</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			01mdiLciFbhP7pnD2jws+XHhPCI=
+			</data>
+			<key>hash2</key>
+			<data>
+			buCqT8tgp0bUbFSDmuLKI3C9hGnYWNgi+fVPzRXbvr4=
+			</data>
+		</dict>
+		<key>.monotouch-32/SignaturePad.dll</key>
+		<dict>
+			<key>symlink</key>
+			<string>../.monotouch-64/SignaturePad.dll</string>
+		</dict>
 		<key>.monotouch-32/System.Core.armv7.aotdata</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uVmc/sBtw6sRMW4ZIQauaGmjfu4=
+			ONK+SDY0+2docR+kDqS5TBat0gE=
 			</data>
 			<key>hash2</key>
 			<data>
-			2DJCtxSePzU7c3GVyM0AviYFIzftqS1UzTSdZsS/RK0=
+			9VFHclZt9YXMgACuyYsrG0HSZN7EhKATmgs3b5dUZHA=
 			</data>
 		</dict>
 		<key>.monotouch-32/System.Core.dll</key>
@@ -307,11 +339,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TAYs8wEHbMeFWSu6nWur3/pjER0=
+			v+XieeXceSGOfLztXLK49B8Solo=
 			</data>
 			<key>hash2</key>
 			<data>
-			EXifODDE2EbMhLzDuOpnO1GIGSiuqWp9OTkDyEpigg0=
+			Ow81XzQWlPoqArJOERXbclT+YDP2COQCaKrUrUExvgQ=
 			</data>
 		</dict>
 		<key>.monotouch-32/System.dll</key>
@@ -323,33 +355,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ss5QndjXpCRle8GJaPFZyLY6hf0=
+			fsYSfGKgjPLyrJY+W4lNrVc/eNI=
 			</data>
 			<key>hash2</key>
 			<data>
-			E9dIl1zVTxuyHFwX1g2vqCqFv4ht/1keItykCF2m7u0=
+			m64edLe1sXzPPDtsoiPlAQU2DClQeESRMNSB36F6y4M=
 			</data>
 		</dict>
 		<key>.monotouch-32/Xamarin.iOS.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9iSVDtSUfdi3dZqBYaAUGRNc5s4=
+			cghKxtb479Y5rttygn9hwX8imp8=
 			</data>
 			<key>hash2</key>
 			<data>
-			LvAm/m5+nLhhR7Zu1Mfmwxd+IgnTFfop1SCDM5yXyLg=
+			8AlP/gzbGgHIgdw0eJ4UxX0vY4SNlGJjwfbpxZuaQio=
 			</data>
 		</dict>
 		<key>.monotouch-32/iCarousel.armv7.aotdata</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uz1Mif+oUXS+L/xFYNnTAR8kwIU=
+			4f86fotOcjCoyhUyFWt3IZBm8A8=
 			</data>
 			<key>hash2</key>
 			<data>
-			bJ5mYXMFQr/5zqA8eaNq/5T64f/uOa9qRAcu2lCUBUI=
+			B7BZQ2LGOXjUPNQ7g4u+8cr5jEs9GO3Uh5AvIWvrayc=
 			</data>
 		</dict>
 		<key>.monotouch-32/iCarousel.dll</key>
@@ -361,11 +393,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5nLW3jNT2cTHL7fCdjkPQGv/5nQ=
+			wtiB5XyBg0rMyH+K2iFxFyEDVUc=
 			</data>
 			<key>hash2</key>
 			<data>
-			7cn6SSWSQydC7sfezWphmb8btsYzTv6K2saF3wltI0g=
+			rf+nlH0ruhhj8W6ZdYVAlNXhxy//ovoOdaosOqA9z0E=
 			</data>
 		</dict>
 		<key>.monotouch-32/mscorlib.dll</key>
@@ -377,132 +409,165 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			l0GziN3orzKNWzQRGRlDb1/90u4=
+			U7RQNf8KIT1wR8TqLBe6DVt9wic=
 			</data>
 			<key>hash2</key>
 			<data>
-			j8usxG/i8Xv92aujXtpafFppW+No2QqTI0JZVT/j8mI=
+			8q4IlEnWAtH7mKGMtiSCPJ/+4h9dphMD2yz+8/1Wz14=
 			</data>
 		</dict>
 		<key>.monotouch-64/DocViewer.exe</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3QDoVECMpr+j/gMp/thbLDf+Kmw=
+			EocLSZsN1dhcuJdjCVO3SxAh9ek=
 			</data>
 			<key>hash2</key>
 			<data>
-			mv8iC9eX8/K3Nv4ZS5+st0Qr91xWrodaNH0QNhqXkV0=
+			agJNoHDZdNsBltwjJGpqlzMXuxAJyLEn4wOZCU5OGR4=
+			</data>
+		</dict>
+		<key>.monotouch-64/SignaturePad.arm64.aotdata</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4UocTr0H1t2i6V9oXsHtNgEgLcI=
+			</data>
+			<key>hash2</key>
+			<data>
+			M6RHXipiQZPIC++4jUZY9c4jgHsSkqT5jsNaHmTspoI=
+			</data>
+		</dict>
+		<key>.monotouch-64/SignaturePad.dll</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bNLuRmet4Wm+jpdaTKLtzcVo6ic=
+			</data>
+			<key>hash2</key>
+			<data>
+			LSatcZQi5eLZ5Ej3eiBsnUkMLUIgd4b+QsBPaJM7lvM=
 			</data>
 		</dict>
 		<key>.monotouch-64/System.Core.arm64.aotdata</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			s6tjBkQQoTn07pNKf0hhFlOVxWw=
+			BwzX03vj2vzilfR8CgVaJKP+Kuc=
 			</data>
 			<key>hash2</key>
 			<data>
-			SPh5hc4grTGQQBdQH4pgyPQL8MGQk5fBEQ7mUXoElrM=
+			pGx0ji3gtKZv9JCZQd4rpeCi5BcRKRTYrciO3MSc8Ic=
 			</data>
 		</dict>
 		<key>.monotouch-64/System.Core.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iChFU5WWyresUGoaOtX8k+JL1k8=
+			aqhHRvYOB4ttbk+NHC8I5CgvEN0=
 			</data>
 			<key>hash2</key>
 			<data>
-			+WLQAiYtrQ398Sjkz+MEJTiREPWxzZ8RFD29jw306vk=
+			cx3FhL5Jq7nkMPCZpNdgFn3tnb1SVGbrwnZ2m4v0Xo4=
 			</data>
 		</dict>
 		<key>.monotouch-64/System.arm64.aotdata</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VFh+uXPNHcmaTL3lX/FQ1awCmKc=
+			urOh/PFNoRcq8uRktdlmYG9j+00=
 			</data>
 			<key>hash2</key>
 			<data>
-			0T1+/BFlsK4akm2WpNzKy8Zk6hp3fowQv6dDnqPfccQ=
+			9nYks62gXSd9lHau2NoNlnNMXISQhd4yIJPvi42Gjco=
 			</data>
 		</dict>
 		<key>.monotouch-64/System.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ANJqG+B07v2IsLVl4lRF1GLt/uE=
+			FN+nh/66CjHy+5+Nc3F15/PHWQc=
 			</data>
 			<key>hash2</key>
 			<data>
-			3vqajCLt6uKbylOrhbmG9Wm+Cv8iduaLnaNUig2n72M=
+			qgsGLjAPBhbpYA/kf/1aaP/yn4gYaEDJHCAy2+MMyDc=
 			</data>
 		</dict>
 		<key>.monotouch-64/Xamarin.iOS.arm64.aotdata</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5hqxBBuIedqtjoM8UbWawHn6ngA=
+			Qaxt1Z3ANX2HmsvsArD1vEo1mAc=
 			</data>
 			<key>hash2</key>
 			<data>
-			jnxiNjC8UaqYzmLV25nI+CA0nA2GfoH71I7s49CAZ/M=
+			WkeE1ggo01ipdHHkk+GvXn5jJCifrrwztDIUHZs/J/A=
 			</data>
 		</dict>
 		<key>.monotouch-64/Xamarin.iOS.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VjvQXYcjp8qL5Lf5wQWJAqvPurk=
+			FWBB3Y932Ztvy26/RP7gAthhGng=
 			</data>
 			<key>hash2</key>
 			<data>
-			7yX4IaIKZUbGcasXbKnujRdKzMTWdXl6d9CXGaJVNjY=
+			oPFxuUUH3OEf89kLhKkO7rSG72alFsk5LToXFWCQtm8=
 			</data>
 		</dict>
 		<key>.monotouch-64/iCarousel.arm64.aotdata</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MTUpkHPv+nivyLNylkuFd0ich2A=
+			Mth7/XiJhnzzJhOWHsrcJT5J008=
 			</data>
 			<key>hash2</key>
 			<data>
-			an1sX8TXHJPowR5c7lzPuHR7PSMLDR9U81hETfBUl9w=
+			fgguNk9f8D+im8ZGtSEmdWYk1DCOE3QJYt0Oo3KcA1I=
 			</data>
 		</dict>
 		<key>.monotouch-64/iCarousel.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DNfrqW3V/HBUIVLumHEm6MVBOWU=
+			nZL6a1CYARj04pQYLHZ8zkRBRB0=
 			</data>
 			<key>hash2</key>
 			<data>
-			1mj5GiQeULDUpfjEo1PHszNg/laSTwXi+QshOThb3Cw=
+			+ECD1udgi+O4gjq+KRVgC7zg3MaenIPx0iPX1tIXVuY=
 			</data>
 		</dict>
 		<key>.monotouch-64/mscorlib.arm64.aotdata</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nRtmAeHdtoQmIcqz3KzjV9OpouM=
+			suGZ3PP7W2juj8QpLej/JHjwnWo=
 			</data>
 			<key>hash2</key>
 			<data>
-			pznXoqesjlp800qntV53rtBj7H2xfqeCt77OPoUj8cQ=
+			mNqjantF+VuJR45qhXNqgzSnehjyQ8JbzC553fSUAAs=
 			</data>
 		</dict>
 		<key>.monotouch-64/mscorlib.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			A4LDP1TULcUjhGZTIvvszcfnuw0=
+			S/CWMfWuErl0lpFUcaj0l7tYzPM=
 			</data>
 			<key>hash2</key>
 			<data>
-			t6S0LWkUzr1wLkWxGn6AnuiIP7KvYJa1rGtVnvIH5fM=
+			anuvDJbt7Ls2OrTGvrVlk3S6FNUKQ28BOSavucY0ZK4=
+			</data>
+		</dict>
+		<key>.uploaded</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nknq19Bl5PYdpkY9nA0b4XVQAIU=
+			</data>
+			<key>hash2</key>
+			<data>
+			dccI4ap4GlJSj9mFK62NvdhUa6PcVL/TMF9812z4NGM=
 			</data>
 		</dict>
 		<key>AppIcons.appiconset/Contents.json</key>
@@ -696,11 +761,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+JdM/6tlJ36ByXDfwAVMMr3MXHU=
+			rhLtkE3h3wLCcXu3mMa4e+vFLPk=
 			</data>
 			<key>hash2</key>
 			<data>
-			plj0sS0BXto76gDLPYUCGMIsm+mZcKscpxlcUx3oC6w=
+			qR+XmXMf7srwMiX0w8yFSCELTb/LU2IpSos4ibbz2PA=
 			</data>
 		</dict>
 		<key>LaunchImage.launchimage/Contents.json</key>
@@ -872,11 +937,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jVvSVXMx8oB7wKvhNYgA/6U+VfI=
+			QUt3Oh7Ys+MilpVVnwPbUweDYdE=
 			</data>
 			<key>hash2</key>
 			<data>
-			/94qhxtyGr7OOWJZ+O7BK/pMSqyPRIUBHBIjf3kNplI=
+			RsM7C9rIy3U67//bkyTCaDx05+sI0S8USN7Nc4qtzy8=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -894,22 +959,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dSRS6O3kfnunPy/OhLm9VYajRL8=
+			xC/VWyPpTFORZ4aTPm6lWKkFWlw=
 			</data>
 			<key>hash2</key>
 			<data>
-			mVlhBKlgckwXWxOBfZ5xLQffAsa5mc/a0YHaEqg9tVg=
+			gx+YCzmSSZkKzK8XJNFoqMzN30Z2+btm7ulKis9k+U0=
 			</data>
 		</dict>
 		<key>Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sBI65UNpgQEuIZYTCpkBj/bmeWM=
+			ob17hNZrN9xp9uBAWeMDnzFMmbE=
 			</data>
 			<key>hash2</key>
 			<data>
-			kcIz+jCVjfOSqykWbEBkJoMXB5ZUXqs10F3eP2uCnl4=
+			KLtgbgbzM9uIBuJYcXIIRaRMc4u+k0O1xAl2thl1J20=
 			</data>
 		</dict>
 		<key>Main.storyboardc/Info.plist</key>
@@ -927,11 +992,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HIHcOdZI7LPpUUFSjyfxeYqevS8=
+			iTKjEmZ1YD6s0vz1jmZpLq4PnUw=
 			</data>
 			<key>hash2</key>
 			<data>
-			IwXC3ooIXT2mzhvUfAFCXg9fQy6H20gKzXc++IJMYwU=
+			gsjGdvg9KAdB/5UMyFNgVufiIR8/oC/SghOhT/PhefQ=
 			</data>
 		</dict>
 		<key>NOTICE</key>

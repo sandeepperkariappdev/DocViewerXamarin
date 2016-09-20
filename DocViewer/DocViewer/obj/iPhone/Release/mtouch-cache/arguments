@@ -2,9 +2,9 @@
 # [first argument, ignore] # /Library/Frameworks/Xamarin.iOS.framework/Versions/10.0.0.6/lib/mtouch/mtouch.exe
 /Library/Frameworks/Xamarin.iOS.framework/Versions/10.0.0.6/lib/mtouch/mtouch.exe \
 	--cache \
-	/Users/urocrtt-mac2/Documents/MyApplications/Xamarin/DocViewer/DocViewer/obj/iPhone/Release/mtouch-cache \
+	/Users/urocrtt-mac2/Documents/MyApplications/DocViewerXamarin/DocViewer/DocViewer/obj/iPhone/Release/mtouch-cache \
 	--dev \
-	/Users/urocrtt-mac2/Documents/MyApplications/Xamarin/DocViewer/DocViewer/bin/iPhone/Release/DocViewer.app \
+	/Users/urocrtt-mac2/Documents/MyApplications/DocViewerXamarin/DocViewer/DocViewer/bin/iPhone/Release/DocViewer.app \
 	--executable \
 	DocViewer \
 	--linksdkonly \
@@ -19,7 +19,7 @@
 	--tls-provider=default \
 	"--abi=armv7,arm64" \
 	--symbollist \
-	/Users/urocrtt-mac2/Documents/MyApplications/Xamarin/DocViewer/DocViewer/obj/iPhone/Release/mtouch-symbols.list \
+	/Users/urocrtt-mac2/Documents/MyApplications/DocViewerXamarin/DocViewer/DocViewer/obj/iPhone/Release/mtouch-symbols.list \
 	--dsym=no \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
@@ -30,11 +30,15 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
 	-r \
-	/Users/urocrtt-mac2/Documents/MyApplications/Xamarin/DocViewer/Components/icarousel-1.8.2.1/lib/ios-unified/iCarousel.dll \
+	/Users/urocrtt-mac2/Documents/MyApplications/DocViewerXamarin/DocViewer/Components/icarousel-1.8.2.1/lib/ios-unified/iCarousel.dll \
+	-r \
+	/Users/urocrtt-mac2/Documents/MyApplications/DocViewerXamarin/DocViewer/packages/Xamarin.Controls.SignaturePad.1.4.0/lib/Xamarin.iOS/SignaturePad.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
 	-r \
-	/Users/urocrtt-mac2/Documents/MyApplications/Xamarin/DocViewer/Components/icarousel-1.8.2.1/lib/ios-unified/iCarousel.dll \
+	/Users/urocrtt-mac2/Documents/MyApplications/DocViewerXamarin/DocViewer/Components/icarousel-1.8.2.1/lib/ios-unified/iCarousel.dll \
+	-r \
+	/Users/urocrtt-mac2/Documents/MyApplications/DocViewerXamarin/DocViewer/packages/Xamarin.Controls.SignaturePad.1.4.0/lib/Xamarin.iOS/SignaturePad.dll \
 	--target-framework \
 	"Xamarin.iOS,v1.0" \
-	/Users/urocrtt-mac2/Documents/MyApplications/Xamarin/DocViewer/DocViewer/bin/iPhone/Release//DocViewer.exe \
+	/Users/urocrtt-mac2/Documents/MyApplications/DocViewerXamarin/DocViewer/DocViewer/bin/iPhone/Release//DocViewer.exe \

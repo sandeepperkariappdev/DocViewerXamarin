@@ -1,6 +1,5 @@
 ﻿using System;
 using UIKit;
-using System;
 using System.Linq;
 
 #if __UNIFIED__
@@ -25,15 +24,18 @@ using nuint = global::System.UInt32;
 #endif
 
 using Carousels;
-
+using SignaturePad;
 namespace DocViewer
 {
 	public partial class DocViewController : UIViewController
 	{
 		UIImageView background;
 		iCarousel carousel;
-
-
+		SignaturePadView signaturepad;
+		//UIButton btnSave;
+		//UIButton btnLoad;
+		//CGPoint[] points;
+		bool wrapflag = false;
 		public DocViewController() : base("DocViewController", null)
 		{
 		}
@@ -43,7 +45,7 @@ namespace DocViewer
 			base.ViewDidLoad();
 			// Perform any additional setup after loading the view, typically from a nib.
 
-			bool wrap = false;
+
 
 			// create a nice background
 			background = new UIImageView(View.Bounds);
@@ -69,7 +71,7 @@ namespace DocViewer
 				}
 				else if (option == iCarouselOption.Wrap)
 				{
-					return wrap ? 1 : 0;
+					return wrapflag ? 1 : 0;
 				}
 
 				// use the defaults for everything else
@@ -84,21 +86,94 @@ namespace DocViewer
 				UIActionSheet sheet = new UIActionSheet();
 				sheet.AddButton("Accept");
 				sheet.AddButton("Reject");
+				sheet.AddButton("Sign & Accept");
 				sheet.Dismissed += (_, e) =>
 				{
+					
+
+					if (e.ButtonIndex != -1)
+					{
+						if (e.ButtonIndex == 2) { 
+							signaturepad = new SignaturePadView(View.Frame);
+							//signaturepad.Caption.Font = UIFont.FromName("Marker Felt", 16f);
+							//signaturepad.CaptionText = "Authorization Signature";
+							//signaturepad.SignaturePromptText = "☛";
+							//signaturepad.SignaturePrompt.Font = UIFont.FromName("Helvetica", 32f);
+							//signaturepad.BackgroundColor = UIColor.FromRGB(255, 255, 200); // a light yellow.
+							//signaturepad.BackgroundImageView.Image = UIImage.FromBundle("logo-galaxy-black-64.png");
+							//signaturepad.BackgroundImageView.Alpha = 0.0625f;
+							//signaturepad.BackgroundImageView.ContentMode = UIViewContentMode.ScaleToFill;
+							//signaturepad.BackgroundImageView.Frame = new System.Drawing.RectangleF(20, 20, 256, 256);
+							//signaturepad.Layer.ShadowOffset = new System.Drawing.SizeF(0, 0);
+							//signaturepad.Layer.ShadowOpacity = 1f;
+
+							NavigationItem.Title = "Document "+ args.Index;
+							NavigationItem.RightBarButtonItem = new UIBarButtonItem("Accept", UIBarButtonItemStyle.Plain, (s, a) =>
+							{ 
+
+								signaturepad.RemoveFromSuperview();
+								setNavButtons();
+							});
+							NavigationItem.LeftBarButtonItem = new UIBarButtonItem("Cancel", UIBarButtonItemStyle.Plain, (s, a) =>
+							{
+								signaturepad.RemoveFromSuperview();
+								setNavButtons();
+										
+							});
+
+							View.AddSubview(signaturepad);
+							// the buttons
+							//btnSave = new UIButton(new CGRect(0, 0, 150.0f, 100.0f));
+							//btnSave = UIButton.FromType(UIButtonType.RoundedRect);
+						//	btnSave.SetTitle("Save", UIControlState.Normal);
+							//btnSave.TouchUpInside += (s, et) =>
+							//{
+							//	if (signaturepad.IsBlank)
+							//	{
+							//		new UIAlertView("", "No signature to save.", null, "OK", null).Show();
+							//	}
+							//	else
+							//	{
+							//		points = signaturepad.Points;
+							//		new UIAlertView("", "Vector Saved.", null, "OK", null).Show();
+							//		//signaturepad.RemoveFromSuperview();
+							//		//btnSave.RemoveFromSuperview();
+							//		//btnLoad.RemoveFromSuperview();    
+
+								//}
+							//};
+							//btnLoad = UIButton.FromType(UIButtonType.RoundedRect);
+							//btnLoad.SetTitle("Load Last", UIControlState.Normal);
+							//btnLoad.TouchUpInside += (s, et) =>
+							//{
+							//	if (points != null)
+							//	{
+							//		signaturepad.LoadPoints(points);
+							//	}
+							//};
+							//View.AddSubviews(btnSave);
+						}						
+					}
+
 				};
 
 				// show the popup
 				sheet.ShowInView(View);
 
 			};
-			NavigationItem.Title = "Doc Viewer";
 
+
+			setNavButtons();
+		
+
+		}
+		public void setNavButtons() { 
+			NavigationItem.Title = "Doc Viewer";
 			NavigationItem.RightBarButtonItem = new UIBarButtonItem("Wrap Off", UIBarButtonItemStyle.Plain, (sender, args) =>
 			{
-				wrap = !wrap;
+				wrapflag = !wrapflag;
 				carousel.ReloadData();
-				if (wrap)
+				if (wrapflag)
 					NavigationItem.RightBarButtonItem.Title = "Wrap On";
 				else
 					NavigationItem.RightBarButtonItem.Title = "Wrap Off";
@@ -133,7 +208,18 @@ namespace DocViewer
 			base.DidReceiveMemoryWarning();
 			// Release any cached data, images, etc that aren't in use.
 		}
+		//public override void ViewWillLayoutSubviews()
+		//{
+		//	base.ViewWillLayoutSubviews();
 
+		//	//var navHeight = NavigationController?.NavigationBar?.Bounds.Height ?? 0;
+		//	//navHeight += UIApplication.SharedApplication.StatusBarFrame.Height;
+
+		//	signaturepad.Frame = new CGRect(10, 20 , View.Bounds.Width - 20, View.Bounds.Height - 80 );
+
+		//	btnSave.Frame = new CGRect(10, View.Bounds.Height - 47, 120, 37);
+		//	btnLoad.Frame = new CGRect(View.Bounds.Width - 130, View.Bounds.Height - 47, 120, 37);
+		//}
 		private class CarouselDataSource : iCarouselDataSource
 		{
 			int[] items;
@@ -155,7 +241,10 @@ namespace DocViewer
 			public override UIView GetViewForItem(iCarousel carousel, nint index, UIView view)
 			{
 				UILabel label = null;
+				UILabel labelContent = null;
+				UILabel labelContent2 = null;
 				UIImageView imageView = null;
+
 
 				if (view == null)
 				{
@@ -167,18 +256,37 @@ namespace DocViewer
 					label = new UILabel(imageView.Bounds);
 					label.BackgroundColor = UIColor.Clear;
 					label.TextAlignment = UITextAlignment.Center;
-					label.Font = label.Font.WithSize(20);
+					label.Font = label.Font.WithSize(25);
 					label.Tag = 1;
 					imageView.AddSubview(label);
+
+					labelContent = new UILabel(new CGRect(0, 0,250.0f, 350.0f));
+					labelContent.BackgroundColor = UIColor.Clear;
+					labelContent.TextAlignment = UITextAlignment.Center;
+					labelContent.Font = label.Font.WithSize(7);
+					labelContent.Tag = 2;
+					labelContent.LineBreakMode = UILineBreakMode.WordWrap;
+					imageView.AddSubview(labelContent);
+					labelContent2 = new UILabel(new CGRect(0, 0, 260.0f, 370.0f));
+					labelContent2.BackgroundColor = UIColor.Clear;
+					labelContent2.TextAlignment = UITextAlignment.Center;
+					labelContent2.Font = label.Font.WithSize(7);
+					labelContent2.Tag = 3;
+					labelContent2.LineBreakMode = UILineBreakMode.WordWrap;
+					imageView.AddSubview(labelContent2);
 				}
 				else {
 					// get a reference to the label in the recycled view
 					imageView = (UIImageView)view;
 					label = (UILabel)view.ViewWithTag(1);
+					labelContent = (UILabel)view.ViewWithTag(2);
+					labelContent = (UILabel)view.ViewWithTag(3);
 				}
 
 				// set the values of the view
 				label.Text = "Document "+items[index].ToString();
+				labelContent.Text = "Lorem Ipsum is simply dummy text Lorem Ipsum ";
+				labelContent2.Text = "Lorem Ipsum is simply dummy text Lorem ... ";
 
 				return imageView;
 			}
