@@ -8547,7 +8547,7 @@ _mono_aot_file_info:
 	.long 440,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 242,193,240,109,58,149,170,209,12,241,123,243,210,103,136,154
+	.byte 168,170,202,95,14,81,201,100,106,22,16,169,149,230,215,157
 	.globl _mono_aot_module_SignaturePad_info
 	.align 2
 _mono_aot_module_SignaturePad_info:

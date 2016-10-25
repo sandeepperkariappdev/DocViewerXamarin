@@ -8730,7 +8730,7 @@ _mono_aot_file_info:
 	.long 488,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 246,36,209,73,7,226,171,209,84,62,212,190,14,71,195,231
+	.byte 30,231,173,105,42,144,248,83,223,196,16,12,43,77,81,97
 	.globl _mono_aot_module_iCarousel_info
 	.align 2
 _mono_aot_module_iCarousel_info:

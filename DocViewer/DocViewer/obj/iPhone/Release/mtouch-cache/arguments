@@ -11,7 +11,7 @@
 	--sdkroot \
 	/Applications/Xcode.app/Contents/Developer \
 	--sdk \
-	9.3 \
+	10.0 \
 	--targetver \
 	9.0 \
 	--aot-options=-O=float32 \
@@ -30,15 +30,15 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
 	-r \
-	/Users/urocrtt-mac2/Documents/MyApplications/DocViewerXamarin/DocViewer/Components/icarousel-1.8.2.1/lib/ios-unified/iCarousel.dll \
-	-r \
 	/Users/urocrtt-mac2/Documents/MyApplications/DocViewerXamarin/DocViewer/packages/Xamarin.Controls.SignaturePad.1.4.0/lib/Xamarin.iOS/SignaturePad.dll \
+	-r \
+	/Users/urocrtt-mac2/Documents/MyApplications/DocViewerXamarin/DocViewer/DocViewer/Components/icarousel-1.8.2.1/lib/ios-unified/iCarousel.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
 	-r \
-	/Users/urocrtt-mac2/Documents/MyApplications/DocViewerXamarin/DocViewer/Components/icarousel-1.8.2.1/lib/ios-unified/iCarousel.dll \
-	-r \
 	/Users/urocrtt-mac2/Documents/MyApplications/DocViewerXamarin/DocViewer/packages/Xamarin.Controls.SignaturePad.1.4.0/lib/Xamarin.iOS/SignaturePad.dll \
+	-r \
+	/Users/urocrtt-mac2/Documents/MyApplications/DocViewerXamarin/DocViewer/DocViewer/Components/icarousel-1.8.2.1/lib/ios-unified/iCarousel.dll \
 	--target-framework \
 	"Xamarin.iOS,v1.0" \
 	/Users/urocrtt-mac2/Documents/MyApplications/DocViewerXamarin/DocViewer/DocViewer/bin/iPhone/Release//DocViewer.exe \

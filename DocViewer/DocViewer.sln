@@ -9,12 +9,17 @@ Global
 		Release|iPhone = Release|iPhone
 		Release|iPhoneSimulator = Release|iPhoneSimulator
 		Debug|iPhone = Debug|iPhone
+		debuginsimulator|iPhoneSimulator = debuginsimulator|iPhoneSimulator
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{9F635E4C-93C4-454B-AEA5-CEDB4EE5970F}.Release|iPhone.ActiveCfg = Release|iPhone
 		{9F635E4C-93C4-454B-AEA5-CEDB4EE5970F}.Release|iPhone.Build.0 = Release|iPhone
 		{9F635E4C-93C4-454B-AEA5-CEDB4EE5970F}.Debug|iPhone.ActiveCfg = Release|iPhone
 		{9F635E4C-93C4-454B-AEA5-CEDB4EE5970F}.Debug|iPhone.Build.0 = Release|iPhone
+		{9F635E4C-93C4-454B-AEA5-CEDB4EE5970F}.Debug|iPhoneSimulator.ActiveCfg = debuginsimulator|iPhoneSimulator
+		{9F635E4C-93C4-454B-AEA5-CEDB4EE5970F}.debuginsimulator|iPhoneSimulator.ActiveCfg = debuginsimulator|iPhoneSimulator
+		{9F635E4C-93C4-454B-AEA5-CEDB4EE5970F}.debuginsimulator|iPhoneSimulator.Build.0 = debuginsimulator|iPhoneSimulator
+		{9F635E4C-93C4-454B-AEA5-CEDB4EE5970F}.Debug|iPhoneSimulator.Build.0 = debuginsimulator|iPhoneSimulator
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		Policies = $0
@@ -47,5 +52,6 @@ Global
 		$9.inheritsSet = Mono
 		$9.scope = application/xml
 		$9.inheritsScope = application/xml
+		version = 1.9
 	EndGlobalSection
 EndGlobal

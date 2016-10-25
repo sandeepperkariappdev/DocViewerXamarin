@@ -621,7 +621,7 @@ ldr x0, [x16, #240]
 .word 0xaa0203e0
 .word 0xf940005e
 bl _p_28
-.loc 4 166 0
+.loc 4 172 0
 .word 0xaa1a03e0
 bl _p_29
 .word 0xf9400bba
@@ -637,7 +637,7 @@ Lme_e:
 	.align 4
 	.no_dead_strip DocViewer_DocViewController_setNavButtons
 DocViewer_DocViewController_setNavButtons:
-.loc 4 171 0 prologue_end
+.loc 4 177 0 prologue_end
 .word 0xa9b87bfd
 .word 0x910003fd
 .word 0xf9000bba
@@ -653,7 +653,7 @@ ldr x1, [x16, #248]
 .word 0xaa0203e0
 .word 0xf940005e
 bl _p_32
-.loc 4 172 0
+.loc 4 178 0
 .word 0xaa1a03e0
 .word 0xf940035e
 bl _p_31
@@ -711,7 +711,7 @@ bl _p_33
 .word 0xaa0203e0
 .word 0xf940005e
 bl _p_34
-.loc 4 181 0
+.loc 4 187 0
 .word 0xaa1a03e0
 .word 0xf940035e
 bl _p_31
@@ -795,7 +795,7 @@ Lme_f:
 	.align 4
 	.no_dead_strip DocViewer_DocViewController_DidReceiveMemoryWarning
 DocViewer_DocViewController_DidReceiveMemoryWarning:
-.loc 4 208 0 prologue_end
+.loc 4 214 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -808,6 +808,124 @@ bl _p_14
 Lme_10:
 .text
 	.align 4
+	.no_dead_strip DocViewer_DocViewController_getImageForIndex_System_nint
+DocViewer_DocViewController_getImageForIndex_System_nint:
+.loc 4 231 0 prologue_end
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xa90167b8
+.word 0xf90013ba
+.word 0xaa0003fa
+
+adrp x16, mono_aot_DocViewer_got@PAGE+0
+add x16, x16, mono_aot_DocViewer_got@PAGEOFF
+ldr x25, [x16, #336]
+.loc 4 232 0
+.word 0xaa1a03f8
+.word 0xeb1f035f
+.word 0x5400070b
+.word 0xd280013e
+.word 0xeb1e031f
+.word 0x540006ac
+.word 0x93407f1a
+.word 0xd280015e
+.word 0x6b1e035f
+.word 0x54000622
+.word 0xd37df340
+.word 0x2a0003e1
+
+adrp x16, mono_aot_DocViewer_got@PAGE+0
+add x16, x16, mono_aot_DocViewer_got@PAGEOFF
+ldr x0, [x16, #344]
+.word 0x8b010000
+.word 0xf9400000
+.word 0xd61f0000
+.loc 4 234 0
+
+adrp x16, mono_aot_DocViewer_got@PAGE+0
+add x16, x16, mono_aot_DocViewer_got@PAGEOFF
+ldr x25, [x16, #352]
+.loc 4 235 0
+.word 0x14000028
+.loc 4 237 0
+
+adrp x16, mono_aot_DocViewer_got@PAGE+0
+add x16, x16, mono_aot_DocViewer_got@PAGEOFF
+ldr x25, [x16, #336]
+.loc 4 238 0
+.word 0x14000024
+.loc 4 240 0
+
+adrp x16, mono_aot_DocViewer_got@PAGE+0
+add x16, x16, mono_aot_DocViewer_got@PAGEOFF
+ldr x25, [x16, #360]
+.loc 4 241 0
+.word 0x14000020
+.loc 4 243 0
+
+adrp x16, mono_aot_DocViewer_got@PAGE+0
+add x16, x16, mono_aot_DocViewer_got@PAGEOFF
+ldr x25, [x16, #368]
+.loc 4 244 0
+.word 0x1400001c
+.loc 4 246 0
+
+adrp x16, mono_aot_DocViewer_got@PAGE+0
+add x16, x16, mono_aot_DocViewer_got@PAGEOFF
+ldr x25, [x16, #376]
+.loc 4 247 0
+.word 0x14000018
+.loc 4 249 0
+
+adrp x16, mono_aot_DocViewer_got@PAGE+0
+add x16, x16, mono_aot_DocViewer_got@PAGEOFF
+ldr x25, [x16, #384]
+.loc 4 250 0
+.word 0x14000014
+.loc 4 252 0
+
+adrp x16, mono_aot_DocViewer_got@PAGE+0
+add x16, x16, mono_aot_DocViewer_got@PAGEOFF
+ldr x25, [x16, #392]
+.loc 4 253 0
+.word 0x14000010
+.loc 4 255 0
+
+adrp x16, mono_aot_DocViewer_got@PAGE+0
+add x16, x16, mono_aot_DocViewer_got@PAGEOFF
+ldr x25, [x16, #400]
+.loc 4 256 0
+.word 0x1400000c
+.loc 4 258 0
+
+adrp x16, mono_aot_DocViewer_got@PAGE+0
+add x16, x16, mono_aot_DocViewer_got@PAGEOFF
+ldr x25, [x16, #408]
+.loc 4 259 0
+.word 0x14000008
+.loc 4 261 0
+
+adrp x16, mono_aot_DocViewer_got@PAGE+0
+add x16, x16, mono_aot_DocViewer_got@PAGEOFF
+ldr x25, [x16, #416]
+.loc 4 262 0
+.word 0x14000004
+.loc 4 264 0
+
+adrp x16, mono_aot_DocViewer_got@PAGE+0
+add x16, x16, mono_aot_DocViewer_got@PAGEOFF
+ldr x25, [x16, #336]
+.loc 4 267 0
+.word 0xaa1903e0
+.word 0xa94167b8
+.word 0xf94013ba
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_11:
+.text
+	.align 4
 	.no_dead_strip DocViewer_DocViewController_ReleaseDesignerOutlets
 DocViewer_DocViewController_ReleaseDesignerOutlets:
 .word 0xa9be7bfd
@@ -817,7 +935,7 @@ DocViewer_DocViewController_ReleaseDesignerOutlets:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_11:
+Lme_12:
 .text
 	.align 4
 	.no_dead_strip DocViewer_DocViewController__ViewDidLoadm__0_Carousels_iCarousel_Carousels_iCarouselOption_System_nfloat
@@ -863,142 +981,334 @@ DocViewer_DocViewController__ViewDidLoadm__0_Carousels_iCarousel_Carousels_iCaro
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_12:
+Lme_13:
 .text
 	.align 4
 	.no_dead_strip DocViewer_DocViewController__ViewDidLoadm__1_object_Carousels_iCarouselItemSelectedEventArgs
 DocViewer_DocViewController__ViewDidLoadm__1_object_Carousels_iCarouselItemSelectedEventArgs:
-.loc 4 86 0 prologue_end
-.word 0xa9b77bfd
+.loc 4 97 0 prologue_end
+.word 0xa9ae7bfd
 .word 0x910003fd
-.word 0xf9000bb9
+.word 0xa9016bb9
 .word 0xaa0003f9
-.word 0xf9000fa1
-.word 0xf90013a2
-
-adrp x16, mono_aot_DocViewer_got@PAGE+0
-add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x0, [x16, #336]
-bl _p_26
-.word 0xaa0003e1
-.word 0xf9003fa1
-.word 0xf94013a1
-.word 0xf9000801
-.word 0xf90043a0
-.word 0x91004000
-bl _p_7
-.word 0xf9403fa0
-.word 0xf94043a1
-.word 0xf94013a2
-.word 0xf9000c39
-.word 0xf9002fa0
-.word 0x91006000
-bl _p_7
-
-adrp x16, mono_aot_DocViewer_got@PAGE+0
-add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x0, [x16, #344]
-bl _p_5
-.word 0xf9003ba0
-bl _p_37
-.word 0xf9403ba0
-.loc 4 87 0
-.word 0xf90037a0
-.word 0xaa0003e2
-
-adrp x16, mono_aot_DocViewer_got@PAGE+0
-add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x1, [x16, #352]
-.word 0xaa0203e0
-.word 0xf940005e
-bl _p_38
-.word 0xf94037a2
-.loc 4 88 0
-
-adrp x16, mono_aot_DocViewer_got@PAGE+0
-add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x1, [x16, #360]
-.word 0xaa0203e0
-.word 0xf940005e
-.word 0xf90033a2
-bl _p_38
-.word 0xf94033a2
-.loc 4 89 0
-
-adrp x16, mono_aot_DocViewer_got@PAGE+0
-add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x1, [x16, #368]
-.word 0xaa0203e0
-.word 0xf940005e
-.word 0xf90027a2
-bl _p_38
-.word 0xaa0003e1
-.word 0xf9402fa0
-.loc 4 90 0
-.word 0xf9002ba0
-.word 0xeb1f001f
-.word 0x10000011
-.word 0x540005c0
-
-adrp x16, mono_aot_DocViewer_got@PAGE+0
-add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x0, [x16, #376]
-bl _p_26
-.word 0xf9402ba1
-.word 0xf9001fa1
-.word 0xf9001001
-.word 0xf90023a0
-.word 0x91008000
-bl _p_7
-.word 0xf9401fa0
-.word 0xf94023a1
-.word 0xf94027a2
-
-adrp x16, mono_aot_DocViewer_got@PAGE+0
-add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x0, [x16, #384]
-.word 0xf9001420
-
-adrp x16, mono_aot_DocViewer_got@PAGE+0
-add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x0, [x16, #392]
-.word 0xf9002020
-
-adrp x16, mono_aot_DocViewer_got@PAGE+0
-add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x0, [x16, #400]
-.word 0xf9401403
-.word 0xf9000c23
-.word 0xf9401000
-.word 0xf9000820
-.word 0x3901803f
-.word 0xaa0203e0
-.word 0xf940005e
-.word 0xf9001ba2
-bl _p_39
-.loc 4 161 0
+.word 0xf90013a1
+.word 0xaa0203fa
 .word 0xaa1903e0
 .word 0xf940033e
 bl _p_16
 .word 0xaa0003e1
-.word 0xf9401ba2
+.word 0x910163a0
+.word 0xf90047a0
+.word 0xaa0103e0
+.word 0xf940003e
+bl _p_37
+.word 0xf94047be
+.word 0xfd0003c0
+.word 0xfd0007c1
+.word 0xfd000bc2
+.word 0xfd000fc3
+
+adrp x16, mono_aot_DocViewer_got@PAGE+0
+add x16, x16, mono_aot_DocViewer_got@PAGEOFF
+ldr x0, [x16, #424]
+bl _p_5
+.word 0xf9008ba0
+.word 0xfd402fa0
+.word 0xfd4033a1
+.word 0xfd4037a2
+.word 0xfd403ba3
+bl _p_38
+.word 0xf9408ba0
+.word 0xf90087a0
+.word 0xf9002320
+.word 0x91010320
+bl _p_7
+.word 0xf94087a0
+.loc 4 101 0
+.word 0xf9402322
+
+adrp x16, mono_aot_DocViewer_got@PAGE+0
+add x16, x16, mono_aot_DocViewer_got@PAGEOFF
+ldr x0, [x16, #432]
+.word 0xf9400001
 .word 0xaa0203e0
 .word 0xf940005e
+bl _p_39
+.loc 4 102 0
+.word 0xf9402320
+.word 0xaa0003e1
+.word 0xf940003e
+.word 0xf9403402
+.word 0xaa0203e0
+.word 0xd2800021
+.word 0xf940005e
 bl _p_40
-.word 0xf9400bb9
+.loc 4 103 0
+.word 0xf9402320
+.word 0xaa0003e1
+.word 0xf940003e
+.word 0xf9404002
+.word 0xaa0203e0
+.word 0xd2800021
+.word 0xf940005e
+bl _p_40
+.loc 4 105 0
+.word 0xf9402322
+
+adrp x16, mono_aot_DocViewer_got@PAGE+0
+add x16, x16, mono_aot_DocViewer_got@PAGEOFF
+ldr x0, [x16, #432]
+.word 0xf9400001
+.word 0xaa0203e0
+.word 0xf940005e
+bl _p_41
+.loc 4 106 0
+.word 0xf9402320
+.word 0xaa0003e1
+.word 0xf940003e
+.word 0xf9403002
+.word 0xaa0203e0
+.word 0xd2800021
+.word 0xf940005e
+bl _p_40
+.loc 4 109 0
+.word 0xf9402320
+.word 0xaa0003e1
+.word 0xf940003e
+.word 0xf9403800
+.word 0xf90083a0
+.word 0xf940035e
+.word 0xf9400b40
+bl _p_42
+bl _p_19
+.word 0xaa0003e1
+.word 0xf94083a2
+.word 0xaa0203e0
+.word 0xf940005e
+bl _p_20
+.loc 4 111 0
+.word 0xf9402320
+.word 0xaa0003e1
+.word 0xf940003e
+.word 0xf9403802
+.word 0xaa0203e0
+.word 0xd2800001
+.word 0xf940005e
+bl _p_21
+.loc 4 112 0
+.word 0xf9402320
+.word 0xaa0003e1
+.word 0xf940003e
+.word 0xf9403800
+.word 0xf9007fa0
+.word 0xd280001e
+.word 0xf2a8341e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2a8341e
+.word 0x9e6703c1
+.word 0xd280001e
+.word 0xf2a8701e
+.word 0x9e6703c2
+.word 0xd280001e
+.word 0xf2a8701e
+.word 0x9e6703c3
+.word 0xd2800000
+.word 0xf9003fa0
+.word 0xf90043a0
+.word 0x9101e3a0
+bl _p_43
+.word 0xf9403fa0
+.word 0xf90027a0
+.word 0xf94043a0
+.word 0xf9002ba0
+.word 0x9100a3a0
+.word 0xf90047a0
+.word 0xbd404ba0
+.word 0xbd404fa1
+.word 0xbd4053a2
+.word 0xbd4057a3
+bl _p_44
+.word 0xf94047be
+.word 0xfd0003c0
+.word 0xfd0007c1
+.word 0xfd000bc2
+.word 0xfd000fc3
+.word 0xf9407fa1
+.word 0xaa0103e0
+.word 0xfd4017a0
+.word 0xfd401ba1
+.word 0xfd401fa2
+.word 0xfd4023a3
+.word 0xf940003e
+bl _p_45
+.loc 4 116 0
+.word 0xaa1903e0
+.word 0xf940033e
+bl _p_31
+.word 0xf90073a0
+
+adrp x16, mono_aot_DocViewer_got@PAGE+0
+add x16, x16, mono_aot_DocViewer_got@PAGEOFF
+ldr x0, [x16, #440]
+.word 0xf90077a0
+.word 0xf940035e
+.word 0xf9400b40
+.word 0xf9007ba0
+
+adrp x16, mono_aot_DocViewer_got@PAGE+0
+add x16, x16, mono_aot_DocViewer_got@PAGEOFF
+ldr x0, [x16, #448]
+bl _p_26
+.word 0xaa0003e1
+.word 0xf94077a0
+.word 0xf9407ba2
+.word 0xf9000822
+bl _p_46
+.word 0xaa0003e1
+.word 0xf94073a2
+.word 0xaa0203e0
+.word 0xf940005e
+bl _p_32
+.loc 4 117 0
+.word 0xaa1903e0
+.word 0xf940033e
+bl _p_31
+.word 0xf90063a0
+
+adrp x16, mono_aot_DocViewer_got@PAGE+0
+add x16, x16, mono_aot_DocViewer_got@PAGEOFF
+ldr x0, [x16, #456]
+.word 0xf90067a0
+.word 0xeb1f033f
+.word 0x10000011
+.word 0x54000d00
+
+adrp x16, mono_aot_DocViewer_got@PAGE+0
+add x16, x16, mono_aot_DocViewer_got@PAGEOFF
+ldr x0, [x16, #264]
+bl _p_26
+.word 0xf9001019
+.word 0xf9006fa0
+.word 0x91008000
+bl _p_7
+.word 0xf9406fa0
+
+adrp x16, mono_aot_DocViewer_got@PAGE+0
+add x16, x16, mono_aot_DocViewer_got@PAGEOFF
+ldr x1, [x16, #464]
+.word 0xf9001401
+
+adrp x16, mono_aot_DocViewer_got@PAGE+0
+add x16, x16, mono_aot_DocViewer_got@PAGEOFF
+ldr x1, [x16, #472]
+.word 0xf9002001
+
+adrp x16, mono_aot_DocViewer_got@PAGE+0
+add x16, x16, mono_aot_DocViewer_got@PAGEOFF
+ldr x1, [x16, #480]
+.word 0xf9401422
+.word 0xf9000c02
+.word 0xf9401021
+.word 0xf9000801
+.word 0x3901801f
+.word 0xf9006ba0
+
+adrp x16, mono_aot_DocViewer_got@PAGE+0
+add x16, x16, mono_aot_DocViewer_got@PAGEOFF
+ldr x0, [x16, #296]
+bl _p_5
+.word 0xf94067a1
+.word 0xf9406ba3
+.word 0xf9005fa0
+.word 0xd2800002
+bl _p_33
+.word 0xf9405fa1
+.word 0xf94063a2
+.word 0xaa0203e0
+.word 0xf940005e
+bl _p_34
+.loc 4 123 0
+.word 0xaa1903e0
+.word 0xf940033e
+bl _p_31
+.word 0xf9004fa0
+
+adrp x16, mono_aot_DocViewer_got@PAGE+0
+add x16, x16, mono_aot_DocViewer_got@PAGEOFF
+ldr x0, [x16, #488]
+.word 0xf90053a0
+.word 0xeb1f033f
+.word 0x10000011
+.word 0x540006a0
+
+adrp x16, mono_aot_DocViewer_got@PAGE+0
+add x16, x16, mono_aot_DocViewer_got@PAGEOFF
+ldr x0, [x16, #264]
+bl _p_26
+.word 0xf9001019
+.word 0xf9005ba0
+.word 0x91008000
+bl _p_7
+.word 0xf9405ba0
+
+adrp x16, mono_aot_DocViewer_got@PAGE+0
+add x16, x16, mono_aot_DocViewer_got@PAGEOFF
+ldr x1, [x16, #496]
+.word 0xf9001401
+
+adrp x16, mono_aot_DocViewer_got@PAGE+0
+add x16, x16, mono_aot_DocViewer_got@PAGEOFF
+ldr x1, [x16, #504]
+.word 0xf9002001
+
+adrp x16, mono_aot_DocViewer_got@PAGE+0
+add x16, x16, mono_aot_DocViewer_got@PAGEOFF
+ldr x1, [x16, #512]
+.word 0xf9401422
+.word 0xf9000c02
+.word 0xf9401021
+.word 0xf9000801
+.word 0x3901801f
+.word 0xf90057a0
+
+adrp x16, mono_aot_DocViewer_got@PAGE+0
+add x16, x16, mono_aot_DocViewer_got@PAGEOFF
+ldr x0, [x16, #296]
+bl _p_5
+.word 0xf94053a1
+.word 0xf94057a3
+.word 0xf9004ba0
+.word 0xd2800002
+bl _p_33
+.word 0xf9404ba1
+.word 0xf9404fa2
+.word 0xaa0203e0
+.word 0xf940005e
+bl _p_36
+.loc 4 130 0
+.word 0xaa1903e0
+.word 0xf940033e
+bl _p_16
+.word 0xaa0003e2
+.word 0xf9402321
+.word 0xaa0203e0
+.word 0xf940005e
+bl _p_23
+.word 0xa9416bb9
 .word 0x910003bf
-.word 0xa8c97bfd
+.word 0xa8d27bfd
 .word 0xd65f03c0
 .word 0xd28002c0
 .word 0xaa1103e1
 bl _p_30
 
-Lme_13:
+Lme_14:
 .text
 	.align 4
 	.no_dead_strip DocViewer_DocViewController__setNavButtonsm__2_object_System_EventArgs
 DocViewer_DocViewController__setNavButtonsm__2_object_System_EventArgs:
-.loc 4 174 0 prologue_end
+.loc 4 180 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000bba
@@ -1009,41 +1319,41 @@ DocViewer_DocViewController__setNavButtonsm__2_object_System_EventArgs:
 .word 0x6b1f001f
 .word 0x9a9f17e0
 .word 0x39012340
-.loc 4 175 0
+.loc 4 181 0
 .word 0xf9401f41
 .word 0xaa0103e0
 .word 0xf9400021
 .word 0xf9425030
 .word 0xd63f0200
-.loc 4 176 0
+.loc 4 182 0
 .word 0x39412340
 .word 0x34000220
-.loc 4 177 0
+.loc 4 183 0
 .word 0xaa1a03e0
 .word 0xf940035e
 bl _p_31
 .word 0xaa0003e1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_41
+bl _p_47
 .word 0xaa0003e2
 
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x1, [x16, #408]
+ldr x1, [x16, #520]
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf940ac50
 .word 0xd63f0200
 .word 0x14000010
-.loc 4 179 0
+.loc 4 185 0
 .word 0xaa1a03e0
 .word 0xf940035e
 bl _p_31
 .word 0xaa0003e1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_41
+bl _p_47
 .word 0xaa0003e2
 
 adrp x16, mono_aot_DocViewer_got@PAGE+0
@@ -1058,12 +1368,12 @@ ldr x1, [x16, #256]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_14:
+Lme_15:
 .text
 	.align 4
 	.no_dead_strip DocViewer_DocViewController__setNavButtonsm__3_object_System_EventArgs
 DocViewer_DocViewController__setNavButtonsm__3_object_System_EventArgs:
-.loc 4 184 0 prologue_end
+.loc 4 190 0 prologue_end
 .word 0xa9b87bfd
 .word 0x910003fd
 .word 0xa90163b7
@@ -1075,7 +1385,7 @@ DocViewer_DocViewController__setNavButtonsm__3_object_System_EventArgs:
 
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x0, [x16, #416]
+ldr x0, [x16, #528]
 bl _p_26
 .word 0xaa0003f9
 .word 0xf9000c1a
@@ -1085,24 +1395,24 @@ bl _p_7
 
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x0, [x16, #424]
+ldr x0, [x16, #536]
 .word 0xf9003fa0
 
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x0, [x16, #344]
+ldr x0, [x16, #544]
 bl _p_5
 .word 0xf9403fa1
 .word 0xf9003ba0
-bl _p_42
+bl _p_48
 .word 0xf9403ba0
 .word 0xaa0003f8
-.loc 4 185 0
+.loc 4 191 0
 
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x0, [x16, #432]
-bl _p_43
+ldr x0, [x16, #552]
+bl _p_49
 .word 0xaa0003e1
 .word 0xf94037a0
 .word 0xf90033a1
@@ -1110,35 +1420,35 @@ bl _p_43
 .word 0x91004320
 bl _p_7
 .word 0xf94033a0
-.loc 4 186 0
+.loc 4 192 0
 .word 0xf9400b21
 
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x0, [x16, #440]
+ldr x0, [x16, #560]
 .word 0xf9400000
 .word 0xaa0103f7
 .word 0xb5000340
 
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x0, [x16, #448]
+ldr x0, [x16, #568]
 bl _p_26
 .word 0xaa0003e1
 
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x0, [x16, #456]
+ldr x0, [x16, #576]
 .word 0xf9001420
 
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x0, [x16, #464]
+ldr x0, [x16, #584]
 .word 0xf9002020
 
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x0, [x16, #472]
+ldr x0, [x16, #592]
 .word 0xf9401402
 .word 0xf9000c22
 .word 0xf9401000
@@ -1147,26 +1457,26 @@ ldr x0, [x16, #472]
 
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x0, [x16, #440]
+ldr x0, [x16, #560]
 .word 0xf9000001
 
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x0, [x16, #440]
+ldr x0, [x16, #560]
 .word 0xf9400001
 
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x15, [x16, #480]
+ldr x15, [x16, #600]
 .word 0xaa1703e0
-bl _p_44
+bl _p_50
 .word 0xaa0003e1
 .word 0xaa0103e0
 .word 0xf9400021
 
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x15, [x16, #488]
+ldr x15, [x16, #608]
 .word 0x92800df0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -1179,24 +1489,24 @@ ldr x15, [x16, #488]
 
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x15, [x16, #496]
+ldr x15, [x16, #616]
 .word 0x92800ef0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
 .word 0xaa0003f7
-.loc 4 187 0
+.loc 4 193 0
 .word 0xaa1803e0
 .word 0xaa1703e1
 .word 0xf940031e
-bl _p_38
+bl _p_51
 .word 0xf94023a1
 .word 0xaa0103e0
 .word 0xf9400021
 
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x15, [x16, #504]
+ldr x15, [x16, #624]
 .word 0x92800ef0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -1214,21 +1524,21 @@ ldr x15, [x16, #504]
 
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x15, [x16, #512]
+ldr x15, [x16, #632]
 .word 0x928004f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
 .word 0xf9402fbe
 .word 0xd61f03c0
-.loc 4 189 0
+.loc 4 195 0
 .word 0xeb1f033f
 .word 0x10000011
 .word 0x54000520
 
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x0, [x16, #376]
+ldr x0, [x16, #640]
 bl _p_26
 .word 0xf9001019
 .word 0xf90033a0
@@ -1238,17 +1548,17 @@ bl _p_7
 
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x0, [x16, #520]
+ldr x0, [x16, #648]
 .word 0xf9001420
 
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x0, [x16, #528]
+ldr x0, [x16, #656]
 .word 0xf9002020
 
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x0, [x16, #536]
+ldr x0, [x16, #664]
 .word 0xf9401402
 .word 0xf9000c22
 .word 0xf9401000
@@ -1256,15 +1566,15 @@ ldr x0, [x16, #536]
 .word 0x3901803f
 .word 0xaa1803e0
 .word 0xf940031e
-bl _p_39
-.loc 4 202 0
+bl _p_52
+.loc 4 208 0
 .word 0xaa1a03e0
 .word 0xf940035e
 bl _p_16
 .word 0xaa0003e1
 .word 0xaa1803e0
 .word 0xf940031e
-bl _p_40
+bl _p_53
 .word 0xa94163b7
 .word 0xa9426bb9
 .word 0x910003bf
@@ -1274,46 +1584,92 @@ bl _p_40
 .word 0xaa1103e1
 bl _p_30
 
-Lme_15:
+Lme_16:
 .text
 	.align 4
-	.no_dead_strip DocViewer_DocViewController__setNavButtonsm__4_string
-DocViewer_DocViewController__setNavButtonsm__4_string:
-.loc 4 186 0 prologue_end
+	.no_dead_strip DocViewer_DocViewController__ViewDidLoadm__4_object_System_EventArgs
+DocViewer_DocViewController__ViewDidLoadm__4_object_System_EventArgs:
+.loc 4 120 0 prologue_end
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+.word 0xf9400ba0
+.word 0xf9402001
+.word 0xaa0103e0
+.word 0xf940003e
+bl _p_54
+.loc 4 121 0
+.word 0xf9400ba0
+bl _p_29
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_17:
+.text
+	.align 4
+	.no_dead_strip DocViewer_DocViewController__ViewDidLoadm__5_object_System_EventArgs
+DocViewer_DocViewController__ViewDidLoadm__5_object_System_EventArgs:
+.loc 4 125 0 prologue_end
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+.word 0xf9400ba0
+.word 0xf9402001
+.word 0xaa0103e0
+.word 0xf940003e
+bl _p_54
+.loc 4 126 0
+.word 0xf9400ba0
+bl _p_29
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_18:
+.text
+	.align 4
+	.no_dead_strip DocViewer_DocViewController__setNavButtonsm__6_string
+DocViewer_DocViewController__setNavButtonsm__6_string:
+.loc 4 192 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x1, [x16, #544]
+ldr x1, [x16, #672]
 .word 0xf9400ba0
-bl _p_45
+bl _p_55
 .word 0x53001c00
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_16:
+Lme_19:
 .text
 	.align 4
 	.no_dead_strip DocViewer_DocViewController_CarouselDataSource__ctor
 DocViewer_DocViewController_CarouselDataSource__ctor:
-.loc 4 227 0 prologue_end
+.loc 4 273 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9400ba0
-bl _p_46
-.loc 4 230 0
+bl _p_56
+.loc 4 276 0
 .word 0xd2800000
 .word 0xd2800141
-bl _p_47
+bl _p_57
 
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x15, [x16, #552]
-bl _p_48
+ldr x15, [x16, #680]
+bl _p_58
 .word 0xaa0003e1
 .word 0xf9400ba0
 .word 0xf90013a1
@@ -1325,12 +1681,12 @@ bl _p_7
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_17:
+Lme_1a:
 .text
 	.align 4
 	.no_dead_strip DocViewer_DocViewController_CarouselDataSource_GetNumberOfItems_Carousels_iCarousel
 DocViewer_DocViewController_CarouselDataSource_GetNumberOfItems_Carousels_iCarousel:
-.loc 4 238 0 prologue_end
+.loc 4 284 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -1343,13 +1699,13 @@ DocViewer_DocViewController_CarouselDataSource_GetNumberOfItems_Carousels_iCarou
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_18:
+Lme_1b:
 .text
 	.align 4
 	.no_dead_strip DocViewer_DocViewController_CarouselDataSource_GetViewForItem_Carousels_iCarousel_System_nint_UIKit_UIView
 DocViewer_DocViewController_CarouselDataSource_GetViewForItem_Carousels_iCarousel_System_nint_UIKit_UIView:
-.loc 4 245 0 prologue_end
-.word 0xa9a67bfd
+.loc 4 295 0 prologue_end
+.word 0xa9a37bfd
 .word 0x910003fd
 .word 0xa90153b3
 .word 0xa9025bb5
@@ -1359,10 +1715,8 @@ DocViewer_DocViewController_CarouselDataSource_GetViewForItem_Carousels_iCarouse
 .word 0xf90027a1
 .word 0xf9002ba2
 .word 0xaa0303fa
-.word 0xd2800017
-.loc 4 249 0
-.word 0xb500221a
-.loc 4 252 0
+.word 0xb5000dfa
+.loc 4 298 0
 .word 0xd280001e
 .word 0x9e6703c0
 .word 0xd280001e
@@ -1374,58 +1728,136 @@ DocViewer_DocViewController_CarouselDataSource_GetViewForItem_Carousels_iCarouse
 .word 0xf2a872de
 .word 0x9e6703c3
 .word 0xd2800000
-.word 0xf9008fa0
-.word 0xf90093a0
-.word 0xf90097a0
-.word 0xf9009ba0
-.word 0x910463a0
-bl _p_49
-.word 0xf9408fa0
+.word 0xf900afa0
+.word 0xf900b3a0
+.word 0xf900b7a0
+.word 0xf900bba0
+.word 0x910563a0
+bl _p_59
+.word 0xf940afa0
+.word 0xf9006fa0
+.word 0xf940b3a0
+.word 0xf90073a0
+.word 0xf940b7a0
+.word 0xf90077a0
+.word 0xf940bba0
+.word 0xf9007ba0
+
+adrp x16, mono_aot_DocViewer_got@PAGE+0
+add x16, x16, mono_aot_DocViewer_got@PAGEOFF
+ldr x0, [x16, #152]
+bl _p_5
+.word 0xf900dfa0
+.word 0xfd406fa0
+.word 0xfd4073a1
+.word 0xfd4077a2
+.word 0xfd407ba3
+bl _p_18
+.word 0xf940dfa0
+.word 0xaa0003f6
+.loc 4 299 0
+.word 0xaa1603e0
+.word 0xf900dba0
+
+adrp x16, mono_aot_DocViewer_got@PAGE+0
+add x16, x16, mono_aot_DocViewer_got@PAGEOFF
+ldr x0, [x16, #688]
+bl _p_19
+.word 0xaa0003e1
+.word 0xf940dba2
+.word 0xaa0203e0
+.word 0xf940005e
+bl _p_20
+.loc 4 304 0
+.word 0xd280001e
+.word 0xf2a83e1e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2a8491e
+.word 0x9e6703c1
+.word 0xd280001e
+.word 0xf2a8691e
+.word 0x9e6703c2
+.word 0xd280001e
+.word 0xf2a8691e
+.word 0x9e6703c3
+.word 0xd2800000
+.word 0xf9009fa0
+.word 0xf900a3a0
+.word 0xf900a7a0
+.word 0xf900aba0
+.word 0x9104e3a0
+bl _p_59
+.word 0xf9409fa0
 .word 0xf9005fa0
-.word 0xf94093a0
+.word 0xf940a3a0
 .word 0xf90063a0
-.word 0xf94097a0
+.word 0xf940a7a0
 .word 0xf90067a0
-.word 0xf9409ba0
+.word 0xf940aba0
 .word 0xf9006ba0
 
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x0, [x16, #152]
 bl _p_5
-.word 0xf900cfa0
+.word 0xf900d7a0
 .word 0xfd405fa0
 .word 0xfd4063a1
 .word 0xfd4067a2
 .word 0xfd406ba3
 bl _p_18
-.word 0xf940cfa0
-.word 0xaa0003f5
-.loc 4 253 0
-.word 0xaa1503e0
-.word 0xf900cba0
-
-adrp x16, mono_aot_DocViewer_got@PAGE+0
-add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x0, [x16, #560]
+.word 0xf940d7a0
+.word 0xaa0003fa
+.loc 4 305 0
+.word 0xaa1a03e0
+.word 0xf900d3a0
+.word 0xf9402ba0
+bl _p_42
 bl _p_19
 .word 0xaa0003e1
-.word 0xf940cba2
+.word 0xf940d3a2
 .word 0xaa0203e0
 .word 0xf940005e
 bl _p_20
-.loc 4 254 0
-.word 0xaa1503e0
+.loc 4 306 0
+.word 0xaa1a03e0
 .word 0xd2800081
-.word 0xf94002be
+.word 0xf940035e
 bl _p_21
-.loc 4 256 0
+.loc 4 307 0
+.word 0xaa1603e0
+.word 0xaa1a03e1
+.word 0xf94002de
+bl _p_23
+.loc 4 314 0
+.word 0xaa1603e0
+.word 0xd2800081
+.word 0xf94002de
+bl _p_21
+.word 0x14000141
+.loc 4 324 0
+.word 0xaa1a03f7
+.word 0xb400017a
+.word 0xf94002e0
+.word 0xf9400000
+.word 0xf9400800
+.word 0xf9401000
+
+adrp x16, mono_aot_DocViewer_got@PAGE+0
+add x16, x16, mono_aot_DocViewer_got@PAGEOFF
+ldr x1, [x16, #696]
+.word 0xeb01001f
+.word 0x10000011
+.word 0x54002801
+.word 0xaa1703f6
+.loc 4 325 0
 .word 0x910263a0
-.word 0xf9009fa0
-.word 0xaa1503e0
-.word 0xf94002be
+.word 0xf900bfa0
+.word 0xaa1703e0
+.word 0xf94002fe
 bl _p_17
-.word 0xf9409fbe
+.word 0xf940bfbe
 .word 0xfd0003c0
 .word 0xfd0007c1
 .word 0xfd000bc2
@@ -1433,60 +1865,60 @@ bl _p_17
 
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x0, [x16, #568]
+ldr x0, [x16, #704]
 bl _p_5
-.word 0xf900c7a0
+.word 0xf900e7a0
 .word 0xfd404fa0
 .word 0xfd4053a1
 .word 0xfd4057a2
 .word 0xfd405ba3
-bl _p_50
-.word 0xf940c7a0
-.word 0xaa0003f4
-.loc 4 257 0
-.word 0xaa1403e0
-.word 0xf900c3a0
-bl _p_51
+bl _p_60
+.word 0xf940e7a0
+.word 0xaa0003f5
+.loc 4 326 0
+.word 0xaa1503e0
+.word 0xf900e3a0
+bl _p_61
 .word 0xaa0003e1
-.word 0xf940c3a2
+.word 0xf940e3a2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_52
-.loc 4 258 0
-.word 0xaa1403e0
+bl _p_62
+.loc 4 327 0
+.word 0xaa1503e0
 .word 0xd2800021
-.word 0xf940029e
-bl _p_53
-.loc 4 259 0
-.word 0xaa1403e0
-.word 0xf940029e
-bl _p_54
+.word 0xf94002be
+bl _p_63
+.loc 4 328 0
+.word 0xaa1503e0
+.word 0xf94002be
+bl _p_64
 .word 0xaa0003e1
 .word 0xd2800320
 .word 0x1e620000
 .word 0x9e6703e1
-.word 0xfd00a3a1
-.word 0xfd00a3a0
-.word 0xfd40a3a0
+.word 0xfd00c3a1
+.word 0xfd00c3a0
+.word 0xfd40c3a0
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_55
+bl _p_65
 .word 0xaa0003e1
-.word 0xaa1403e0
-.word 0xf940029e
-bl _p_56
-.loc 4 260 0
+.word 0xaa1503e0
+.word 0xf94002be
+bl _p_66
+.loc 4 329 0
 .word 0xd2800020
 .word 0x93407c01
-.word 0xaa1403e0
-.word 0xf940029e
-bl _p_57
-.loc 4 261 0
 .word 0xaa1503e0
-.word 0xaa1403e1
 .word 0xf94002be
+bl _p_67
+.loc 4 330 0
+.word 0xaa1703e0
+.word 0xaa1503e1
+.word 0xf94002fe
 bl _p_23
-.loc 4 263 0
+.loc 4 332 0
 .word 0xd280001e
 .word 0x9e6703c0
 .word 0xd280001e
@@ -1498,82 +1930,82 @@ bl _p_23
 .word 0xf2a875fe
 .word 0x9e6703c3
 .word 0xd2800000
-.word 0xf9007fa0
-.word 0xf90083a0
-.word 0xf90087a0
-.word 0xf9008ba0
-.word 0x9103e3a0
-bl _p_49
-.word 0xf9407fa0
+.word 0xf9008fa0
+.word 0xf90093a0
+.word 0xf90097a0
+.word 0xf9009ba0
+.word 0x910463a0
+bl _p_59
+.word 0xf9408fa0
 .word 0xf9003fa0
-.word 0xf94083a0
+.word 0xf94093a0
 .word 0xf90043a0
-.word 0xf94087a0
+.word 0xf94097a0
 .word 0xf90047a0
-.word 0xf9408ba0
+.word 0xf9409ba0
 .word 0xf9004ba0
 
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x0, [x16, #568]
+ldr x0, [x16, #704]
 bl _p_5
-.word 0xf900bfa0
+.word 0xf900dfa0
 .word 0xfd403fa0
 .word 0xfd4043a1
 .word 0xfd4047a2
 .word 0xfd404ba3
-bl _p_50
-.word 0xf940bfa0
-.word 0xaa0003f3
-.loc 4 264 0
-.word 0xaa1303e0
-.word 0xf900bba0
-bl _p_51
+bl _p_60
+.word 0xf940dfa0
+.word 0xaa0003f4
+.loc 4 333 0
+.word 0xaa1403e0
+.word 0xf900dba0
+bl _p_61
 .word 0xaa0003e1
-.word 0xf940bba2
+.word 0xf940dba2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_52
-.loc 4 265 0
-.word 0xaa1303e0
-.word 0xd2800021
-.word 0xf940027e
-bl _p_53
-.loc 4 266 0
+bl _p_62
+.loc 4 334 0
 .word 0xaa1403e0
+.word 0xd2800021
 .word 0xf940029e
-bl _p_54
+bl _p_63
+.loc 4 335 0
+.word 0xaa1503e0
+.word 0xf94002be
+bl _p_64
 .word 0xaa0003e1
 .word 0xd28000e0
 .word 0x1e620000
 .word 0x9e6703e1
-.word 0xfd00a7a1
-.word 0xfd00a7a0
-.word 0xfd40a7a0
+.word 0xfd00c7a1
+.word 0xfd00c7a0
+.word 0xfd40c7a0
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_55
+bl _p_65
 .word 0xaa0003e1
-.word 0xaa1303e0
-.word 0xf940027e
-bl _p_56
-.loc 4 267 0
+.word 0xaa1403e0
+.word 0xf940029e
+bl _p_66
+.loc 4 336 0
 .word 0xd2800040
 .word 0x93407c01
-.word 0xaa1303e0
-.word 0xf940027e
-bl _p_57
-.loc 4 268 0
-.word 0xaa1303e0
+.word 0xaa1403e0
+.word 0xf940029e
+bl _p_67
+.loc 4 337 0
+.word 0xaa1403e0
 .word 0xd2800001
-.word 0xf940027e
-bl _p_58
-.loc 4 269 0
-.word 0xaa1503e0
-.word 0xaa1303e1
-.word 0xf94002be
+.word 0xf940029e
+bl _p_68
+.loc 4 338 0
+.word 0xaa1703e0
+.word 0xaa1403e1
+.word 0xf94002fe
 bl _p_23
-.loc 4 270 0
+.loc 4 339 0
 .word 0xd280001e
 .word 0x9e6703c0
 .word 0xd280001e
@@ -1585,143 +2017,127 @@ bl _p_23
 .word 0xf2a8773e
 .word 0x9e6703c3
 .word 0xd2800000
-.word 0xf9006fa0
-.word 0xf90073a0
-.word 0xf90077a0
-.word 0xf9007ba0
-.word 0x910363a0
-bl _p_49
-.word 0xf9406fa0
+.word 0xf9007fa0
+.word 0xf90083a0
+.word 0xf90087a0
+.word 0xf9008ba0
+.word 0x9103e3a0
+bl _p_59
+.word 0xf9407fa0
 .word 0xf9002fa0
-.word 0xf94073a0
+.word 0xf94083a0
 .word 0xf90033a0
-.word 0xf94077a0
+.word 0xf94087a0
 .word 0xf90037a0
-.word 0xf9407ba0
+.word 0xf9408ba0
 .word 0xf9003ba0
 
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x0, [x16, #568]
+ldr x0, [x16, #704]
 bl _p_5
-.word 0xf900b7a0
+.word 0xf900d7a0
 .word 0xfd402fa0
 .word 0xfd4033a1
 .word 0xfd4037a2
 .word 0xfd403ba3
-bl _p_50
-.word 0xf940b7a0
-.word 0xaa0003f7
-.loc 4 271 0
-.word 0xaa1703e0
-.word 0xf900b3a0
-bl _p_51
+bl _p_60
+.word 0xf940d7a0
+.word 0xaa0003f3
+.loc 4 340 0
+.word 0xaa1303e0
+.word 0xf900d3a0
+bl _p_61
 .word 0xaa0003e1
-.word 0xf940b3a2
+.word 0xf940d3a2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_52
-.loc 4 272 0
-.word 0xaa1703e0
+bl _p_62
+.loc 4 341 0
+.word 0xaa1303e0
 .word 0xd2800021
-.word 0xf94002fe
-bl _p_53
-.loc 4 273 0
-.word 0xaa1403e0
-.word 0xf940029e
-bl _p_54
+.word 0xf940027e
+bl _p_63
+.loc 4 342 0
+.word 0xaa1503e0
+.word 0xf94002be
+bl _p_64
 .word 0xaa0003e1
 .word 0xd28000e0
 .word 0x1e620000
 .word 0x9e6703e1
-.word 0xfd00aba1
-.word 0xfd00aba0
-.word 0xfd40aba0
+.word 0xfd00cba1
+.word 0xfd00cba0
+.word 0xfd40cba0
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_55
+bl _p_65
 .word 0xaa0003e1
-.word 0xaa1703e0
-.word 0xf94002fe
-bl _p_56
-.loc 4 274 0
+.word 0xaa1303e0
+.word 0xf940027e
+bl _p_66
+.loc 4 343 0
 .word 0xd2800060
 .word 0x93407c01
-.word 0xaa1703e0
-.word 0xf94002fe
-bl _p_57
-.loc 4 275 0
-.word 0xaa1703e0
+.word 0xaa1303e0
+.word 0xf940027e
+bl _p_67
+.loc 4 344 0
+.word 0xaa1303e0
 .word 0xd2800001
+.word 0xf940027e
+bl _p_68
+.loc 4 345 0
+.word 0xaa1703e0
+.word 0xaa1303e1
 .word 0xf94002fe
-bl _p_58
-.loc 4 276 0
-.word 0xaa1503e0
-.word 0xaa1703e1
-.word 0xf94002be
 bl _p_23
-.word 0x14000044
-.loc 4 280 0
-.word 0xaa1a03f6
-.word 0xb400017a
-.word 0xf94002c0
-.word 0xf9400000
-.word 0xf9400800
-.word 0xf9401000
-
-adrp x16, mono_aot_DocViewer_got@PAGE+0
-add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x1, [x16, #576]
-.word 0xeb01001f
-.word 0x10000011
-.word 0x54000cc1
-.word 0xaa1603f5
-.loc 4 281 0
+.loc 4 346 0
 .word 0xd2800020
 .word 0x93407c01
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_59
-.word 0xaa0003f6
-.word 0xb4000176
-.word 0xf94002c0
+bl _p_69
+.word 0xaa0003f7
+.word 0xb4000177
+.word 0xf94002e0
 .word 0xf9400000
 .word 0xf9400800
 .word 0xf9401000
 
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x1, [x16, #584]
+ldr x1, [x16, #712]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x54000a81
-.word 0xaa1603f4
-.loc 4 282 0
+.word 0xaa1703f5
+.loc 4 347 0
 .word 0xd2800040
 .word 0x93407c01
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_59
-.word 0xaa0003f6
-.word 0xb4000176
-.word 0xf94002c0
+bl _p_69
+.word 0xaa0003f7
+.word 0xb4000177
+.word 0xf94002e0
 .word 0xf9400000
 .word 0xf9400800
 .word 0xf9401000
 
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x1, [x16, #584]
+ldr x1, [x16, #712]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x54000841
-.word 0xaa1603f3
-.loc 4 283 0
+.word 0xaa1703f4
+.loc 4 348 0
 .word 0xd2800060
 .word 0x93407c01
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_59
+bl _p_69
 .word 0xaa0003fa
 .word 0xb400017a
 .word 0xf9400340
@@ -1731,17 +2147,17 @@ bl _p_59
 
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x1, [x16, #584]
+ldr x1, [x16, #712]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x54000601
-.word 0xaa1a03f3
-.loc 4 287 0
+.word 0xaa1a03f4
+.loc 4 350 0
 
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x0, [x16, #592]
-.word 0xf900b3a0
+ldr x0, [x16, #440]
+.word 0xf900d3a0
 .word 0xf94023a0
 .word 0xf9401400
 .word 0xf9402ba1
@@ -1753,38 +2169,38 @@ ldr x0, [x16, #592]
 .word 0xd37ef421
 .word 0x8b010000
 .word 0x91008000
-bl _p_60
+bl _p_70
 .word 0xaa0003e1
-.word 0xf940b3a0
-bl _p_61
+.word 0xf940d3a0
+bl _p_71
 .word 0xaa0003e1
-.word 0xaa1403e0
-.word 0xf940029e
-bl _p_62
-.loc 4 288 0
+.word 0xaa1503e0
+.word 0xf94002be
+bl _p_72
+.loc 4 351 0
 
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x1, [x16, #600]
+ldr x1, [x16, #720]
+.word 0xaa1a03e0
+.word 0xf940035e
+bl _p_72
+.loc 4 352 0
+
+adrp x16, mono_aot_DocViewer_got@PAGE+0
+add x16, x16, mono_aot_DocViewer_got@PAGEOFF
+ldr x1, [x16, #728]
 .word 0xaa1303e0
 .word 0xf940027e
-bl _p_62
-.loc 4 289 0
-
-adrp x16, mono_aot_DocViewer_got@PAGE+0
-add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x1, [x16, #608]
-.word 0xaa1703e0
-.word 0xf94002fe
-bl _p_62
-.loc 4 291 0
-.word 0xaa1503e0
+bl _p_72
+.loc 4 359 0
+.word 0xaa1603e0
 .word 0xa94153b3
 .word 0xa9425bb5
 .word 0xf9401bb7
 .word 0xf9401fba
 .word 0x910003bf
-.word 0xa8da7bfd
+.word 0xa8dd7bfd
 .word 0xd65f03c0
 .word 0xd2801880
 .word 0xaa1103e1
@@ -1793,318 +2209,24 @@ bl _p_30
 .word 0xaa1103e1
 bl _p_30
 
-Lme_19:
+Lme_1c:
 .text
 	.align 4
-	.no_dead_strip DocViewer_DocViewController__ViewDidLoadc__AnonStorey0__ctor
-DocViewer_DocViewController__ViewDidLoadc__AnonStorey0__ctor:
+	.no_dead_strip DocViewer_DocViewController__setNavButtonsc__AnonStorey0__ctor
+DocViewer_DocViewController__setNavButtonsc__AnonStorey0__ctor:
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0x910003bf
 .word 0xa8c27bfd
-.word 0xd65f03c0
-
-Lme_1a:
-.text
-	.align 4
-	.no_dead_strip DocViewer_DocViewController__ViewDidLoadc__AnonStorey0__m__0_object_UIKit_UIButtonEventArgs
-DocViewer_DocViewController__ViewDidLoadc__AnonStorey0__m__0_object_UIKit_UIButtonEventArgs:
-.loc 4 94 0 prologue_end
-.word 0xa9b37bfd
-.word 0x910003fd
-.word 0xa9016bb9
-.word 0xaa0003f9
-.word 0xf90013a1
-.word 0xaa0203fa
-.word 0xf940035e
-.word 0xf9400b40
-.word 0x92800001
-.word 0xf2bfffe1
-.word 0x93407c21
-.word 0xeb01001f
-.word 0x9a9f07e0
-.word 0x34001700
-.loc 4 96 0
-.word 0xf940035e
-.word 0xf9400b40
-.word 0xd2800041
-.word 0x93407c21
-.word 0xeb01001f
-.word 0x9a9f17e0
-.word 0x34001620
-.loc 4 97 0
-.word 0xf9400f20
-.word 0xf90063a0
-.word 0xf9400f21
-.word 0xaa0103e0
-.word 0xf940003e
-bl _p_16
-.word 0xaa0003e1
-.word 0x9100a3a0
-.word 0xf90027a0
-.word 0xaa0103e0
-.word 0xf940003e
-bl _p_63
-.word 0xf94027be
-.word 0xfd0003c0
-.word 0xfd0007c1
-.word 0xfd000bc2
-.word 0xfd000fc3
-
-adrp x16, mono_aot_DocViewer_got@PAGE+0
-add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x0, [x16, #616]
-bl _p_5
-.word 0xf90067a0
-.word 0xfd4017a0
-.word 0xfd401ba1
-.word 0xfd401fa2
-.word 0xfd4023a3
-bl _p_64
-.word 0xf94063a0
-.word 0xf94067a1
-.word 0xf9005fa1
-.word 0xf9002001
-.word 0x91010000
-bl _p_7
-.word 0xf9405fa0
-.loc 4 110 0
-.word 0xf9400f21
-.word 0xaa0103e0
-.word 0xf940003e
-bl _p_31
-.word 0xf90053a0
-
-adrp x16, mono_aot_DocViewer_got@PAGE+0
-add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x0, [x16, #592]
-.word 0xf90057a0
-.word 0xf9400b20
-.word 0xaa0003e1
-.word 0xf940003e
-.word 0xf9400800
-.word 0xf9005ba0
-
-adrp x16, mono_aot_DocViewer_got@PAGE+0
-add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x0, [x16, #624]
-bl _p_26
-.word 0xaa0003e1
-.word 0xf94057a0
-.word 0xf9405ba2
-.word 0xf9000822
-bl _p_65
-.word 0xaa0003e1
-.word 0xf94053a2
-.word 0xaa0203e0
-.word 0xf940005e
-bl _p_32
-.loc 4 111 0
-.word 0xf9400f21
-.word 0xaa0103e0
-.word 0xf940003e
-bl _p_31
-.word 0xf90043a0
-
-adrp x16, mono_aot_DocViewer_got@PAGE+0
-add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x0, [x16, #352]
-.word 0xf90047a0
-.word 0xeb1f033f
-.word 0x10000011
-.word 0x54000d60
-
-adrp x16, mono_aot_DocViewer_got@PAGE+0
-add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x0, [x16, #264]
-bl _p_26
-.word 0xf9001019
-.word 0xf9004fa0
-.word 0x91008000
-bl _p_7
-.word 0xf9404fa0
-
-adrp x16, mono_aot_DocViewer_got@PAGE+0
-add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x1, [x16, #632]
-.word 0xf9001401
-
-adrp x16, mono_aot_DocViewer_got@PAGE+0
-add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x1, [x16, #640]
-.word 0xf9002001
-
-adrp x16, mono_aot_DocViewer_got@PAGE+0
-add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x1, [x16, #648]
-.word 0xf9401422
-.word 0xf9000c02
-.word 0xf9401021
-.word 0xf9000801
-.word 0x3901801f
-.word 0xf9004ba0
-
-adrp x16, mono_aot_DocViewer_got@PAGE+0
-add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x0, [x16, #296]
-bl _p_5
-.word 0xf94047a1
-.word 0xf9404ba3
-.word 0xf9003fa0
-.word 0xd2800002
-bl _p_33
-.word 0xf9403fa1
-.word 0xf94043a2
-.word 0xaa0203e0
-.word 0xf940005e
-bl _p_34
-.loc 4 117 0
-.word 0xf9400f21
-.word 0xaa0103e0
-.word 0xf940003e
-bl _p_31
-.word 0xf9002fa0
-
-adrp x16, mono_aot_DocViewer_got@PAGE+0
-add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x0, [x16, #656]
-.word 0xf90033a0
-.word 0xeb1f033f
-.word 0x10000011
-.word 0x540006e0
-
-adrp x16, mono_aot_DocViewer_got@PAGE+0
-add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x0, [x16, #264]
-bl _p_26
-.word 0xf9001019
-.word 0xf9003ba0
-.word 0x91008000
-bl _p_7
-.word 0xf9403ba0
-
-adrp x16, mono_aot_DocViewer_got@PAGE+0
-add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x1, [x16, #664]
-.word 0xf9001401
-
-adrp x16, mono_aot_DocViewer_got@PAGE+0
-add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x1, [x16, #672]
-.word 0xf9002001
-
-adrp x16, mono_aot_DocViewer_got@PAGE+0
-add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x1, [x16, #680]
-.word 0xf9401422
-.word 0xf9000c02
-.word 0xf9401021
-.word 0xf9000801
-.word 0x3901801f
-.word 0xf90037a0
-
-adrp x16, mono_aot_DocViewer_got@PAGE+0
-add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x0, [x16, #296]
-bl _p_5
-.word 0xf94033a1
-.word 0xf94037a3
-.word 0xf9002ba0
-.word 0xd2800002
-bl _p_33
-.word 0xf9402ba1
-.word 0xf9402fa2
-.word 0xaa0203e0
-.word 0xf940005e
-bl _p_36
-.loc 4 124 0
-.word 0xf9400f21
-.word 0xaa0103e0
-.word 0xf940003e
-bl _p_16
-.word 0xaa0003e2
-.word 0xf9400f20
-.word 0xf9402001
-.word 0xaa0203e0
-.word 0xf940005e
-bl _p_23
-.word 0xa9416bb9
-.word 0x910003bf
-.word 0xa8cd7bfd
-.word 0xd65f03c0
-.word 0xd28002c0
-.word 0xaa1103e1
-bl _p_30
-
-Lme_1b:
-.text
-	.align 4
-	.no_dead_strip DocViewer_DocViewController__ViewDidLoadc__AnonStorey0__m__1_object_System_EventArgs
-DocViewer_DocViewController__ViewDidLoadc__AnonStorey0__m__1_object_System_EventArgs:
-.loc 4 114 0 prologue_end
-.word 0xa9bd7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-.word 0xf9000fa1
-.word 0xf90013a2
-.word 0xf9400ba0
-.word 0xf9400c00
-.word 0xf9402001
-.word 0xaa0103e0
-.word 0xf940003e
-bl _p_66
-.loc 4 115 0
-.word 0xf9400ba0
-.word 0xf9400c00
-bl _p_29
-.word 0x910003bf
-.word 0xa8c37bfd
-.word 0xd65f03c0
-
-Lme_1c:
-.text
-	.align 4
-	.no_dead_strip DocViewer_DocViewController__ViewDidLoadc__AnonStorey0__m__2_object_System_EventArgs
-DocViewer_DocViewController__ViewDidLoadc__AnonStorey0__m__2_object_System_EventArgs:
-.loc 4 119 0 prologue_end
-.word 0xa9bd7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-.word 0xf9000fa1
-.word 0xf90013a2
-.word 0xf9400ba0
-.word 0xf9400c00
-.word 0xf9402001
-.word 0xaa0103e0
-.word 0xf940003e
-bl _p_66
-.loc 4 120 0
-.word 0xf9400ba0
-.word 0xf9400c00
-bl _p_29
-.word 0x910003bf
-.word 0xa8c37bfd
 .word 0xd65f03c0
 
 Lme_1d:
 .text
 	.align 4
-	.no_dead_strip DocViewer_DocViewController__setNavButtonsc__AnonStorey1__ctor
-DocViewer_DocViewController__setNavButtonsc__AnonStorey1__ctor:
-.word 0xa9be7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-.word 0x910003bf
-.word 0xa8c27bfd
-.word 0xd65f03c0
-
-Lme_1e:
-.text
-	.align 4
-	.no_dead_strip DocViewer_DocViewController__setNavButtonsc__AnonStorey1__m__0_object_UIKit_UIButtonEventArgs
-DocViewer_DocViewController__setNavButtonsc__AnonStorey1__m__0_object_UIKit_UIButtonEventArgs:
-.loc 4 191 0 prologue_end
+	.no_dead_strip DocViewer_DocViewController__setNavButtonsc__AnonStorey0__m__0_object_UIKit_UIButtonEventArgs
+DocViewer_DocViewController__setNavButtonsc__AnonStorey0__m__0_object_UIKit_UIButtonEventArgs:
+.loc 4 197 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xa9016bb9
@@ -2119,17 +2241,17 @@ DocViewer_DocViewController__setNavButtonsc__AnonStorey1__m__0_object_UIKit_UIBu
 .word 0xeb01001f
 .word 0x9a9f07e0
 .word 0x34000980
-.loc 4 194 0
+.loc 4 200 0
 .word 0xd2800000
-bl _p_67
-.loc 4 195 0
+bl _p_73
+.loc 4 201 0
 .word 0xf9400f20
 .word 0xf9401c00
 .word 0xf90023a0
 
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x0, [x16, #432]
+ldr x0, [x16, #552]
 .word 0xf9400b21
 .word 0xf940035e
 .word 0xf9400b42
@@ -2142,7 +2264,7 @@ ldr x0, [x16, #432]
 .word 0x8b020021
 .word 0x91008021
 .word 0xf9400021
-bl _p_68
+bl _p_74
 .word 0xf94023a2
 .word 0xf9400001
 .word 0x3940a823
@@ -2154,7 +2276,7 @@ bl _p_68
 
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x3, [x16, #688]
+ldr x3, [x16, #736]
 .word 0xeb03003f
 .word 0x10000011
 .word 0x540005a1
@@ -2163,9 +2285,9 @@ ldr x3, [x16, #688]
 .word 0xf9400042
 .word 0xf9417450
 .word 0xd63f0200
-.loc 4 196 0
-bl _p_69
-.loc 4 198 0
+.loc 4 202 0
+bl _p_75
+.loc 4 204 0
 .word 0xf9400f21
 .word 0xaa0103e0
 .word 0xf940003e
@@ -2173,7 +2295,7 @@ bl _p_31
 .word 0xaa0003e1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_70
+bl _p_76
 .word 0xf9001ba0
 .word 0xf9400f20
 .word 0xf9401c01
@@ -2212,7 +2334,7 @@ bl _p_30
 .word 0xaa1103e1
 bl _p_30
 
-Lme_1f:
+Lme_1e:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_EventHandler_1_Carousels_iCarouselItemSelectedEventArgs_invoke_void_object_TEventArgs_object_Carousels_iCarouselItemSelectedEventArgs
@@ -2230,7 +2352,7 @@ wrapper_delegate_invoke_System_EventHandler_1_Carousels_iCarouselItemSelectedEve
 
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x0, [x16, #696]
+ldr x0, [x16, #744]
 .word 0xb9400000
 .word 0x35000680
 .word 0x14000001
@@ -2283,8 +2405,8 @@ ldr x0, [x16, #696]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 .word 0xaa1703e0
-bl _p_71
-bl _p_72
+bl _p_77
+bl _p_78
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffcb
@@ -2292,86 +2414,7 @@ bl _p_72
 .word 0xaa1103e1
 bl _p_30
 
-Lme_21:
-.text
-	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_EventHandler_1_UIKit_UIButtonEventArgs_invoke_void_object_TEventArgs_object_UIKit_UIButtonEventArgs
-wrapper_delegate_invoke_System_EventHandler_1_UIKit_UIButtonEventArgs_invoke_void_object_TEventArgs_object_UIKit_UIButtonEventArgs:
-.loc 5 1 0
-.word 0xa9bb7bfd
-.word 0x910003fd
-.word 0xa9015bb5
-.word 0xa90263b7
-.word 0xa9036bb9
-.word 0xaa0003f8
-.word 0xaa0103f9
-.word 0xaa0203fa
-
-adrp x16, mono_aot_DocViewer_got@PAGE+0
-add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x0, [x16, #696]
-.word 0xb9400000
-.word 0x35000680
-.word 0x14000001
-.word 0xf9403717
-.word 0xaa1703e0
-.word 0xb5000220
-.word 0xf9401317
-.word 0xaa1703e0
-.word 0xb4000100
-.word 0xf9401f00
-.word 0xf9400b03
-.word 0xaa1703e0
-.word 0xaa1903e1
-.word 0xaa1a03e2
-.word 0xd63f0060
-.word 0x1400001e
-.word 0xf9401f00
-.word 0xf9400b02
-.word 0xaa1903e0
-.word 0xaa1a03e1
-.word 0xd63f0040
-.word 0x14000018
-.word 0xb9801af8
-.word 0xd2800016
-.word 0x93407ec0
-.word 0xb9801ae1
-.word 0xeb00003f
-.word 0x10000011
-.word 0x540003a9
-.word 0xd37df000
-.word 0x8b0002e0
-.word 0x91008000
-.word 0xf9400015
-.word 0xaa1503e3
-.word 0xaa0303e0
-.word 0xaa1903e1
-.word 0xaa1a03e2
-.word 0xf90023a3
-.word 0xf9400c70
-.word 0xd63f0200
-.word 0xf94023a0
-.word 0x110006d6
-.word 0xaa1603e0
-.word 0x6b18001f
-.word 0x54fffd8b
-.word 0xa9415bb5
-.word 0xa94263b7
-.word 0xa9436bb9
-.word 0x910003bf
-.word 0xa8c57bfd
-.word 0xd65f03c0
-.word 0xaa1703e0
-bl _p_71
-bl _p_72
-.word 0xaa0003f7
-.word 0xb5ffff80
-.word 0x17ffffcb
-.word 0xd2801880
-.word 0xaa1103e1
-bl _p_30
-
-Lme_22:
+Lme_20:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_string_bool_invoke_TResult_T_string
@@ -2387,7 +2430,7 @@ wrapper_delegate_invoke_System_Func_2_string_bool_invoke_TResult_T_string:
 
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x0, [x16, #696]
+ldr x0, [x16, #744]
 .word 0xb9400000
 .word 0x350006a0
 .word 0x14000001
@@ -2441,8 +2484,8 @@ ldr x0, [x16, #696]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 .word 0xaa1803e0
-bl _p_71
-bl _p_72
+bl _p_77
+bl _p_78
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffca
@@ -2450,7 +2493,7 @@ bl _p_72
 .word 0xaa1103e1
 bl _p_30
 
-Lme_27:
+Lme_25:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
@@ -2467,17 +2510,17 @@ System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF:
 .word 0x9100a3a0
 .word 0xf9002fa0
 .word 0xf9401fa0
-bl _p_73
+bl _p_79
 .word 0xaa0003ef
 .word 0xf9402fa0
 .word 0xf9400ba1
-bl _p_74
+bl _p_80
 .word 0xf94017a0
 .word 0xf9000fa0
 .word 0xf9401ba0
 .word 0xf90013a0
 .word 0xf9401fa0
-bl _p_73
+bl _p_79
 bl _p_5
 .word 0xf90023a0
 .word 0x91004001
@@ -2497,7 +2540,86 @@ bl _p_7
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_28:
+Lme_26:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_EventHandler_1_UIKit_UIButtonEventArgs_invoke_void_object_TEventArgs_object_UIKit_UIButtonEventArgs
+wrapper_delegate_invoke_System_EventHandler_1_UIKit_UIButtonEventArgs_invoke_void_object_TEventArgs_object_UIKit_UIButtonEventArgs:
+.loc 5 1 0
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xa9015bb5
+.word 0xa90263b7
+.word 0xa9036bb9
+.word 0xaa0003f8
+.word 0xaa0103f9
+.word 0xaa0203fa
+
+adrp x16, mono_aot_DocViewer_got@PAGE+0
+add x16, x16, mono_aot_DocViewer_got@PAGEOFF
+ldr x0, [x16, #744]
+.word 0xb9400000
+.word 0x35000680
+.word 0x14000001
+.word 0xf9403717
+.word 0xaa1703e0
+.word 0xb5000220
+.word 0xf9401317
+.word 0xaa1703e0
+.word 0xb4000100
+.word 0xf9401f00
+.word 0xf9400b03
+.word 0xaa1703e0
+.word 0xaa1903e1
+.word 0xaa1a03e2
+.word 0xd63f0060
+.word 0x1400001e
+.word 0xf9401f00
+.word 0xf9400b02
+.word 0xaa1903e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x14000018
+.word 0xb9801af8
+.word 0xd2800016
+.word 0x93407ec0
+.word 0xb9801ae1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x540003a9
+.word 0xd37df000
+.word 0x8b0002e0
+.word 0x91008000
+.word 0xf9400015
+.word 0xaa1503e3
+.word 0xaa0303e0
+.word 0xaa1903e1
+.word 0xaa1a03e2
+.word 0xf90023a3
+.word 0xf9400c70
+.word 0xd63f0200
+.word 0xf94023a0
+.word 0x110006d6
+.word 0xaa1603e0
+.word 0x6b18001f
+.word 0x54fffd8b
+.word 0xa9415bb5
+.word 0xa94263b7
+.word 0xa9436bb9
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+.word 0xaa1703e0
+bl _p_77
+bl _p_78
+.word 0xaa0003f7
+.word 0xb5ffff80
+.word 0x17ffffcb
+.word 0xd2801880
+.word 0xaa1103e1
+bl _p_30
+
+Lme_27:
 .text
 	.align 4
 	.no_dead_strip System_Linq_Enumerable_ToArray_TSource_INT_System_Collections_Generic_IEnumerable_1_TSource_INT
@@ -2517,10 +2639,10 @@ System_Linq_Enumerable_ToArray_TSource_INT_System_Collections_Generic_IEnumerabl
 .word 0x910083a0
 .word 0xf90023a0
 .word 0xf9400fa0
-bl _p_75
+bl _p_81
 .word 0xf90027a0
 .word 0xf9400fa0
-bl _p_76
+bl _p_82
 .word 0xaa0003e2
 .word 0xf94023a0
 .word 0xf94027af
@@ -2529,10 +2651,10 @@ bl _p_76
 .word 0x910083a0
 .word 0xf9001ba0
 .word 0xf9400fa0
-bl _p_75
+bl _p_81
 .word 0xf9001fa0
 .word 0xf9400fa0
-bl _p_77
+bl _p_83
 .word 0xaa0003e1
 .word 0xf9401ba0
 .word 0xf9401faf
@@ -2544,15 +2666,15 @@ bl _p_77
 
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x0, [x16, #704]
+ldr x0, [x16, #752]
 .word 0xd2800021
-bl _p_78
-bl _p_79
-bl _p_71
+bl _p_84
+bl _p_85
+bl _p_77
 
-Lme_29:
+Lme_28:
 .text
-ut_43:
+ut_42:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_T_INT__ctor_System_Array
 ut_end:
@@ -2560,7 +2682,7 @@ ut_end:
 _unbox_trampoline_p:
 
 	.long 0
-LDIFF_SYM3=ut_end - ut_43
+LDIFF_SYM3=ut_end - ut_42
 	.long LDIFF_SYM3
 .text
 	.align 4
@@ -2586,9 +2708,9 @@ bl _p_7
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_2b:
+Lme_2a:
 .text
-ut_44:
+ut_43:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_T_INT_Dispose
 .text
@@ -2608,9 +2730,9 @@ System_Array_InternalEnumerator_1_T_INT_Dispose:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_2c:
+Lme_2b:
 .text
-ut_45:
+ut_44:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_T_INT_MoveNext
 .text
@@ -2657,9 +2779,9 @@ System_Array_InternalEnumerator_1_T_INT_MoveNext:
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_2d:
+Lme_2c:
 .text
-ut_46:
+ut_45:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_T_INT_get_Current
 .text
@@ -2693,7 +2815,7 @@ System_Array_InternalEnumerator_1_T_INT_get_Current:
 .word 0x4b010000
 .word 0xf90017a0
 .word 0xf9400fa0
-bl _p_80
+bl _p_86
 .word 0xaa0003e1
 .word 0xf9401fa0
 .word 0xf9001ba1
@@ -2701,7 +2823,7 @@ bl _p_80
 .word 0xf940001e
 .word 0xf90013a0
 .word 0xf9400fa0
-bl _p_81
+bl _p_87
 .word 0xaa0003e2
 .word 0xf94013a0
 .word 0xf94017a1
@@ -2714,22 +2836,22 @@ bl _p_81
 .word 0xd65f03c0
 .loc 6 259 0
 .word 0xd29f4800
-bl _p_82
+bl _p_88
 .word 0xaa0003e1
 .word 0xd2801920
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_71
+bl _p_77
 .loc 6 261 0
 .word 0xd29f52c0
-bl _p_82
+bl _p_88
 .word 0xaa0003e1
 .word 0xd2801920
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_71
+bl _p_77
 
-Lme_2e:
+Lme_2d:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__IEnumerable_GetEnumerator_T_INT
@@ -2745,10 +2867,10 @@ System_Array_InternalArray__IEnumerable_GetEnumerator_T_INT:
 .word 0x9100a3a0
 .word 0xf9002fa0
 .word 0xf9401fa0
-bl _p_83
+bl _p_89
 .word 0xf90033a0
 .word 0xf9401fa0
-bl _p_84
+bl _p_90
 .word 0xaa0003e2
 .word 0xf9402fa0
 .word 0xf94033af
@@ -2759,7 +2881,7 @@ bl _p_84
 .word 0xf9401ba0
 .word 0xf90013a0
 .word 0xf9401fa0
-bl _p_83
+bl _p_89
 bl _p_5
 .word 0xf90023a0
 .word 0x91004001
@@ -2779,9 +2901,9 @@ bl _p_7
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_2f:
+Lme_2e:
 .text
-ut_48:
+ut_47:
 add x0, x0, 16
 b System_Linq_Buffer_1_TElement_INT__ctor_System_Collections_Generic_IEnumerable_1_TElement_INT
 .text
@@ -2803,18 +2925,18 @@ System_Linq_Buffer_1_TElement_INT__ctor_System_Collections_Generic_IEnumerable_1
 .word 0xd2800017
 .loc 7 2575 0
 .word 0xf94023a0
-bl _p_85
+bl _p_91
 .word 0xaa0003e2
 .word 0xf9400441
 .word 0xaa1a03e0
-bl _p_86
+bl _p_92
 .word 0xaa0003f6
 .loc 7 2576 0
 .word 0xaa1603e0
 .word 0xb4000400
 .loc 7 2577 0
 .word 0xf94023a0
-bl _p_87
+bl _p_93
 .word 0xaa0003ef
 .word 0xaa1603e0
 .word 0xf94002c1
@@ -2830,13 +2952,13 @@ bl _p_87
 .word 0x5400100d
 .loc 7 2579 0
 .word 0xf94023a0
-bl _p_88
+bl _p_94
 .word 0xaa1703e1
-bl _p_89
+bl _p_95
 .word 0xaa0003f8
 .loc 7 2580 0
 .word 0xf94023a0
-bl _p_90
+bl _p_96
 .word 0xaa0003ef
 .word 0xaa1603e0
 .word 0xaa1803e1
@@ -2849,7 +2971,7 @@ bl _p_90
 .word 0x1400006f
 .loc 7 2584 0
 .word 0xf94023a0
-bl _p_91
+bl _p_97
 .word 0xaa0003ef
 .word 0xaa1a03e0
 .word 0xf9400341
@@ -2862,7 +2984,7 @@ bl _p_91
 .word 0xf94027a0
 .word 0xf9003ba0
 .word 0xf94023a0
-bl _p_92
+bl _p_98
 .word 0xaa0003ef
 .word 0xf9403ba1
 .word 0xaa0103e0
@@ -2877,9 +2999,9 @@ bl _p_92
 .word 0xb50000f8
 .loc 7 2586 0
 .word 0xf94023a0
-bl _p_88
+bl _p_94
 .word 0xd2800081
-bl _p_89
+bl _p_95
 .word 0xaa0003f8
 .word 0x14000028
 .loc 7 2588 0
@@ -2897,25 +3019,25 @@ bl _mono_imul_ovf
 
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x0, [x16, #696]
+ldr x0, [x16, #744]
 .word 0xb9400000
 .word 0xaa0103f6
 .word 0x34000140
-bl _p_72
+bl _p_78
 .word 0xaa0003e1
 .word 0xaa1603f5
 .word 0xaa0103f6
 .word 0xb4000080
 .word 0xaa1603e0
-bl _p_71
+bl _p_77
 .word 0xd2800015
 .word 0xaa1503f6
 .word 0xaa1603f5
 .word 0x14000001
 .word 0xf94023a0
-bl _p_88
+bl _p_94
 .word 0xaa1503e1
-bl _p_89
+bl _p_95
 .word 0xaa0003f6
 .loc 7 2590 0
 .word 0xaa1803e0
@@ -2923,7 +3045,7 @@ bl _p_89
 .word 0xaa1603e2
 .word 0xd2800003
 .word 0xaa1703e4
-bl _p_93
+bl _p_99
 .loc 7 2591 0
 .word 0xaa1603f8
 .loc 7 2593 0
@@ -2944,7 +3066,7 @@ bl _p_93
 
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x15, [x16, #504]
+ldr x15, [x16, #624]
 .word 0x92800ef0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -2962,7 +3084,7 @@ ldr x15, [x16, #504]
 
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x15, [x16, #512]
+ldr x15, [x16, #632]
 .word 0x928004f0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -2986,9 +3108,9 @@ bl _p_7
 .word 0xaa1103e1
 bl _p_30
 
-Lme_30:
+Lme_2f:
 .text
-ut_49:
+ut_48:
 add x0, x0, 16
 b System_Linq_Buffer_1_TElement_INT_ToArray
 .text
@@ -3004,10 +3126,10 @@ System_Linq_Buffer_1_TElement_INT_ToArray:
 .word 0xb9800b40
 .word 0x35000120
 .word 0xf94013a0
-bl _p_94
+bl _p_100
 .word 0xf9001ba0
 .word 0xf94013a0
-bl _p_95
+bl _p_101
 .word 0xf9401baf
 .word 0xd63f0000
 .word 0x14000016
@@ -3023,9 +3145,9 @@ bl _p_95
 .word 0xb9800b40
 .word 0xf9001ba0
 .word 0xf94013a0
-bl _p_96
+bl _p_102
 .word 0xf9401ba1
-bl _p_89
+bl _p_95
 .word 0xaa0003f9
 .loc 7 2605 0
 .word 0xf9400340
@@ -3033,7 +3155,7 @@ bl _p_89
 .word 0xd2800001
 .word 0xaa1903e2
 .word 0xd2800003
-bl _p_93
+bl _p_99
 .loc 7 2606 0
 .word 0xaa1903e0
 .word 0xa9416bb9
@@ -3041,9 +3163,9 @@ bl _p_93
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_31:
+Lme_30:
 .text
-ut_50:
+ut_49:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
 .text
@@ -3070,7 +3192,7 @@ bl _p_7
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_32:
+Lme_31:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__get_Item_T_INT_int
@@ -3088,7 +3210,7 @@ System_Array_InternalArray__get_Item_T_INT_int:
 .word 0x540001c2
 .loc 6 201 0
 .word 0xf94013a0
-bl _p_97
+bl _p_103
 .word 0x93407f40
 .word 0xd37ef401
 .word 0xf9400fa0
@@ -3103,14 +3225,14 @@ bl _p_97
 .word 0xd65f03c0
 .loc 6 198 0
 .word 0xd2814e20
-bl _p_82
+bl _p_88
 .word 0xaa0003e1
 .word 0xd2800300
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_71
+bl _p_77
 
-Lme_33:
+Lme_32:
 .text
 	.align 4
 	.no_dead_strip System_Array_Empty_T_INT
@@ -3120,20 +3242,20 @@ System_Array_Empty_T_INT:
 .word 0x910003fd
 .word 0xf9000baf
 .word 0xf9400ba0
-bl _p_98
+bl _p_104
 .word 0x3980ac10
 .word 0xd2800051
 .word 0x8a110210
 .word 0xb5000050
-bl _p_99
+bl _p_105
 .word 0xf9400ba0
-bl _p_100
+bl _p_106
 .word 0xf9400000
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_34:
+Lme_33:
 .text
 	.align 3
 jit_code_end:
@@ -3160,30 +3282,29 @@ bl DocViewer_DocViewController__ctor
 bl DocViewer_DocViewController_ViewDidLoad
 bl DocViewer_DocViewController_setNavButtons
 bl DocViewer_DocViewController_DidReceiveMemoryWarning
+bl DocViewer_DocViewController_getImageForIndex_System_nint
 bl DocViewer_DocViewController_ReleaseDesignerOutlets
 bl DocViewer_DocViewController__ViewDidLoadm__0_Carousels_iCarousel_Carousels_iCarouselOption_System_nfloat
 bl DocViewer_DocViewController__ViewDidLoadm__1_object_Carousels_iCarouselItemSelectedEventArgs
 bl DocViewer_DocViewController__setNavButtonsm__2_object_System_EventArgs
 bl DocViewer_DocViewController__setNavButtonsm__3_object_System_EventArgs
-bl DocViewer_DocViewController__setNavButtonsm__4_string
+bl DocViewer_DocViewController__ViewDidLoadm__4_object_System_EventArgs
+bl DocViewer_DocViewController__ViewDidLoadm__5_object_System_EventArgs
+bl DocViewer_DocViewController__setNavButtonsm__6_string
 bl DocViewer_DocViewController_CarouselDataSource__ctor
 bl DocViewer_DocViewController_CarouselDataSource_GetNumberOfItems_Carousels_iCarousel
 bl DocViewer_DocViewController_CarouselDataSource_GetViewForItem_Carousels_iCarousel_System_nint_UIKit_UIView
-bl DocViewer_DocViewController__ViewDidLoadc__AnonStorey0__ctor
-bl DocViewer_DocViewController__ViewDidLoadc__AnonStorey0__m__0_object_UIKit_UIButtonEventArgs
-bl DocViewer_DocViewController__ViewDidLoadc__AnonStorey0__m__1_object_System_EventArgs
-bl DocViewer_DocViewController__ViewDidLoadc__AnonStorey0__m__2_object_System_EventArgs
-bl DocViewer_DocViewController__setNavButtonsc__AnonStorey1__ctor
-bl DocViewer_DocViewController__setNavButtonsc__AnonStorey1__m__0_object_UIKit_UIButtonEventArgs
+bl DocViewer_DocViewController__setNavButtonsc__AnonStorey0__ctor
+bl DocViewer_DocViewController__setNavButtonsc__AnonStorey0__m__0_object_UIKit_UIButtonEventArgs
 bl method_addresses
 bl wrapper_delegate_invoke_System_EventHandler_1_Carousels_iCarouselItemSelectedEventArgs_invoke_void_object_TEventArgs_object_Carousels_iCarouselItemSelectedEventArgs
-bl wrapper_delegate_invoke_System_EventHandler_1_UIKit_UIButtonEventArgs_invoke_void_object_TEventArgs_object_UIKit_UIButtonEventArgs
 bl method_addresses
 bl method_addresses
 bl method_addresses
 bl method_addresses
 bl wrapper_delegate_invoke_System_Func_2_string_bool_invoke_TResult_T_string
 bl System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
+bl wrapper_delegate_invoke_System_EventHandler_1_UIKit_UIButtonEventArgs_invoke_void_object_TEventArgs_object_UIKit_UIButtonEventArgs
 bl System_Linq_Enumerable_ToArray_TSource_INT_System_Collections_Generic_IEnumerable_1_TSource_INT
 bl method_addresses
 bl System_Array_InternalEnumerator_1_T_INT__ctor_System_Array
@@ -3202,20 +3323,20 @@ method_addresses_end:
 	.align 3
 unbox_trampolines:
 
-	.long 43,44,45,46,48,49,50
+	.long 42,43,44,45,47,48,49
 unbox_trampolines_end:
 
 	.long 0
 .text
 	.align 3
 unbox_trampoline_addresses:
+bl ut_42
 bl ut_43
 bl ut_44
 bl ut_45
-bl ut_46
+bl ut_47
 bl ut_48
 bl ut_49
-bl ut_50
 
 	.long 0
 .section __TEXT, __const
@@ -3224,16 +3345,16 @@ unwind_info:
 
 	.byte 0,13,12,31,0,68,14,32,157,4,158,3,68,13,29,17,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,154
 	.byte 16,17,12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,154,22,17,12,31,0,68,14,128,1,157,16,158,15,68
-	.byte 13,29,68,154,14,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6,17,12,31,0,68,14,144,1,157,18
-	.byte 158,17,68,13,29,68,153,16,16,12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4,24,12,31,0,68,14,128
-	.byte 1,157,16,158,15,68,13,29,68,151,14,152,13,68,153,12,154,11,13,12,31,0,68,14,48,157,6,158,5,68,13,29
-	.byte 30,12,31,0,68,14,160,3,157,52,158,51,68,13,29,68,147,50,148,49,68,149,48,150,47,68,151,46,68,154,45,19
-	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,68,153,24,154,23,18,12,31,0,68,14,80,157,10,158,9,68,13
-	.byte 29,68,153,8,154,7,28,12,31,0,68,14,80,157,10,158,9,68,13,29,68,149,8,150,7,68,151,6,152,5,68,153
-	.byte 4,154,3,26,12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8,151,7,68,152,6,153,5,68,154,4,13,12
-	.byte 31,0,68,14,96,157,12,158,11,68,13,29,13,12,31,0,68,14,80,157,10,158,9,68,13,29,13,12,31,0,68,14
-	.byte 112,157,14,158,13,68,13,29,27,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,149,14,150,13,68,151,12,152
-	.byte 11,68,154,10,18,12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,154,5
+	.byte 13,29,68,154,14,21,12,31,0,68,14,48,157,6,158,5,68,13,29,68,152,4,153,3,68,154,2,16,12,31,0,68
+	.byte 14,64,157,8,158,7,68,13,29,68,154,6,19,12,31,0,68,14,160,2,157,36,158,35,68,13,29,68,153,34,154,33
+	.byte 16,12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4,24,12,31,0,68,14,128,1,157,16,158,15,68,13,29
+	.byte 68,151,14,152,13,68,153,12,154,11,13,12,31,0,68,14,48,157,6,158,5,68,13,29,30,12,31,0,68,14,208,3
+	.byte 157,58,158,57,68,13,29,68,147,56,148,55,68,149,54,150,53,68,151,52,68,154,51,18,12,31,0,68,14,80,157,10
+	.byte 158,9,68,13,29,68,153,8,154,7,28,12,31,0,68,14,80,157,10,158,9,68,13,29,68,149,8,150,7,68,151,6
+	.byte 152,5,68,153,4,154,3,26,12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8,151,7,68,152,6,153,5,68
+	.byte 154,4,13,12,31,0,68,14,96,157,12,158,11,68,13,29,13,12,31,0,68,14,80,157,10,158,9,68,13,29,13,12
+	.byte 31,0,68,14,112,157,14,158,13,68,13,29,27,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,149,14,150,13
+	.byte 68,151,12,152,11,68,154,10,18,12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,154,5
 
 .text
 	.align 4
@@ -3244,805 +3365,853 @@ plt_UIKit_UIApplication_Main_string___string_string:
 _p_1:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x16, [x16, #720]
+ldr x16, [x16, #768]
 br x16
-.word 1232
+.word 1269
 	.no_dead_strip plt_UIKit_UIApplicationDelegate__ctor
 plt_UIKit_UIApplicationDelegate__ctor:
 _p_2:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x16, [x16, #728]
+ldr x16, [x16, #776]
 br x16
-.word 1237
+.word 1274
 	.no_dead_strip plt_UIKit_UIScreen_get_MainScreen
 plt_UIKit_UIScreen_get_MainScreen:
 _p_3:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x16, [x16, #736]
+ldr x16, [x16, #784]
 br x16
-.word 1242
+.word 1279
 	.no_dead_strip plt_UIKit_UIScreen_get_Bounds
 plt_UIKit_UIScreen_get_Bounds:
 _p_4:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x16, [x16, #744]
+ldr x16, [x16, #792]
 br x16
-.word 1247
+.word 1284
 	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
 plt__jit_icall_ves_icall_object_new_specific:
 _p_5:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x16, [x16, #752]
+ldr x16, [x16, #800]
 br x16
-.word 1252
+.word 1289
 	.no_dead_strip plt_UIKit_UIWindow__ctor_CoreGraphics_CGRect
 plt_UIKit_UIWindow__ctor_CoreGraphics_CGRect:
 _p_6:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x16, [x16, #760]
+ldr x16, [x16, #808]
 br x16
-.word 1284
+.word 1321
 	.no_dead_strip plt_wrapper_write_barrier_object_wbarrier_noconc_intptr
 plt_wrapper_write_barrier_object_wbarrier_noconc_intptr:
 _p_7:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x16, [x16, #768]
+ldr x16, [x16, #816]
 br x16
-.word 1289
+.word 1326
 	.no_dead_strip plt_DocViewer_DocViewController__ctor
 plt_DocViewer_DocViewController__ctor:
 _p_8:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x16, [x16, #776]
+ldr x16, [x16, #824]
 br x16
-.word 1296
+.word 1333
 	.no_dead_strip plt_UIKit_UINavigationController__ctor_UIKit_UIViewController
 plt_UIKit_UINavigationController__ctor_UIKit_UIViewController:
 _p_9:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x16, [x16, #784]
+ldr x16, [x16, #832]
 br x16
-.word 1301
+.word 1338
 	.no_dead_strip plt_UIKit_UIWindow_set_RootViewController_UIKit_UIViewController
 plt_UIKit_UIWindow_set_RootViewController_UIKit_UIViewController:
 _p_10:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x16, [x16, #792]
+ldr x16, [x16, #840]
 br x16
-.word 1306
+.word 1343
 	.no_dead_strip plt_UIKit_UIWindow_MakeKeyAndVisible
 plt_UIKit_UIWindow_MakeKeyAndVisible:
 _p_11:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x16, [x16, #800]
+ldr x16, [x16, #848]
 br x16
-.word 1311
+.word 1348
 	.no_dead_strip plt_UIKit_UIViewController__ctor_intptr
 plt_UIKit_UIViewController__ctor_intptr:
 _p_12:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x16, [x16, #808]
+ldr x16, [x16, #856]
 br x16
-.word 1316
+.word 1353
 	.no_dead_strip plt_UIKit_UIViewController_ViewDidLoad
 plt_UIKit_UIViewController_ViewDidLoad:
 _p_13:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x16, [x16, #816]
+ldr x16, [x16, #864]
 br x16
-.word 1321
+.word 1358
 	.no_dead_strip plt_UIKit_UIViewController_DidReceiveMemoryWarning
 plt_UIKit_UIViewController_DidReceiveMemoryWarning:
 _p_14:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x16, [x16, #824]
+ldr x16, [x16, #872]
 br x16
-.word 1326
+.word 1363
 	.no_dead_strip plt_UIKit_UIViewController__ctor_string_Foundation_NSBundle
 plt_UIKit_UIViewController__ctor_string_Foundation_NSBundle:
 _p_15:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x16, [x16, #832]
+ldr x16, [x16, #880]
 br x16
-.word 1331
+.word 1368
 	.no_dead_strip plt_UIKit_UIViewController_get_View
 plt_UIKit_UIViewController_get_View:
 _p_16:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x16, [x16, #840]
+ldr x16, [x16, #888]
 br x16
-.word 1336
+.word 1373
 	.no_dead_strip plt_UIKit_UIView_get_Bounds
 plt_UIKit_UIView_get_Bounds:
 _p_17:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x16, [x16, #848]
+ldr x16, [x16, #896]
 br x16
-.word 1341
+.word 1378
 	.no_dead_strip plt_UIKit_UIImageView__ctor_CoreGraphics_CGRect
 plt_UIKit_UIImageView__ctor_CoreGraphics_CGRect:
 _p_18:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x16, [x16, #856]
+ldr x16, [x16, #904]
 br x16
-.word 1346
+.word 1383
 	.no_dead_strip plt_UIKit_UIImage_FromBundle_string
 plt_UIKit_UIImage_FromBundle_string:
 _p_19:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x16, [x16, #864]
+ldr x16, [x16, #912]
 br x16
-.word 1351
+.word 1388
 	.no_dead_strip plt_UIKit_UIImageView_set_Image_UIKit_UIImage
 plt_UIKit_UIImageView_set_Image_UIKit_UIImage:
 _p_20:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x16, [x16, #872]
+ldr x16, [x16, #920]
 br x16
-.word 1356
+.word 1393
 	.no_dead_strip plt_UIKit_UIView_set_ContentMode_UIKit_UIViewContentMode
 plt_UIKit_UIView_set_ContentMode_UIKit_UIViewContentMode:
 _p_21:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x16, [x16, #880]
+ldr x16, [x16, #928]
 br x16
-.word 1361
+.word 1398
 	.no_dead_strip plt_UIKit_UIView_set_AutoresizingMask_UIKit_UIViewAutoresizing
 plt_UIKit_UIView_set_AutoresizingMask_UIKit_UIViewAutoresizing:
 _p_22:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x16, [x16, #888]
+ldr x16, [x16, #936]
 br x16
-.word 1366
+.word 1403
 	.no_dead_strip plt_UIKit_UIView_AddSubview_UIKit_UIView
 plt_UIKit_UIView_AddSubview_UIKit_UIView:
 _p_23:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x16, [x16, #896]
+ldr x16, [x16, #944]
 br x16
-.word 1371
+.word 1408
 	.no_dead_strip plt_Carousels_iCarousel__ctor_CoreGraphics_CGRect
 plt_Carousels_iCarousel__ctor_CoreGraphics_CGRect:
 _p_24:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x16, [x16, #904]
+ldr x16, [x16, #952]
 br x16
-.word 1376
+.word 1413
 	.no_dead_strip plt_DocViewer_DocViewController_CarouselDataSource__ctor
 plt_DocViewer_DocViewController_CarouselDataSource__ctor:
 _p_25:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x16, [x16, #912]
+ldr x16, [x16, #960]
 br x16
-.word 1381
+.word 1418
 	.no_dead_strip plt__jit_icall_ves_icall_object_new_fast
 plt__jit_icall_ves_icall_object_new_fast:
 _p_26:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x16, [x16, #920]
+ldr x16, [x16, #968]
 br x16
-.word 1386
+.word 1423
 	.no_dead_strip plt_Carousels_iCarousel_set_GetValue_Carousels_iCarouselValueCondition
 plt_Carousels_iCarousel_set_GetValue_Carousels_iCarouselValueCondition:
 _p_27:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x16, [x16, #928]
+ldr x16, [x16, #976]
 br x16
-.word 1414
+.word 1451
 	.no_dead_strip plt_Carousels_iCarousel_add_ItemSelected_System_EventHandler_1_Carousels_iCarouselItemSelectedEventArgs
 plt_Carousels_iCarousel_add_ItemSelected_System_EventHandler_1_Carousels_iCarouselItemSelectedEventArgs:
 _p_28:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x16, [x16, #936]
+ldr x16, [x16, #984]
 br x16
-.word 1419
+.word 1456
 	.no_dead_strip plt_DocViewer_DocViewController_setNavButtons
 plt_DocViewer_DocViewController_setNavButtons:
 _p_29:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x16, [x16, #944]
+ldr x16, [x16, #992]
 br x16
-.word 1424
+.word 1461
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_30:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x16, [x16, #952]
+ldr x16, [x16, #1000]
 br x16
-.word 1429
+.word 1466
 	.no_dead_strip plt_UIKit_UIViewController_get_NavigationItem
 plt_UIKit_UIViewController_get_NavigationItem:
 _p_31:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x16, [x16, #960]
+ldr x16, [x16, #1008]
 br x16
-.word 1464
+.word 1501
 	.no_dead_strip plt_UIKit_UINavigationItem_set_Title_string
 plt_UIKit_UINavigationItem_set_Title_string:
 _p_32:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x16, [x16, #968]
+ldr x16, [x16, #1016]
 br x16
-.word 1469
+.word 1506
 	.no_dead_strip plt_UIKit_UIBarButtonItem__ctor_string_UIKit_UIBarButtonItemStyle_System_EventHandler
 plt_UIKit_UIBarButtonItem__ctor_string_UIKit_UIBarButtonItemStyle_System_EventHandler:
 _p_33:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x16, [x16, #976]
+ldr x16, [x16, #1024]
 br x16
-.word 1474
+.word 1511
 	.no_dead_strip plt_UIKit_UINavigationItem_set_RightBarButtonItem_UIKit_UIBarButtonItem
 plt_UIKit_UINavigationItem_set_RightBarButtonItem_UIKit_UIBarButtonItem:
 _p_34:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x16, [x16, #984]
+ldr x16, [x16, #1032]
 br x16
-.word 1479
+.word 1516
 	.no_dead_strip plt_System_Enum_ToString
 plt_System_Enum_ToString:
 _p_35:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x16, [x16, #992]
+ldr x16, [x16, #1040]
 br x16
-.word 1484
+.word 1521
 	.no_dead_strip plt_UIKit_UINavigationItem_set_LeftBarButtonItem_UIKit_UIBarButtonItem
 plt_UIKit_UINavigationItem_set_LeftBarButtonItem_UIKit_UIBarButtonItem:
 _p_36:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x16, [x16, #1000]
-br x16
-.word 1487
-	.no_dead_strip plt_UIKit_UIActionSheet__ctor
-plt_UIKit_UIActionSheet__ctor:
-_p_37:
-adrp x16, mono_aot_DocViewer_got@PAGE+0
-add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x16, [x16, #1008]
-br x16
-.word 1492
-	.no_dead_strip plt_UIKit_UIActionSheet_AddButton_string
-plt_UIKit_UIActionSheet_AddButton_string:
-_p_38:
-adrp x16, mono_aot_DocViewer_got@PAGE+0
-add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x16, [x16, #1016]
-br x16
-.word 1497
-	.no_dead_strip plt_UIKit_UIActionSheet_add_Dismissed_System_EventHandler_1_UIKit_UIButtonEventArgs
-plt_UIKit_UIActionSheet_add_Dismissed_System_EventHandler_1_UIKit_UIButtonEventArgs:
-_p_39:
-adrp x16, mono_aot_DocViewer_got@PAGE+0
-add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x16, [x16, #1024]
-br x16
-.word 1502
-	.no_dead_strip plt_UIKit_UIActionSheet_ShowInView_UIKit_UIView
-plt_UIKit_UIActionSheet_ShowInView_UIKit_UIView:
-_p_40:
-adrp x16, mono_aot_DocViewer_got@PAGE+0
-add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x16, [x16, #1032]
-br x16
-.word 1507
-	.no_dead_strip plt_UIKit_UINavigationItem_get_RightBarButtonItem
-plt_UIKit_UINavigationItem_get_RightBarButtonItem:
-_p_41:
-adrp x16, mono_aot_DocViewer_got@PAGE+0
-add x16, x16, mono_aot_DocViewer_got@PAGEOFF
-ldr x16, [x16, #1040]
-br x16
-.word 1512
-	.no_dead_strip plt_UIKit_UIActionSheet__ctor_string
-plt_UIKit_UIActionSheet__ctor_string:
-_p_42:
-adrp x16, mono_aot_DocViewer_got@PAGE+0
-add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1048]
 br x16
-.word 1517
-	.no_dead_strip plt_System_Enum_GetNames_System_Type
-plt_System_Enum_GetNames_System_Type:
-_p_43:
+.word 1524
+	.no_dead_strip plt_UIKit_UIView_get_Frame
+plt_UIKit_UIView_get_Frame:
+_p_37:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1056]
 br x16
-.word 1522
-	.no_dead_strip plt_System_Linq_Enumerable_Where_string_System_Collections_Generic_IEnumerable_1_string_System_Func_2_string_bool
-plt_System_Linq_Enumerable_Where_string_System_Collections_Generic_IEnumerable_1_string_System_Func_2_string_bool:
-_p_44:
+.word 1529
+	.no_dead_strip plt_SignaturePad_SignaturePadView__ctor_CoreGraphics_CGRect
+plt_SignaturePad_SignaturePadView__ctor_CoreGraphics_CGRect:
+_p_38:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1064]
 br x16
-.word 1525
-	.no_dead_strip plt_string_op_Inequality_string_string
-plt_string_op_Inequality_string_string:
-_p_45:
+.word 1534
+	.no_dead_strip plt_SignaturePad_SignaturePadView_set_CaptionText_string
+plt_SignaturePad_SignaturePadView_set_CaptionText_string:
+_p_39:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1072]
 br x16
-.word 1537
-	.no_dead_strip plt_Carousels_iCarouselDataSource__ctor
-plt_Carousels_iCarouselDataSource__ctor:
-_p_46:
+.word 1539
+	.no_dead_strip plt_UIKit_UIView_set_Hidden_bool
+plt_UIKit_UIView_set_Hidden_bool:
+_p_40:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1080]
 br x16
-.word 1540
-	.no_dead_strip plt_System_Linq_Enumerable_Range_int_int
-plt_System_Linq_Enumerable_Range_int_int:
-_p_47:
+.word 1544
+	.no_dead_strip plt_SignaturePad_SignaturePadView_set_SignaturePromptText_string
+plt_SignaturePad_SignaturePadView_set_SignaturePromptText_string:
+_p_41:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1088]
 br x16
-.word 1545
-	.no_dead_strip plt_System_Linq_Enumerable_ToArray_int_System_Collections_Generic_IEnumerable_1_int
-plt_System_Linq_Enumerable_ToArray_int_System_Collections_Generic_IEnumerable_1_int:
-_p_48:
+.word 1549
+	.no_dead_strip plt_DocViewer_DocViewController_getImageForIndex_System_nint
+plt_DocViewer_DocViewController_getImageForIndex_System_nint:
+_p_42:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1096]
 br x16
-.word 1550
-	.no_dead_strip plt_CoreGraphics_CGRect__ctor_single_single_single_single
-plt_CoreGraphics_CGRect__ctor_single_single_single_single:
-_p_49:
+.word 1554
+	.no_dead_strip plt_System_Drawing_RectangleF__ctor_single_single_single_single
+plt_System_Drawing_RectangleF__ctor_single_single_single_single:
+_p_43:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1104]
 br x16
-.word 1562
-	.no_dead_strip plt_UIKit_UILabel__ctor_CoreGraphics_CGRect
-plt_UIKit_UILabel__ctor_CoreGraphics_CGRect:
-_p_50:
+.word 1559
+	.no_dead_strip plt_CoreGraphics_CGRect_op_Implicit_System_Drawing_RectangleF
+plt_CoreGraphics_CGRect_op_Implicit_System_Drawing_RectangleF:
+_p_44:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1112]
 br x16
-.word 1567
-	.no_dead_strip plt_UIKit_UIColor_get_Clear
-plt_UIKit_UIColor_get_Clear:
-_p_51:
+.word 1564
+	.no_dead_strip plt_UIKit_UIView_set_Frame_CoreGraphics_CGRect
+plt_UIKit_UIView_set_Frame_CoreGraphics_CGRect:
+_p_45:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1120]
 br x16
-.word 1572
-	.no_dead_strip plt_UIKit_UIView_set_BackgroundColor_UIKit_UIColor
-plt_UIKit_UIView_set_BackgroundColor_UIKit_UIColor:
-_p_52:
+.word 1569
+	.no_dead_strip plt_string_Concat_object_object
+plt_string_Concat_object_object:
+_p_46:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1128]
 br x16
-.word 1577
-	.no_dead_strip plt_UIKit_UILabel_set_TextAlignment_UIKit_UITextAlignment
-plt_UIKit_UILabel_set_TextAlignment_UIKit_UITextAlignment:
-_p_53:
+.word 1574
+	.no_dead_strip plt_UIKit_UINavigationItem_get_RightBarButtonItem
+plt_UIKit_UINavigationItem_get_RightBarButtonItem:
+_p_47:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1136]
 br x16
-.word 1582
-	.no_dead_strip plt_UIKit_UILabel_get_Font
-plt_UIKit_UILabel_get_Font:
-_p_54:
+.word 1577
+	.no_dead_strip plt_UIKit_UIActionSheet__ctor_string
+plt_UIKit_UIActionSheet__ctor_string:
+_p_48:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1144]
 br x16
-.word 1587
-	.no_dead_strip plt_UIKit_UIFont_WithSize_System_nfloat
-plt_UIKit_UIFont_WithSize_System_nfloat:
-_p_55:
+.word 1582
+	.no_dead_strip plt_System_Enum_GetNames_System_Type
+plt_System_Enum_GetNames_System_Type:
+_p_49:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1152]
 br x16
-.word 1592
-	.no_dead_strip plt_UIKit_UILabel_set_Font_UIKit_UIFont
-plt_UIKit_UILabel_set_Font_UIKit_UIFont:
-_p_56:
+.word 1587
+	.no_dead_strip plt_System_Linq_Enumerable_Where_string_System_Collections_Generic_IEnumerable_1_string_System_Func_2_string_bool
+plt_System_Linq_Enumerable_Where_string_System_Collections_Generic_IEnumerable_1_string_System_Func_2_string_bool:
+_p_50:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1160]
 br x16
-.word 1597
-	.no_dead_strip plt_UIKit_UIView_set_Tag_System_nint
-plt_UIKit_UIView_set_Tag_System_nint:
-_p_57:
+.word 1590
+	.no_dead_strip plt_UIKit_UIActionSheet_AddButton_string
+plt_UIKit_UIActionSheet_AddButton_string:
+_p_51:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1168]
 br x16
 .word 1602
-	.no_dead_strip plt_UIKit_UILabel_set_LineBreakMode_UIKit_UILineBreakMode
-plt_UIKit_UILabel_set_LineBreakMode_UIKit_UILineBreakMode:
-_p_58:
+	.no_dead_strip plt_UIKit_UIActionSheet_add_Dismissed_System_EventHandler_1_UIKit_UIButtonEventArgs
+plt_UIKit_UIActionSheet_add_Dismissed_System_EventHandler_1_UIKit_UIButtonEventArgs:
+_p_52:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1176]
 br x16
 .word 1607
-	.no_dead_strip plt_UIKit_UIView_ViewWithTag_System_nint
-plt_UIKit_UIView_ViewWithTag_System_nint:
-_p_59:
+	.no_dead_strip plt_UIKit_UIActionSheet_ShowInView_UIKit_UIView
+plt_UIKit_UIActionSheet_ShowInView_UIKit_UIView:
+_p_53:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1184]
 br x16
 .word 1612
-	.no_dead_strip plt_int_ToString
-plt_int_ToString:
-_p_60:
+	.no_dead_strip plt_UIKit_UIView_RemoveFromSuperview
+plt_UIKit_UIView_RemoveFromSuperview:
+_p_54:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1192]
 br x16
 .word 1617
-	.no_dead_strip plt_string_Concat_string_string
-plt_string_Concat_string_string:
-_p_61:
+	.no_dead_strip plt_string_op_Inequality_string_string
+plt_string_op_Inequality_string_string:
+_p_55:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1200]
 br x16
-.word 1620
-	.no_dead_strip plt_UIKit_UILabel_set_Text_string
-plt_UIKit_UILabel_set_Text_string:
-_p_62:
+.word 1622
+	.no_dead_strip plt_Carousels_iCarouselDataSource__ctor
+plt_Carousels_iCarouselDataSource__ctor:
+_p_56:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1208]
 br x16
-.word 1623
-	.no_dead_strip plt_UIKit_UIView_get_Frame
-plt_UIKit_UIView_get_Frame:
-_p_63:
+.word 1625
+	.no_dead_strip plt_System_Linq_Enumerable_Range_int_int
+plt_System_Linq_Enumerable_Range_int_int:
+_p_57:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1216]
 br x16
-.word 1628
-	.no_dead_strip plt_SignaturePad_SignaturePadView__ctor_CoreGraphics_CGRect
-plt_SignaturePad_SignaturePadView__ctor_CoreGraphics_CGRect:
-_p_64:
+.word 1630
+	.no_dead_strip plt_System_Linq_Enumerable_ToArray_int_System_Collections_Generic_IEnumerable_1_int
+plt_System_Linq_Enumerable_ToArray_int_System_Collections_Generic_IEnumerable_1_int:
+_p_58:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1224]
 br x16
-.word 1633
-	.no_dead_strip plt_string_Concat_object_object
-plt_string_Concat_object_object:
-_p_65:
+.word 1635
+	.no_dead_strip plt_CoreGraphics_CGRect__ctor_single_single_single_single
+plt_CoreGraphics_CGRect__ctor_single_single_single_single:
+_p_59:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1232]
 br x16
-.word 1638
-	.no_dead_strip plt_UIKit_UIView_RemoveFromSuperview
-plt_UIKit_UIView_RemoveFromSuperview:
-_p_66:
+.word 1647
+	.no_dead_strip plt_UIKit_UILabel__ctor_CoreGraphics_CGRect
+plt_UIKit_UILabel__ctor_CoreGraphics_CGRect:
+_p_60:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1240]
 br x16
-.word 1641
-	.no_dead_strip plt_UIKit_UIView_BeginAnimations_string
-plt_UIKit_UIView_BeginAnimations_string:
-_p_67:
+.word 1652
+	.no_dead_strip plt_UIKit_UIColor_get_Clear
+plt_UIKit_UIColor_get_Clear:
+_p_61:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1248]
 br x16
-.word 1646
-	.no_dead_strip plt_System_Enum_Parse_System_Type_string
-plt_System_Enum_Parse_System_Type_string:
-_p_68:
+.word 1657
+	.no_dead_strip plt_UIKit_UIView_set_BackgroundColor_UIKit_UIColor
+plt_UIKit_UIView_set_BackgroundColor_UIKit_UIColor:
+_p_62:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1256]
 br x16
-.word 1651
-	.no_dead_strip plt_UIKit_UIView_CommitAnimations
-plt_UIKit_UIView_CommitAnimations:
-_p_69:
+.word 1662
+	.no_dead_strip plt_UIKit_UILabel_set_TextAlignment_UIKit_UITextAlignment
+plt_UIKit_UILabel_set_TextAlignment_UIKit_UITextAlignment:
+_p_63:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1264]
 br x16
-.word 1654
-	.no_dead_strip plt_UIKit_UINavigationItem_get_LeftBarButtonItem
-plt_UIKit_UINavigationItem_get_LeftBarButtonItem:
-_p_70:
+.word 1667
+	.no_dead_strip plt_UIKit_UILabel_get_Font
+plt_UIKit_UILabel_get_Font:
+_p_64:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1272]
 br x16
-.word 1659
-	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
-plt__jit_icall_mono_arch_throw_exception:
-_p_71:
+.word 1672
+	.no_dead_strip plt_UIKit_UIFont_WithSize_System_nfloat
+plt_UIKit_UIFont_WithSize_System_nfloat:
+_p_65:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1280]
 br x16
-.word 1664
-	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
-plt__jit_icall_mono_thread_interruption_checkpoint:
-_p_72:
+.word 1677
+	.no_dead_strip plt_UIKit_UILabel_set_Font_UIKit_UIFont
+plt_UIKit_UILabel_set_Font_UIKit_UIFont:
+_p_66:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1288]
 br x16
-.word 1692
-	.no_dead_strip plt__rgctx_fetch_0
-plt__rgctx_fetch_0:
-_p_73:
+.word 1682
+	.no_dead_strip plt_UIKit_UIView_set_Tag_System_nint
+plt_UIKit_UIView_set_Tag_System_nint:
+_p_67:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1296]
 br x16
-.word 1756
-	.no_dead_strip plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
-plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
-_p_74:
+.word 1687
+	.no_dead_strip plt_UIKit_UILabel_set_LineBreakMode_UIKit_UILineBreakMode
+plt_UIKit_UILabel_set_LineBreakMode_UIKit_UILineBreakMode:
+_p_68:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1304]
 br x16
-.word 1764
-	.no_dead_strip plt__rgctx_fetch_1
-plt__rgctx_fetch_1:
-_p_75:
+.word 1692
+	.no_dead_strip plt_UIKit_UIView_ViewWithTag_System_nint
+plt_UIKit_UIView_ViewWithTag_System_nint:
+_p_69:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1312]
 br x16
-.word 1809
-	.no_dead_strip plt__rgctx_fetch_2
-plt__rgctx_fetch_2:
-_p_76:
+.word 1697
+	.no_dead_strip plt_int_ToString
+plt_int_ToString:
+_p_70:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1320]
 br x16
-.word 1817
-	.no_dead_strip plt__rgctx_fetch_3
-plt__rgctx_fetch_3:
-_p_77:
+.word 1702
+	.no_dead_strip plt_string_Concat_string_string
+plt_string_Concat_string_string:
+_p_71:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1328]
 br x16
-.word 1840
-	.no_dead_strip plt__jit_icall_mono_helper_ldstr
-plt__jit_icall_mono_helper_ldstr:
-_p_78:
+.word 1705
+	.no_dead_strip plt_UIKit_UILabel_set_Text_string
+plt_UIKit_UILabel_set_Text_string:
+_p_72:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1336]
 br x16
-.word 1863
-	.no_dead_strip plt_System_Linq_Error_ArgumentNull_string
-plt_System_Linq_Error_ArgumentNull_string:
-_p_79:
+.word 1708
+	.no_dead_strip plt_UIKit_UIView_BeginAnimations_string
+plt_UIKit_UIView_BeginAnimations_string:
+_p_73:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1344]
 br x16
-.word 1883
-	.no_dead_strip plt__rgctx_fetch_4
-plt__rgctx_fetch_4:
-_p_80:
+.word 1713
+	.no_dead_strip plt_System_Enum_Parse_System_Type_string
+plt_System_Enum_Parse_System_Type_string:
+_p_74:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1352]
 br x16
-.word 1906
-	.no_dead_strip plt__rgctx_fetch_5
-plt__rgctx_fetch_5:
-_p_81:
+.word 1718
+	.no_dead_strip plt_UIKit_UIView_CommitAnimations
+plt_UIKit_UIView_CommitAnimations:
+_p_75:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1360]
 br x16
-.word 1929
-	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
-plt__jit_icall_mono_helper_ldstr_mscorlib:
-_p_82:
+.word 1721
+	.no_dead_strip plt_UIKit_UINavigationItem_get_LeftBarButtonItem
+plt_UIKit_UINavigationItem_get_LeftBarButtonItem:
+_p_76:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1368]
 br x16
-.word 1952
-	.no_dead_strip plt__rgctx_fetch_6
-plt__rgctx_fetch_6:
-_p_83:
+.word 1726
+	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
+plt__jit_icall_mono_arch_throw_exception:
+_p_77:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1376]
 br x16
-.word 2007
-	.no_dead_strip plt__rgctx_fetch_7
-plt__rgctx_fetch_7:
-_p_84:
+.word 1731
+	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
+plt__jit_icall_mono_thread_interruption_checkpoint:
+_p_78:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1384]
 br x16
-.word 2015
-	.no_dead_strip plt__rgctx_fetch_8
-plt__rgctx_fetch_8:
-_p_85:
+.word 1759
+	.no_dead_strip plt__rgctx_fetch_0
+plt__rgctx_fetch_0:
+_p_79:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1392]
 br x16
-.word 2063
-	.no_dead_strip plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr
-plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr:
-_p_86:
+.word 1823
+	.no_dead_strip plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
+plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
+_p_80:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1400]
 br x16
-.word 2071
-	.no_dead_strip plt__rgctx_fetch_9
-plt__rgctx_fetch_9:
-_p_87:
+.word 1831
+	.no_dead_strip plt__rgctx_fetch_1
+plt__rgctx_fetch_1:
+_p_81:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1408]
 br x16
-.word 2079
-	.no_dead_strip plt__rgctx_fetch_10
-plt__rgctx_fetch_10:
-_p_88:
+.word 1876
+	.no_dead_strip plt__rgctx_fetch_2
+plt__rgctx_fetch_2:
+_p_82:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1416]
 br x16
-.word 2102
-	.no_dead_strip plt__jit_icall_ves_icall_array_new_specific
-plt__jit_icall_ves_icall_array_new_specific:
-_p_89:
+.word 1884
+	.no_dead_strip plt__rgctx_fetch_3
+plt__rgctx_fetch_3:
+_p_83:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1424]
 br x16
-.word 2112
-	.no_dead_strip plt__rgctx_fetch_11
-plt__rgctx_fetch_11:
-_p_90:
+.word 1907
+	.no_dead_strip plt__jit_icall_mono_helper_ldstr
+plt__jit_icall_mono_helper_ldstr:
+_p_84:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1432]
 br x16
-.word 2143
-	.no_dead_strip plt__rgctx_fetch_12
-plt__rgctx_fetch_12:
-_p_91:
+.word 1930
+	.no_dead_strip plt_System_Linq_Error_ArgumentNull_string
+plt_System_Linq_Error_ArgumentNull_string:
+_p_85:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1440]
 br x16
-.word 2173
-	.no_dead_strip plt__rgctx_fetch_13
-plt__rgctx_fetch_13:
-_p_92:
+.word 1950
+	.no_dead_strip plt__rgctx_fetch_4
+plt__rgctx_fetch_4:
+_p_86:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1448]
 br x16
-.word 2203
-	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
-plt_System_Array_Copy_System_Array_int_System_Array_int_int:
-_p_93:
+.word 1973
+	.no_dead_strip plt__rgctx_fetch_5
+plt__rgctx_fetch_5:
+_p_87:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1456]
 br x16
-.word 2226
-	.no_dead_strip plt__rgctx_fetch_14
-plt__rgctx_fetch_14:
-_p_94:
+.word 1996
+	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
+plt__jit_icall_mono_helper_ldstr_mscorlib:
+_p_88:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1464]
 br x16
-.word 2247
-	.no_dead_strip plt__rgctx_fetch_15
-plt__rgctx_fetch_15:
-_p_95:
+.word 2019
+	.no_dead_strip plt__rgctx_fetch_6
+plt__rgctx_fetch_6:
+_p_89:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1472]
 br x16
-.word 2270
-	.no_dead_strip plt__rgctx_fetch_16
-plt__rgctx_fetch_16:
-_p_96:
+.word 2074
+	.no_dead_strip plt__rgctx_fetch_7
+plt__rgctx_fetch_7:
+_p_90:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1480]
 br x16
-.word 2293
-	.no_dead_strip plt__rgctx_fetch_17
-plt__rgctx_fetch_17:
-_p_97:
+.word 2082
+	.no_dead_strip plt__rgctx_fetch_8
+plt__rgctx_fetch_8:
+_p_91:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1488]
 br x16
-.word 2321
-	.no_dead_strip plt__rgctx_fetch_18
-plt__rgctx_fetch_18:
-_p_98:
+.word 2130
+	.no_dead_strip plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr
+plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr:
+_p_92:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1496]
 br x16
-.word 2370
-	.no_dead_strip plt__jit_icall_mono_generic_class_init
-plt__jit_icall_mono_generic_class_init:
-_p_99:
+.word 2138
+	.no_dead_strip plt__rgctx_fetch_9
+plt__rgctx_fetch_9:
+_p_93:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1504]
 br x16
-.word 2378
-	.no_dead_strip plt__rgctx_fetch_19
-plt__rgctx_fetch_19:
-_p_100:
+.word 2146
+	.no_dead_strip plt__rgctx_fetch_10
+plt__rgctx_fetch_10:
+_p_94:
 adrp x16, mono_aot_DocViewer_got@PAGE+0
 add x16, x16, mono_aot_DocViewer_got@PAGEOFF
 ldr x16, [x16, #1512]
 br x16
-.word 2404
+.word 2169
+	.no_dead_strip plt__jit_icall_ves_icall_array_new_specific
+plt__jit_icall_ves_icall_array_new_specific:
+_p_95:
+adrp x16, mono_aot_DocViewer_got@PAGE+0
+add x16, x16, mono_aot_DocViewer_got@PAGEOFF
+ldr x16, [x16, #1520]
+br x16
+.word 2179
+	.no_dead_strip plt__rgctx_fetch_11
+plt__rgctx_fetch_11:
+_p_96:
+adrp x16, mono_aot_DocViewer_got@PAGE+0
+add x16, x16, mono_aot_DocViewer_got@PAGEOFF
+ldr x16, [x16, #1528]
+br x16
+.word 2210
+	.no_dead_strip plt__rgctx_fetch_12
+plt__rgctx_fetch_12:
+_p_97:
+adrp x16, mono_aot_DocViewer_got@PAGE+0
+add x16, x16, mono_aot_DocViewer_got@PAGEOFF
+ldr x16, [x16, #1536]
+br x16
+.word 2240
+	.no_dead_strip plt__rgctx_fetch_13
+plt__rgctx_fetch_13:
+_p_98:
+adrp x16, mono_aot_DocViewer_got@PAGE+0
+add x16, x16, mono_aot_DocViewer_got@PAGEOFF
+ldr x16, [x16, #1544]
+br x16
+.word 2270
+	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
+plt_System_Array_Copy_System_Array_int_System_Array_int_int:
+_p_99:
+adrp x16, mono_aot_DocViewer_got@PAGE+0
+add x16, x16, mono_aot_DocViewer_got@PAGEOFF
+ldr x16, [x16, #1552]
+br x16
+.word 2293
+	.no_dead_strip plt__rgctx_fetch_14
+plt__rgctx_fetch_14:
+_p_100:
+adrp x16, mono_aot_DocViewer_got@PAGE+0
+add x16, x16, mono_aot_DocViewer_got@PAGEOFF
+ldr x16, [x16, #1560]
+br x16
+.word 2314
+	.no_dead_strip plt__rgctx_fetch_15
+plt__rgctx_fetch_15:
+_p_101:
+adrp x16, mono_aot_DocViewer_got@PAGE+0
+add x16, x16, mono_aot_DocViewer_got@PAGEOFF
+ldr x16, [x16, #1568]
+br x16
+.word 2337
+	.no_dead_strip plt__rgctx_fetch_16
+plt__rgctx_fetch_16:
+_p_102:
+adrp x16, mono_aot_DocViewer_got@PAGE+0
+add x16, x16, mono_aot_DocViewer_got@PAGEOFF
+ldr x16, [x16, #1576]
+br x16
+.word 2360
+	.no_dead_strip plt__rgctx_fetch_17
+plt__rgctx_fetch_17:
+_p_103:
+adrp x16, mono_aot_DocViewer_got@PAGE+0
+add x16, x16, mono_aot_DocViewer_got@PAGEOFF
+ldr x16, [x16, #1584]
+br x16
+.word 2388
+	.no_dead_strip plt__rgctx_fetch_18
+plt__rgctx_fetch_18:
+_p_104:
+adrp x16, mono_aot_DocViewer_got@PAGE+0
+add x16, x16, mono_aot_DocViewer_got@PAGEOFF
+ldr x16, [x16, #1592]
+br x16
+.word 2437
+	.no_dead_strip plt__jit_icall_mono_generic_class_init
+plt__jit_icall_mono_generic_class_init:
+_p_105:
+adrp x16, mono_aot_DocViewer_got@PAGE+0
+add x16, x16, mono_aot_DocViewer_got@PAGEOFF
+ldr x16, [x16, #1600]
+br x16
+.word 2445
+	.no_dead_strip plt__rgctx_fetch_19
+plt__rgctx_fetch_19:
+_p_106:
+adrp x16, mono_aot_DocViewer_got@PAGE+0
+add x16, x16, mono_aot_DocViewer_got@PAGEOFF
+ldr x16, [x16, #1608]
+br x16
+.word 2471
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_DocViewer_got, 1520
+.lcomm mono_aot_DocViewer_got, 1616
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -4073,7 +4242,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "C5C0EB05-639F-441C-9D2C-3AAD5CF1F331"
+	.asciz "E23B62FF-2AB4-47AC-AE6D-65AB14C3377F"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -4150,13 +4319,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 89,1520,101,53,66,923871743,0,3727
-	.long 128,8,8,10,0,14,5368,1632
-	.long 1144,784,0,1008,1112,872,0,616
+	.long 95,1616,107,52,66,923871743,0,3779
+	.long 128,8,8,10,0,14,5400,1608
+	.long 1120,784,0,984,1088,840,0,616
 	.long 104,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 3,148,75,192,122,249,44,220,240,208,7,72,195,102,194,205
+	.byte 57,42,56,151,182,100,67,76,81,253,58,207,25,170,222,12
 	.globl _mono_aot_module_DocViewer_info
 	.align 3
 _mono_aot_module_DocViewer_info:
@@ -5659,7 +5828,7 @@ LDIFF_SYM216=LTDIE_29 - Ldebug_info_start
 	.asciz "DocViewer.DocViewController:setNavButtons"
 	.asciz "DocViewer_DocViewController_setNavButtons"
 
-	.byte 4,171,1
+	.byte 4,177,1
 	.quad DocViewer_DocViewController_setNavButtons
 	.quad Lme_f
 
@@ -5698,7 +5867,7 @@ Lfde15_end:
 	.asciz "DocViewer.DocViewController:DidReceiveMemoryWarning"
 	.asciz "DocViewer_DocViewController_DidReceiveMemoryWarning"
 
-	.byte 4,208,1
+	.byte 4,214,1
 	.quad DocViewer_DocViewController_DidReceiveMemoryWarning
 	.quad Lme_10
 
@@ -5727,6 +5896,77 @@ LDIFF_SYM223=Lme_10 - DocViewer_DocViewController_DidReceiveMemoryWarning
 Lfde16_end:
 
 .section __DWARF, __debug_info,regular,debug
+LTDIE_30:
+
+	.byte 5
+	.asciz "System_Int64"
+
+	.byte 24,16
+LDIFF_SYM224=LTDIE_17 - Ldebug_info_start
+	.long LDIFF_SYM224
+	.byte 2,35,0,6
+	.asciz "m_value"
+
+LDIFF_SYM225=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM225
+	.byte 2,35,16,0,7
+	.asciz "System_Int64"
+
+LDIFF_SYM226=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM226
+LTDIE_30_POINTER:
+
+	.byte 13
+LDIFF_SYM227=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM227
+LTDIE_30_REFERENCE:
+
+	.byte 14
+LDIFF_SYM228=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM228
+	.byte 2
+	.asciz "DocViewer.DocViewController:getImageForIndex"
+	.asciz "DocViewer_DocViewController_getImageForIndex_System_nint"
+
+	.byte 4,231,1
+	.quad DocViewer_DocViewController_getImageForIndex_System_nint
+	.quad Lme_11
+
+	.byte 2,118,16,3
+	.asciz "index"
+
+LDIFF_SYM229=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM229
+	.byte 1,106,11
+	.asciz "defImg"
+
+LDIFF_SYM230=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM230
+	.byte 1,105,11
+	.asciz "V_1"
+
+LDIFF_SYM231=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM231
+	.byte 1,104,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM232=Lfde17_end - Lfde17_start
+	.long LDIFF_SYM232
+Lfde17_start:
+
+	.long 0
+	.align 3
+	.quad DocViewer_DocViewController_getImageForIndex_System_nint
+
+LDIFF_SYM233=Lme_11 - DocViewer_DocViewController_getImageForIndex_System_nint
+	.long LDIFF_SYM233
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,152,4,153,3,68,154,2
+	.align 3
+Lfde17_end:
+
+.section __DWARF, __debug_info,regular,debug
 
 	.byte 2
 	.asciz "DocViewer.DocViewController:ReleaseDesignerOutlets"
@@ -5734,41 +5974,41 @@ Lfde16_end:
 
 	.byte 0,0
 	.quad DocViewer_DocViewController_ReleaseDesignerOutlets
-	.quad Lme_11
+	.quad Lme_12
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM224=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM224
+LDIFF_SYM234=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM234
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM225=Lfde17_end - Lfde17_start
-	.long LDIFF_SYM225
-Lfde17_start:
+LDIFF_SYM235=Lfde18_end - Lfde18_start
+	.long LDIFF_SYM235
+Lfde18_start:
 
 	.long 0
 	.align 3
 	.quad DocViewer_DocViewController_ReleaseDesignerOutlets
 
-LDIFF_SYM226=Lme_11 - DocViewer_DocViewController_ReleaseDesignerOutlets
-	.long LDIFF_SYM226
+LDIFF_SYM236=Lme_12 - DocViewer_DocViewController_ReleaseDesignerOutlets
+	.long LDIFF_SYM236
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde17_end:
+Lfde18_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_30:
+LTDIE_31:
 
 	.byte 8
 	.asciz "Carousels_iCarouselOption"
 
 	.byte 8
-LDIFF_SYM227=LDIE_I8 - Ldebug_info_start
-	.long LDIFF_SYM227
+LDIFF_SYM237=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM237
 	.byte 9
 	.asciz "Wrap"
 
@@ -5814,229 +6054,158 @@ LDIFF_SYM227=LDIE_I8 - Ldebug_info_start
 	.byte 13,0,7
 	.asciz "Carousels_iCarouselOption"
 
-LDIFF_SYM228=LTDIE_30 - Ldebug_info_start
-	.long LDIFF_SYM228
-LTDIE_30_POINTER:
+LDIFF_SYM238=LTDIE_31 - Ldebug_info_start
+	.long LDIFF_SYM238
+LTDIE_31_POINTER:
 
 	.byte 13
-LDIFF_SYM229=LTDIE_30 - Ldebug_info_start
-	.long LDIFF_SYM229
-LTDIE_30_REFERENCE:
+LDIFF_SYM239=LTDIE_31 - Ldebug_info_start
+	.long LDIFF_SYM239
+LTDIE_31_REFERENCE:
 
 	.byte 14
-LDIFF_SYM230=LTDIE_30 - Ldebug_info_start
-	.long LDIFF_SYM230
+LDIFF_SYM240=LTDIE_31 - Ldebug_info_start
+	.long LDIFF_SYM240
 	.byte 2
 	.asciz "DocViewer.DocViewController:<ViewDidLoad>m__0"
 	.asciz "DocViewer_DocViewController__ViewDidLoadm__0_Carousels_iCarousel_Carousels_iCarouselOption_System_nfloat"
 
 	.byte 4,68
 	.quad DocViewer_DocViewController__ViewDidLoadm__0_Carousels_iCarousel_Carousels_iCarouselOption_System_nfloat
-	.quad Lme_12
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM231=LTDIE_9_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM231
-	.byte 2,141,24,3
-	.asciz "sender"
-
-LDIFF_SYM232=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM232
-	.byte 0,3
-	.asciz "option"
-
-LDIFF_SYM233=LTDIE_30 - Ldebug_info_start
-	.long LDIFF_SYM233
-	.byte 1,106,3
-	.asciz "value"
-
-LDIFF_SYM234=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM234
-	.byte 2,141,40,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM235=Lfde18_end - Lfde18_start
-	.long LDIFF_SYM235
-Lfde18_start:
-
-	.long 0
-	.align 3
-	.quad DocViewer_DocViewController__ViewDidLoadm__0_Carousels_iCarousel_Carousels_iCarouselOption_System_nfloat
-
-LDIFF_SYM236=Lme_12 - DocViewer_DocViewController__ViewDidLoadm__0_Carousels_iCarousel_Carousels_iCarouselOption_System_nfloat
-	.long LDIFF_SYM236
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
-	.align 3
-Lfde18_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_32:
-
-	.byte 5
-	.asciz "System_EventArgs"
-
-	.byte 16,16
-LDIFF_SYM237=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM237
-	.byte 2,35,0,0,7
-	.asciz "System_EventArgs"
-
-LDIFF_SYM238=LTDIE_32 - Ldebug_info_start
-	.long LDIFF_SYM238
-LTDIE_32_POINTER:
-
-	.byte 13
-LDIFF_SYM239=LTDIE_32 - Ldebug_info_start
-	.long LDIFF_SYM239
-LTDIE_32_REFERENCE:
-
-	.byte 14
-LDIFF_SYM240=LTDIE_32 - Ldebug_info_start
-	.long LDIFF_SYM240
-LTDIE_31:
-
-	.byte 5
-	.asciz "Carousels_iCarouselItemSelectedEventArgs"
-
-	.byte 24,16
-LDIFF_SYM241=LTDIE_32 - Ldebug_info_start
-	.long LDIFF_SYM241
-	.byte 2,35,0,6
-	.asciz "<Index>k__BackingField"
-
-LDIFF_SYM242=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM242
-	.byte 2,35,16,0,7
-	.asciz "Carousels_iCarouselItemSelectedEventArgs"
-
-LDIFF_SYM243=LTDIE_31 - Ldebug_info_start
-	.long LDIFF_SYM243
-LTDIE_31_POINTER:
-
-	.byte 13
-LDIFF_SYM244=LTDIE_31 - Ldebug_info_start
-	.long LDIFF_SYM244
-LTDIE_31_REFERENCE:
-
-	.byte 14
-LDIFF_SYM245=LTDIE_31 - Ldebug_info_start
-	.long LDIFF_SYM245
-LTDIE_33:
-
-	.byte 5
-	.asciz "_<ViewDidLoad>c__AnonStorey0"
-
-	.byte 32,16
-LDIFF_SYM246=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM246
-	.byte 2,35,0,6
-	.asciz "args"
-
-LDIFF_SYM247=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM247
-	.byte 2,35,16,6
-	.asciz "$this"
-
-LDIFF_SYM248=LTDIE_9_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM248
-	.byte 2,35,24,0,7
-	.asciz "_<ViewDidLoad>c__AnonStorey0"
-
-LDIFF_SYM249=LTDIE_33 - Ldebug_info_start
-	.long LDIFF_SYM249
-LTDIE_33_POINTER:
-
-	.byte 13
-LDIFF_SYM250=LTDIE_33 - Ldebug_info_start
-	.long LDIFF_SYM250
-LTDIE_33_REFERENCE:
-
-	.byte 14
-LDIFF_SYM251=LTDIE_33 - Ldebug_info_start
-	.long LDIFF_SYM251
-LTDIE_34:
-
-	.byte 5
-	.asciz "UIKit_UIActionSheet"
-
-	.byte 56,16
-LDIFF_SYM252=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM252
-	.byte 2,35,0,6
-	.asciz "__mt_WeakDelegate_var"
-
-LDIFF_SYM253=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM253
-	.byte 2,35,48,0,7
-	.asciz "UIKit_UIActionSheet"
-
-LDIFF_SYM254=LTDIE_34 - Ldebug_info_start
-	.long LDIFF_SYM254
-LTDIE_34_POINTER:
-
-	.byte 13
-LDIFF_SYM255=LTDIE_34 - Ldebug_info_start
-	.long LDIFF_SYM255
-LTDIE_34_REFERENCE:
-
-	.byte 14
-LDIFF_SYM256=LTDIE_34 - Ldebug_info_start
-	.long LDIFF_SYM256
-	.byte 2
-	.asciz "DocViewer.DocViewController:<ViewDidLoad>m__1"
-	.asciz "DocViewer_DocViewController__ViewDidLoadm__1_object_Carousels_iCarouselItemSelectedEventArgs"
-
-	.byte 0,0
-	.quad DocViewer_DocViewController__ViewDidLoadm__1_object_Carousels_iCarouselItemSelectedEventArgs
 	.quad Lme_13
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM257=LTDIE_9_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM257
-	.byte 1,105,3
+LDIFF_SYM241=LTDIE_9_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM241
+	.byte 2,141,24,3
 	.asciz "sender"
 
-LDIFF_SYM258=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM258
+LDIFF_SYM242=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM242
 	.byte 0,3
-	.asciz "args"
+	.asciz "option"
 
-LDIFF_SYM259=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM259
-	.byte 2,141,32,11
-	.asciz "$locvar0"
+LDIFF_SYM243=LTDIE_31 - Ldebug_info_start
+	.long LDIFF_SYM243
+	.byte 1,106,3
+	.asciz "value"
 
-LDIFF_SYM260=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM260
-	.byte 0,11
-	.asciz "sheet"
-
-LDIFF_SYM261=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM261
-	.byte 0,0
+LDIFF_SYM244=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM244
+	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM262=Lfde19_end - Lfde19_start
-	.long LDIFF_SYM262
+LDIFF_SYM245=Lfde19_end - Lfde19_start
+	.long LDIFF_SYM245
 Lfde19_start:
+
+	.long 0
+	.align 3
+	.quad DocViewer_DocViewController__ViewDidLoadm__0_Carousels_iCarousel_Carousels_iCarouselOption_System_nfloat
+
+LDIFF_SYM246=Lme_13 - DocViewer_DocViewController__ViewDidLoadm__0_Carousels_iCarousel_Carousels_iCarouselOption_System_nfloat
+	.long LDIFF_SYM246
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
+	.align 3
+Lfde19_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_33:
+
+	.byte 5
+	.asciz "System_EventArgs"
+
+	.byte 16,16
+LDIFF_SYM247=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM247
+	.byte 2,35,0,0,7
+	.asciz "System_EventArgs"
+
+LDIFF_SYM248=LTDIE_33 - Ldebug_info_start
+	.long LDIFF_SYM248
+LTDIE_33_POINTER:
+
+	.byte 13
+LDIFF_SYM249=LTDIE_33 - Ldebug_info_start
+	.long LDIFF_SYM249
+LTDIE_33_REFERENCE:
+
+	.byte 14
+LDIFF_SYM250=LTDIE_33 - Ldebug_info_start
+	.long LDIFF_SYM250
+LTDIE_32:
+
+	.byte 5
+	.asciz "Carousels_iCarouselItemSelectedEventArgs"
+
+	.byte 24,16
+LDIFF_SYM251=LTDIE_33 - Ldebug_info_start
+	.long LDIFF_SYM251
+	.byte 2,35,0,6
+	.asciz "<Index>k__BackingField"
+
+LDIFF_SYM252=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM252
+	.byte 2,35,16,0,7
+	.asciz "Carousels_iCarouselItemSelectedEventArgs"
+
+LDIFF_SYM253=LTDIE_32 - Ldebug_info_start
+	.long LDIFF_SYM253
+LTDIE_32_POINTER:
+
+	.byte 13
+LDIFF_SYM254=LTDIE_32 - Ldebug_info_start
+	.long LDIFF_SYM254
+LTDIE_32_REFERENCE:
+
+	.byte 14
+LDIFF_SYM255=LTDIE_32 - Ldebug_info_start
+	.long LDIFF_SYM255
+	.byte 2
+	.asciz "DocViewer.DocViewController:<ViewDidLoad>m__1"
+	.asciz "DocViewer_DocViewController__ViewDidLoadm__1_object_Carousels_iCarouselItemSelectedEventArgs"
+
+	.byte 4,97
+	.quad DocViewer_DocViewController__ViewDidLoadm__1_object_Carousels_iCarouselItemSelectedEventArgs
+	.quad Lme_14
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM256=LTDIE_9_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM256
+	.byte 1,105,3
+	.asciz "sender"
+
+LDIFF_SYM257=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM257
+	.byte 0,3
+	.asciz "args"
+
+LDIFF_SYM258=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM258
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM259=Lfde20_end - Lfde20_start
+	.long LDIFF_SYM259
+Lfde20_start:
 
 	.long 0
 	.align 3
 	.quad DocViewer_DocViewController__ViewDidLoadm__1_object_Carousels_iCarouselItemSelectedEventArgs
 
-LDIFF_SYM263=Lme_13 - DocViewer_DocViewController__ViewDidLoadm__1_object_Carousels_iCarouselItemSelectedEventArgs
-	.long LDIFF_SYM263
+LDIFF_SYM260=Lme_14 - DocViewer_DocViewController__ViewDidLoadm__1_object_Carousels_iCarouselItemSelectedEventArgs
+	.long LDIFF_SYM260
 	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,153,16
+	.byte 12,31,0,68,14,160,2,157,36,158,35,68,13,29,68,153,34,154,33
 	.align 3
-Lfde19_end:
+Lfde20_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -6044,78 +6213,106 @@ Lfde19_end:
 	.asciz "DocViewer.DocViewController:<setNavButtons>m__2"
 	.asciz "DocViewer_DocViewController__setNavButtonsm__2_object_System_EventArgs"
 
-	.byte 4,174,1
+	.byte 4,180,1
 	.quad DocViewer_DocViewController__setNavButtonsm__2_object_System_EventArgs
-	.quad Lme_14
+	.quad Lme_15
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM264=LTDIE_9_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM264
+LDIFF_SYM261=LTDIE_9_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM261
 	.byte 1,106,3
 	.asciz "sender"
 
-LDIFF_SYM265=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM265
+LDIFF_SYM262=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM262
 	.byte 0,3
 	.asciz "args"
 
-LDIFF_SYM266=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM266
+LDIFF_SYM263=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM263
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM267=Lfde20_end - Lfde20_start
-	.long LDIFF_SYM267
-Lfde20_start:
+LDIFF_SYM264=Lfde21_end - Lfde21_start
+	.long LDIFF_SYM264
+Lfde21_start:
 
 	.long 0
 	.align 3
 	.quad DocViewer_DocViewController__setNavButtonsm__2_object_System_EventArgs
 
-LDIFF_SYM268=Lme_14 - DocViewer_DocViewController__setNavButtonsm__2_object_System_EventArgs
-	.long LDIFF_SYM268
+LDIFF_SYM265=Lme_15 - DocViewer_DocViewController__setNavButtonsm__2_object_System_EventArgs
+	.long LDIFF_SYM265
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde20_end:
+Lfde21_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_35:
+LTDIE_34:
 
 	.byte 5
-	.asciz "_<setNavButtons>c__AnonStorey1"
+	.asciz "_<setNavButtons>c__AnonStorey0"
 
 	.byte 32,16
-LDIFF_SYM269=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM269
+LDIFF_SYM266=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM266
 	.byte 2,35,0,6
 	.asciz "names"
 
-LDIFF_SYM270=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM270
+LDIFF_SYM267=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM267
 	.byte 2,35,16,6
 	.asciz "$this"
 
-LDIFF_SYM271=LTDIE_9_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM271
+LDIFF_SYM268=LTDIE_9_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM268
 	.byte 2,35,24,0,7
-	.asciz "_<setNavButtons>c__AnonStorey1"
+	.asciz "_<setNavButtons>c__AnonStorey0"
 
-LDIFF_SYM272=LTDIE_35 - Ldebug_info_start
+LDIFF_SYM269=LTDIE_34 - Ldebug_info_start
+	.long LDIFF_SYM269
+LTDIE_34_POINTER:
+
+	.byte 13
+LDIFF_SYM270=LTDIE_34 - Ldebug_info_start
+	.long LDIFF_SYM270
+LTDIE_34_REFERENCE:
+
+	.byte 14
+LDIFF_SYM271=LTDIE_34 - Ldebug_info_start
+	.long LDIFF_SYM271
+LTDIE_35:
+
+	.byte 5
+	.asciz "UIKit_UIActionSheet"
+
+	.byte 56,16
+LDIFF_SYM272=LTDIE_7 - Ldebug_info_start
 	.long LDIFF_SYM272
+	.byte 2,35,0,6
+	.asciz "__mt_WeakDelegate_var"
+
+LDIFF_SYM273=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM273
+	.byte 2,35,48,0,7
+	.asciz "UIKit_UIActionSheet"
+
+LDIFF_SYM274=LTDIE_35 - Ldebug_info_start
+	.long LDIFF_SYM274
 LTDIE_35_POINTER:
 
 	.byte 13
-LDIFF_SYM273=LTDIE_35 - Ldebug_info_start
-	.long LDIFF_SYM273
+LDIFF_SYM275=LTDIE_35 - Ldebug_info_start
+	.long LDIFF_SYM275
 LTDIE_35_REFERENCE:
 
 	.byte 14
-LDIFF_SYM274=LTDIE_35 - Ldebug_info_start
-	.long LDIFF_SYM274
+LDIFF_SYM276=LTDIE_35 - Ldebug_info_start
+	.long LDIFF_SYM276
 LTDIE_36:
 
 	.byte 17
@@ -6124,193 +6321,119 @@ LTDIE_36:
 	.byte 16,7
 	.asciz "System_Collections_Generic_IEnumerator`1"
 
-LDIFF_SYM275=LTDIE_36 - Ldebug_info_start
-	.long LDIFF_SYM275
+LDIFF_SYM277=LTDIE_36 - Ldebug_info_start
+	.long LDIFF_SYM277
 LTDIE_36_POINTER:
 
 	.byte 13
-LDIFF_SYM276=LTDIE_36 - Ldebug_info_start
-	.long LDIFF_SYM276
+LDIFF_SYM278=LTDIE_36 - Ldebug_info_start
+	.long LDIFF_SYM278
 LTDIE_36_REFERENCE:
 
 	.byte 14
-LDIFF_SYM277=LTDIE_36 - Ldebug_info_start
-	.long LDIFF_SYM277
+LDIFF_SYM279=LTDIE_36 - Ldebug_info_start
+	.long LDIFF_SYM279
 	.byte 2
 	.asciz "DocViewer.DocViewController:<setNavButtons>m__3"
 	.asciz "DocViewer_DocViewController__setNavButtonsm__3_object_System_EventArgs"
 
 	.byte 0,0
 	.quad DocViewer_DocViewController__setNavButtonsm__3_object_System_EventArgs
-	.quad Lme_15
+	.quad Lme_16
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM278=LTDIE_9_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM278
+LDIFF_SYM280=LTDIE_9_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM280
 	.byte 1,106,3
 	.asciz "sender"
 
-LDIFF_SYM279=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM279
+LDIFF_SYM281=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM281
 	.byte 0,3
 	.asciz "args"
 
-LDIFF_SYM280=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM280
+LDIFF_SYM282=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM282
 	.byte 0,11
 	.asciz "$locvar0"
 
-LDIFF_SYM281=LTDIE_35_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM281
+LDIFF_SYM283=LTDIE_34_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM283
 	.byte 1,105,11
 	.asciz "sheet"
 
-LDIFF_SYM282=LTDIE_34_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM282
+LDIFF_SYM284=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM284
 	.byte 1,104,11
 	.asciz "type"
 
-LDIFF_SYM283=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM283
+LDIFF_SYM285=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM285
 	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM284=LTDIE_36_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM284
+LDIFF_SYM286=LTDIE_36_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM286
 	.byte 3,141,192,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM285=Lfde21_end - Lfde21_start
-	.long LDIFF_SYM285
-Lfde21_start:
+LDIFF_SYM287=Lfde22_end - Lfde22_start
+	.long LDIFF_SYM287
+Lfde22_start:
 
 	.long 0
 	.align 3
 	.quad DocViewer_DocViewController__setNavButtonsm__3_object_System_EventArgs
 
-LDIFF_SYM286=Lme_15 - DocViewer_DocViewController__setNavButtonsm__3_object_System_EventArgs
-	.long LDIFF_SYM286
+LDIFF_SYM288=Lme_16 - DocViewer_DocViewController__setNavButtonsm__3_object_System_EventArgs
+	.long LDIFF_SYM288
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,151,14,152,13,68,153,12,154,11
-	.align 3
-Lfde21_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "DocViewer.DocViewController:<setNavButtons>m__4"
-	.asciz "DocViewer_DocViewController__setNavButtonsm__4_string"
-
-	.byte 4,186,1
-	.quad DocViewer_DocViewController__setNavButtonsm__4_string
-	.quad Lme_16
-
-	.byte 2,118,16,3
-	.asciz "n"
-
-LDIFF_SYM287=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM287
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM288=Lfde22_end - Lfde22_start
-	.long LDIFF_SYM288
-Lfde22_start:
-
-	.long 0
-	.align 3
-	.quad DocViewer_DocViewController__setNavButtonsm__4_string
-
-LDIFF_SYM289=Lme_16 - DocViewer_DocViewController__setNavButtonsm__4_string
-	.long LDIFF_SYM289
-	.long 0
-	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
 Lfde22_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_38:
 
-	.byte 5
-	.asciz "Carousels_iCarouselDataSource"
-
-	.byte 40,16
-LDIFF_SYM290=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM290
-	.byte 2,35,0,0,7
-	.asciz "Carousels_iCarouselDataSource"
-
-LDIFF_SYM291=LTDIE_38 - Ldebug_info_start
-	.long LDIFF_SYM291
-LTDIE_38_POINTER:
-
-	.byte 13
-LDIFF_SYM292=LTDIE_38 - Ldebug_info_start
-	.long LDIFF_SYM292
-LTDIE_38_REFERENCE:
-
-	.byte 14
-LDIFF_SYM293=LTDIE_38 - Ldebug_info_start
-	.long LDIFF_SYM293
-LTDIE_37:
-
-	.byte 5
-	.asciz "_CarouselDataSource"
-
-	.byte 48,16
-LDIFF_SYM294=LTDIE_38 - Ldebug_info_start
-	.long LDIFF_SYM294
-	.byte 2,35,0,6
-	.asciz "items"
-
-LDIFF_SYM295=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM295
-	.byte 2,35,40,0,7
-	.asciz "_CarouselDataSource"
-
-LDIFF_SYM296=LTDIE_37 - Ldebug_info_start
-	.long LDIFF_SYM296
-LTDIE_37_POINTER:
-
-	.byte 13
-LDIFF_SYM297=LTDIE_37 - Ldebug_info_start
-	.long LDIFF_SYM297
-LTDIE_37_REFERENCE:
-
-	.byte 14
-LDIFF_SYM298=LTDIE_37 - Ldebug_info_start
-	.long LDIFF_SYM298
 	.byte 2
-	.asciz "DocViewer.DocViewController/CarouselDataSource:.ctor"
-	.asciz "DocViewer_DocViewController_CarouselDataSource__ctor"
+	.asciz "DocViewer.DocViewController:<ViewDidLoad>m__4"
+	.asciz "DocViewer_DocViewController__ViewDidLoadm__4_object_System_EventArgs"
 
-	.byte 4,227,1
-	.quad DocViewer_DocViewController_CarouselDataSource__ctor
+	.byte 4,120
+	.quad DocViewer_DocViewController__ViewDidLoadm__4_object_System_EventArgs
 	.quad Lme_17
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM299=LTDIE_37_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM299
-	.byte 2,141,16,0
+LDIFF_SYM289=LTDIE_9_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM289
+	.byte 2,141,16,3
+	.asciz "s"
+
+LDIFF_SYM290=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM290
+	.byte 0,3
+	.asciz "a"
+
+LDIFF_SYM291=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM291
+	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM300=Lfde23_end - Lfde23_start
-	.long LDIFF_SYM300
+LDIFF_SYM292=Lfde23_end - Lfde23_start
+	.long LDIFF_SYM292
 Lfde23_start:
 
 	.long 0
 	.align 3
-	.quad DocViewer_DocViewController_CarouselDataSource__ctor
+	.quad DocViewer_DocViewController__ViewDidLoadm__4_object_System_EventArgs
 
-LDIFF_SYM301=Lme_17 - DocViewer_DocViewController_CarouselDataSource__ctor
-	.long LDIFF_SYM301
+LDIFF_SYM293=Lme_17 - DocViewer_DocViewController__ViewDidLoadm__4_object_System_EventArgs
+	.long LDIFF_SYM293
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -6319,41 +6442,203 @@ Lfde23_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "DocViewer.DocViewController/CarouselDataSource:GetNumberOfItems"
-	.asciz "DocViewer_DocViewController_CarouselDataSource_GetNumberOfItems_Carousels_iCarousel"
+	.asciz "DocViewer.DocViewController:<ViewDidLoad>m__5"
+	.asciz "DocViewer_DocViewController__ViewDidLoadm__5_object_System_EventArgs"
 
-	.byte 4,238,1
-	.quad DocViewer_DocViewController_CarouselDataSource_GetNumberOfItems_Carousels_iCarousel
+	.byte 4,125
+	.quad DocViewer_DocViewController__ViewDidLoadm__5_object_System_EventArgs
 	.quad Lme_18
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM302=LTDIE_37_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM302
+LDIFF_SYM294=LTDIE_9_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM294
 	.byte 2,141,16,3
-	.asciz "carousel"
+	.asciz "s"
 
-LDIFF_SYM303=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM303
+LDIFF_SYM295=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM295
+	.byte 0,3
+	.asciz "a"
+
+LDIFF_SYM296=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM296
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM304=Lfde24_end - Lfde24_start
-	.long LDIFF_SYM304
+LDIFF_SYM297=Lfde24_end - Lfde24_start
+	.long LDIFF_SYM297
 Lfde24_start:
+
+	.long 0
+	.align 3
+	.quad DocViewer_DocViewController__ViewDidLoadm__5_object_System_EventArgs
+
+LDIFF_SYM298=Lme_18 - DocViewer_DocViewController__ViewDidLoadm__5_object_System_EventArgs
+	.long LDIFF_SYM298
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde24_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "DocViewer.DocViewController:<setNavButtons>m__6"
+	.asciz "DocViewer_DocViewController__setNavButtonsm__6_string"
+
+	.byte 4,192,1
+	.quad DocViewer_DocViewController__setNavButtonsm__6_string
+	.quad Lme_19
+
+	.byte 2,118,16,3
+	.asciz "n"
+
+LDIFF_SYM299=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM299
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM300=Lfde25_end - Lfde25_start
+	.long LDIFF_SYM300
+Lfde25_start:
+
+	.long 0
+	.align 3
+	.quad DocViewer_DocViewController__setNavButtonsm__6_string
+
+LDIFF_SYM301=Lme_19 - DocViewer_DocViewController__setNavButtonsm__6_string
+	.long LDIFF_SYM301
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde25_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_38:
+
+	.byte 5
+	.asciz "Carousels_iCarouselDataSource"
+
+	.byte 40,16
+LDIFF_SYM302=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM302
+	.byte 2,35,0,0,7
+	.asciz "Carousels_iCarouselDataSource"
+
+LDIFF_SYM303=LTDIE_38 - Ldebug_info_start
+	.long LDIFF_SYM303
+LTDIE_38_POINTER:
+
+	.byte 13
+LDIFF_SYM304=LTDIE_38 - Ldebug_info_start
+	.long LDIFF_SYM304
+LTDIE_38_REFERENCE:
+
+	.byte 14
+LDIFF_SYM305=LTDIE_38 - Ldebug_info_start
+	.long LDIFF_SYM305
+LTDIE_37:
+
+	.byte 5
+	.asciz "_CarouselDataSource"
+
+	.byte 48,16
+LDIFF_SYM306=LTDIE_38 - Ldebug_info_start
+	.long LDIFF_SYM306
+	.byte 2,35,0,6
+	.asciz "items"
+
+LDIFF_SYM307=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM307
+	.byte 2,35,40,0,7
+	.asciz "_CarouselDataSource"
+
+LDIFF_SYM308=LTDIE_37 - Ldebug_info_start
+	.long LDIFF_SYM308
+LTDIE_37_POINTER:
+
+	.byte 13
+LDIFF_SYM309=LTDIE_37 - Ldebug_info_start
+	.long LDIFF_SYM309
+LTDIE_37_REFERENCE:
+
+	.byte 14
+LDIFF_SYM310=LTDIE_37 - Ldebug_info_start
+	.long LDIFF_SYM310
+	.byte 2
+	.asciz "DocViewer.DocViewController/CarouselDataSource:.ctor"
+	.asciz "DocViewer_DocViewController_CarouselDataSource__ctor"
+
+	.byte 4,145,2
+	.quad DocViewer_DocViewController_CarouselDataSource__ctor
+	.quad Lme_1a
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM311=LTDIE_37_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM311
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM312=Lfde26_end - Lfde26_start
+	.long LDIFF_SYM312
+Lfde26_start:
+
+	.long 0
+	.align 3
+	.quad DocViewer_DocViewController_CarouselDataSource__ctor
+
+LDIFF_SYM313=Lme_1a - DocViewer_DocViewController_CarouselDataSource__ctor
+	.long LDIFF_SYM313
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde26_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "DocViewer.DocViewController/CarouselDataSource:GetNumberOfItems"
+	.asciz "DocViewer_DocViewController_CarouselDataSource_GetNumberOfItems_Carousels_iCarousel"
+
+	.byte 4,156,2
+	.quad DocViewer_DocViewController_CarouselDataSource_GetNumberOfItems_Carousels_iCarousel
+	.quad Lme_1b
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM314=LTDIE_37_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM314
+	.byte 2,141,16,3
+	.asciz "carousel"
+
+LDIFF_SYM315=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM315
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM316=Lfde27_end - Lfde27_start
+	.long LDIFF_SYM316
+Lfde27_start:
 
 	.long 0
 	.align 3
 	.quad DocViewer_DocViewController_CarouselDataSource_GetNumberOfItems_Carousels_iCarousel
 
-LDIFF_SYM305=Lme_18 - DocViewer_DocViewController_CarouselDataSource_GetNumberOfItems_Carousels_iCarousel
-	.long LDIFF_SYM305
+LDIFF_SYM317=Lme_1b - DocViewer_DocViewController_CarouselDataSource_GetNumberOfItems_Carousels_iCarousel
+	.long LDIFF_SYM317
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde24_end:
+Lfde27_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -6361,102 +6646,107 @@ Lfde24_end:
 	.asciz "DocViewer.DocViewController/CarouselDataSource:GetViewForItem"
 	.asciz "DocViewer_DocViewController_CarouselDataSource_GetViewForItem_Carousels_iCarousel_System_nint_UIKit_UIView"
 
-	.byte 4,243,1
+	.byte 4,161,2
 	.quad DocViewer_DocViewController_CarouselDataSource_GetViewForItem_Carousels_iCarousel_System_nint_UIKit_UIView
-	.quad Lme_19
+	.quad Lme_1c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM306=LTDIE_37_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM306
+LDIFF_SYM318=LTDIE_37_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM318
 	.byte 3,141,192,0,3
 	.asciz "carousel"
 
-LDIFF_SYM307=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM307
+LDIFF_SYM319=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM319
 	.byte 0,3
 	.asciz "index"
 
-LDIFF_SYM308=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM308
+LDIFF_SYM320=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM320
 	.byte 3,141,208,0,3
 	.asciz "view"
 
-LDIFF_SYM309=LTDIE_7_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM309
+LDIFF_SYM321=LTDIE_7_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM321
 	.byte 1,106,11
 	.asciz "label"
 
-LDIFF_SYM310=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM310
-	.byte 1,100,11
+LDIFF_SYM322=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM322
+	.byte 1,101,11
 	.asciz "labelContent"
 
-LDIFF_SYM311=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM311
-	.byte 1,99,11
+LDIFF_SYM323=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM323
+	.byte 1,100,11
 	.asciz "labelContent2"
 
-LDIFF_SYM312=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM312
-	.byte 1,103,11
+LDIFF_SYM324=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM324
+	.byte 1,99,11
 	.asciz "imageView"
 
-LDIFF_SYM313=LTDIE_11_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM313
-	.byte 1,101,0
+LDIFF_SYM325=LTDIE_11_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM325
+	.byte 1,102,11
+	.asciz "imageViewChild"
+
+LDIFF_SYM326=LTDIE_11_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM326
+	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM314=Lfde25_end - Lfde25_start
-	.long LDIFF_SYM314
-Lfde25_start:
+LDIFF_SYM327=Lfde28_end - Lfde28_start
+	.long LDIFF_SYM327
+Lfde28_start:
 
 	.long 0
 	.align 3
 	.quad DocViewer_DocViewController_CarouselDataSource_GetViewForItem_Carousels_iCarousel_System_nint_UIKit_UIView
 
-LDIFF_SYM315=Lme_19 - DocViewer_DocViewController_CarouselDataSource_GetViewForItem_Carousels_iCarousel_System_nint_UIKit_UIView
-	.long LDIFF_SYM315
+LDIFF_SYM328=Lme_1c - DocViewer_DocViewController_CarouselDataSource_GetViewForItem_Carousels_iCarousel_System_nint_UIKit_UIView
+	.long LDIFF_SYM328
 	.long 0
-	.byte 12,31,0,68,14,160,3,157,52,158,51,68,13,29,68,147,50,148,49,68,149,48,150,47,68,151,46,68,154,45
+	.byte 12,31,0,68,14,208,3,157,58,158,57,68,13,29,68,147,56,148,55,68,149,54,150,53,68,151,52,68,154,51
 	.align 3
-Lfde25_end:
+Lfde28_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "DocViewer.DocViewController/<ViewDidLoad>c__AnonStorey0:.ctor"
-	.asciz "DocViewer_DocViewController__ViewDidLoadc__AnonStorey0__ctor"
+	.asciz "DocViewer.DocViewController/<setNavButtons>c__AnonStorey0:.ctor"
+	.asciz "DocViewer_DocViewController__setNavButtonsc__AnonStorey0__ctor"
 
 	.byte 0,0
-	.quad DocViewer_DocViewController__ViewDidLoadc__AnonStorey0__ctor
-	.quad Lme_1a
+	.quad DocViewer_DocViewController__setNavButtonsc__AnonStorey0__ctor
+	.quad Lme_1d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM316=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM316
+LDIFF_SYM329=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM329
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM317=Lfde26_end - Lfde26_start
-	.long LDIFF_SYM317
-Lfde26_start:
+LDIFF_SYM330=Lfde29_end - Lfde29_start
+	.long LDIFF_SYM330
+Lfde29_start:
 
 	.long 0
 	.align 3
-	.quad DocViewer_DocViewController__ViewDidLoadc__AnonStorey0__ctor
+	.quad DocViewer_DocViewController__setNavButtonsc__AnonStorey0__ctor
 
-LDIFF_SYM318=Lme_1a - DocViewer_DocViewController__ViewDidLoadc__AnonStorey0__ctor
-	.long LDIFF_SYM318
+LDIFF_SYM331=Lme_1d - DocViewer_DocViewController__setNavButtonsc__AnonStorey0__ctor
+	.long LDIFF_SYM331
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde26_end:
+Lfde29_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_39:
@@ -6465,240 +6755,74 @@ LTDIE_39:
 	.asciz "UIKit_UIButtonEventArgs"
 
 	.byte 24,16
-LDIFF_SYM319=LTDIE_32 - Ldebug_info_start
-	.long LDIFF_SYM319
+LDIFF_SYM332=LTDIE_33 - Ldebug_info_start
+	.long LDIFF_SYM332
 	.byte 2,35,0,6
 	.asciz "<ButtonIndex>k__BackingField"
 
-LDIFF_SYM320=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM320
+LDIFF_SYM333=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM333
 	.byte 2,35,16,0,7
 	.asciz "UIKit_UIButtonEventArgs"
 
-LDIFF_SYM321=LTDIE_39 - Ldebug_info_start
-	.long LDIFF_SYM321
+LDIFF_SYM334=LTDIE_39 - Ldebug_info_start
+	.long LDIFF_SYM334
 LTDIE_39_POINTER:
 
 	.byte 13
-LDIFF_SYM322=LTDIE_39 - Ldebug_info_start
-	.long LDIFF_SYM322
+LDIFF_SYM335=LTDIE_39 - Ldebug_info_start
+	.long LDIFF_SYM335
 LTDIE_39_REFERENCE:
 
 	.byte 14
-LDIFF_SYM323=LTDIE_39 - Ldebug_info_start
-	.long LDIFF_SYM323
-	.byte 2
-	.asciz "DocViewer.DocViewController/<ViewDidLoad>c__AnonStorey0:<>m__0"
-	.asciz "DocViewer_DocViewController__ViewDidLoadc__AnonStorey0__m__0_object_UIKit_UIButtonEventArgs"
-
-	.byte 4,94
-	.quad DocViewer_DocViewController__ViewDidLoadc__AnonStorey0__m__0_object_UIKit_UIButtonEventArgs
-	.quad Lme_1b
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM324=LTDIE_33_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM324
-	.byte 1,105,3
-	.asciz "_"
-
-LDIFF_SYM325=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM325
-	.byte 0,3
-	.asciz "e"
-
-LDIFF_SYM326=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM326
-	.byte 1,106,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM327=Lfde27_end - Lfde27_start
-	.long LDIFF_SYM327
-Lfde27_start:
-
-	.long 0
-	.align 3
-	.quad DocViewer_DocViewController__ViewDidLoadc__AnonStorey0__m__0_object_UIKit_UIButtonEventArgs
-
-LDIFF_SYM328=Lme_1b - DocViewer_DocViewController__ViewDidLoadc__AnonStorey0__m__0_object_UIKit_UIButtonEventArgs
-	.long LDIFF_SYM328
-	.long 0
-	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,68,153,24,154,23
-	.align 3
-Lfde27_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "DocViewer.DocViewController/<ViewDidLoad>c__AnonStorey0:<>m__1"
-	.asciz "DocViewer_DocViewController__ViewDidLoadc__AnonStorey0__m__1_object_System_EventArgs"
-
-	.byte 4,114
-	.quad DocViewer_DocViewController__ViewDidLoadc__AnonStorey0__m__1_object_System_EventArgs
-	.quad Lme_1c
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM329=LTDIE_33_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM329
-	.byte 2,141,16,3
-	.asciz "s"
-
-LDIFF_SYM330=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM330
-	.byte 0,3
-	.asciz "a"
-
-LDIFF_SYM331=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM331
-	.byte 0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM332=Lfde28_end - Lfde28_start
-	.long LDIFF_SYM332
-Lfde28_start:
-
-	.long 0
-	.align 3
-	.quad DocViewer_DocViewController__ViewDidLoadc__AnonStorey0__m__1_object_System_EventArgs
-
-LDIFF_SYM333=Lme_1c - DocViewer_DocViewController__ViewDidLoadc__AnonStorey0__m__1_object_System_EventArgs
-	.long LDIFF_SYM333
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
-	.align 3
-Lfde28_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "DocViewer.DocViewController/<ViewDidLoad>c__AnonStorey0:<>m__2"
-	.asciz "DocViewer_DocViewController__ViewDidLoadc__AnonStorey0__m__2_object_System_EventArgs"
-
-	.byte 4,119
-	.quad DocViewer_DocViewController__ViewDidLoadc__AnonStorey0__m__2_object_System_EventArgs
-	.quad Lme_1d
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM334=LTDIE_33_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM334
-	.byte 2,141,16,3
-	.asciz "s"
-
-LDIFF_SYM335=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM335
-	.byte 0,3
-	.asciz "a"
-
-LDIFF_SYM336=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM336=LTDIE_39 - Ldebug_info_start
 	.long LDIFF_SYM336
-	.byte 0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM337=Lfde29_end - Lfde29_start
-	.long LDIFF_SYM337
-Lfde29_start:
-
-	.long 0
-	.align 3
-	.quad DocViewer_DocViewController__ViewDidLoadc__AnonStorey0__m__2_object_System_EventArgs
-
-LDIFF_SYM338=Lme_1d - DocViewer_DocViewController__ViewDidLoadc__AnonStorey0__m__2_object_System_EventArgs
-	.long LDIFF_SYM338
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
-	.align 3
-Lfde29_end:
-
-.section __DWARF, __debug_info,regular,debug
-
 	.byte 2
-	.asciz "DocViewer.DocViewController/<setNavButtons>c__AnonStorey1:.ctor"
-	.asciz "DocViewer_DocViewController__setNavButtonsc__AnonStorey1__ctor"
+	.asciz "DocViewer.DocViewController/<setNavButtons>c__AnonStorey0:<>m__0"
+	.asciz "DocViewer_DocViewController__setNavButtonsc__AnonStorey0__m__0_object_UIKit_UIButtonEventArgs"
 
-	.byte 0,0
-	.quad DocViewer_DocViewController__setNavButtonsc__AnonStorey1__ctor
+	.byte 4,197,1
+	.quad DocViewer_DocViewController__setNavButtonsc__AnonStorey0__m__0_object_UIKit_UIButtonEventArgs
 	.quad Lme_1e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM339=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM339
-	.byte 0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM340=Lfde30_end - Lfde30_start
-	.long LDIFF_SYM340
-Lfde30_start:
-
-	.long 0
-	.align 3
-	.quad DocViewer_DocViewController__setNavButtonsc__AnonStorey1__ctor
-
-LDIFF_SYM341=Lme_1e - DocViewer_DocViewController__setNavButtonsc__AnonStorey1__ctor
-	.long LDIFF_SYM341
-	.long 0
-	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
-	.align 3
-Lfde30_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "DocViewer.DocViewController/<setNavButtons>c__AnonStorey1:<>m__0"
-	.asciz "DocViewer_DocViewController__setNavButtonsc__AnonStorey1__m__0_object_UIKit_UIButtonEventArgs"
-
-	.byte 4,191,1
-	.quad DocViewer_DocViewController__setNavButtonsc__AnonStorey1__m__0_object_UIKit_UIButtonEventArgs
-	.quad Lme_1f
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM342=LTDIE_35_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM342
+LDIFF_SYM337=LTDIE_34_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM337
 	.byte 1,105,3
 	.asciz "_"
 
-LDIFF_SYM343=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM343
+LDIFF_SYM338=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM338
 	.byte 0,3
 	.asciz "e"
 
-LDIFF_SYM344=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM344
+LDIFF_SYM339=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM339
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM345=LTDIE_29 - Ldebug_info_start
-	.long LDIFF_SYM345
+LDIFF_SYM340=LTDIE_29 - Ldebug_info_start
+	.long LDIFF_SYM340
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM346=Lfde31_end - Lfde31_start
-	.long LDIFF_SYM346
-Lfde31_start:
+LDIFF_SYM341=Lfde30_end - Lfde30_start
+	.long LDIFF_SYM341
+Lfde30_start:
 
 	.long 0
 	.align 3
-	.quad DocViewer_DocViewController__setNavButtonsc__AnonStorey1__m__0_object_UIKit_UIButtonEventArgs
+	.quad DocViewer_DocViewController__setNavButtonsc__AnonStorey0__m__0_object_UIKit_UIButtonEventArgs
 
-LDIFF_SYM347=Lme_1f - DocViewer_DocViewController__setNavButtonsc__AnonStorey1__m__0_object_UIKit_UIButtonEventArgs
-	.long LDIFF_SYM347
+LDIFF_SYM342=Lme_1e - DocViewer_DocViewController__setNavButtonsc__AnonStorey0__m__0_object_UIKit_UIButtonEventArgs
+	.long LDIFF_SYM342
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
-Lfde31_end:
+Lfde30_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_45:
@@ -6707,530 +6831,439 @@ LTDIE_45:
 	.asciz "System_Reflection_MemberInfo"
 
 	.byte 16,16
-LDIFF_SYM348=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM348
+LDIFF_SYM343=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM343
 	.byte 2,35,0,0,7
 	.asciz "System_Reflection_MemberInfo"
 
-LDIFF_SYM349=LTDIE_45 - Ldebug_info_start
-	.long LDIFF_SYM349
+LDIFF_SYM344=LTDIE_45 - Ldebug_info_start
+	.long LDIFF_SYM344
 LTDIE_45_POINTER:
 
 	.byte 13
-LDIFF_SYM350=LTDIE_45 - Ldebug_info_start
-	.long LDIFF_SYM350
+LDIFF_SYM345=LTDIE_45 - Ldebug_info_start
+	.long LDIFF_SYM345
 LTDIE_45_REFERENCE:
 
 	.byte 14
-LDIFF_SYM351=LTDIE_45 - Ldebug_info_start
-	.long LDIFF_SYM351
+LDIFF_SYM346=LTDIE_45 - Ldebug_info_start
+	.long LDIFF_SYM346
 LTDIE_44:
 
 	.byte 5
 	.asciz "System_Reflection_MethodBase"
 
 	.byte 16,16
-LDIFF_SYM352=LTDIE_45 - Ldebug_info_start
-	.long LDIFF_SYM352
+LDIFF_SYM347=LTDIE_45 - Ldebug_info_start
+	.long LDIFF_SYM347
 	.byte 2,35,0,0,7
 	.asciz "System_Reflection_MethodBase"
 
-LDIFF_SYM353=LTDIE_44 - Ldebug_info_start
-	.long LDIFF_SYM353
+LDIFF_SYM348=LTDIE_44 - Ldebug_info_start
+	.long LDIFF_SYM348
 LTDIE_44_POINTER:
 
 	.byte 13
-LDIFF_SYM354=LTDIE_44 - Ldebug_info_start
-	.long LDIFF_SYM354
+LDIFF_SYM349=LTDIE_44 - Ldebug_info_start
+	.long LDIFF_SYM349
 LTDIE_44_REFERENCE:
 
 	.byte 14
-LDIFF_SYM355=LTDIE_44 - Ldebug_info_start
-	.long LDIFF_SYM355
+LDIFF_SYM350=LTDIE_44 - Ldebug_info_start
+	.long LDIFF_SYM350
 LTDIE_43:
 
 	.byte 5
 	.asciz "System_Reflection_MethodInfo"
 
 	.byte 16,16
-LDIFF_SYM356=LTDIE_44 - Ldebug_info_start
-	.long LDIFF_SYM356
+LDIFF_SYM351=LTDIE_44 - Ldebug_info_start
+	.long LDIFF_SYM351
 	.byte 2,35,0,0,7
 	.asciz "System_Reflection_MethodInfo"
 
-LDIFF_SYM357=LTDIE_43 - Ldebug_info_start
-	.long LDIFF_SYM357
+LDIFF_SYM352=LTDIE_43 - Ldebug_info_start
+	.long LDIFF_SYM352
 LTDIE_43_POINTER:
 
 	.byte 13
-LDIFF_SYM358=LTDIE_43 - Ldebug_info_start
-	.long LDIFF_SYM358
+LDIFF_SYM353=LTDIE_43 - Ldebug_info_start
+	.long LDIFF_SYM353
 LTDIE_43_REFERENCE:
 
 	.byte 14
-LDIFF_SYM359=LTDIE_43 - Ldebug_info_start
-	.long LDIFF_SYM359
+LDIFF_SYM354=LTDIE_43 - Ldebug_info_start
+	.long LDIFF_SYM354
 LTDIE_47:
 
 	.byte 5
 	.asciz "System_Type"
 
 	.byte 24,16
-LDIFF_SYM360=LTDIE_45 - Ldebug_info_start
-	.long LDIFF_SYM360
+LDIFF_SYM355=LTDIE_45 - Ldebug_info_start
+	.long LDIFF_SYM355
 	.byte 2,35,0,6
 	.asciz "_impl"
 
-LDIFF_SYM361=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM361
+LDIFF_SYM356=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM356
 	.byte 2,35,16,0,7
 	.asciz "System_Type"
 
-LDIFF_SYM362=LTDIE_47 - Ldebug_info_start
-	.long LDIFF_SYM362
+LDIFF_SYM357=LTDIE_47 - Ldebug_info_start
+	.long LDIFF_SYM357
 LTDIE_47_POINTER:
 
 	.byte 13
-LDIFF_SYM363=LTDIE_47 - Ldebug_info_start
-	.long LDIFF_SYM363
+LDIFF_SYM358=LTDIE_47 - Ldebug_info_start
+	.long LDIFF_SYM358
 LTDIE_47_REFERENCE:
 
 	.byte 14
-LDIFF_SYM364=LTDIE_47 - Ldebug_info_start
-	.long LDIFF_SYM364
+LDIFF_SYM359=LTDIE_47 - Ldebug_info_start
+	.long LDIFF_SYM359
 LTDIE_46:
 
 	.byte 5
 	.asciz "System_DelegateData"
 
 	.byte 32,16
-LDIFF_SYM365=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM365
+LDIFF_SYM360=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM360
 	.byte 2,35,0,6
 	.asciz "target_type"
 
-LDIFF_SYM366=LTDIE_47_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM366
+LDIFF_SYM361=LTDIE_47_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM361
 	.byte 2,35,16,6
 	.asciz "method_name"
 
-LDIFF_SYM367=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM367
+LDIFF_SYM362=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM362
 	.byte 2,35,24,0,7
 	.asciz "System_DelegateData"
 
-LDIFF_SYM368=LTDIE_46 - Ldebug_info_start
-	.long LDIFF_SYM368
+LDIFF_SYM363=LTDIE_46 - Ldebug_info_start
+	.long LDIFF_SYM363
 LTDIE_46_POINTER:
 
 	.byte 13
-LDIFF_SYM369=LTDIE_46 - Ldebug_info_start
-	.long LDIFF_SYM369
+LDIFF_SYM364=LTDIE_46 - Ldebug_info_start
+	.long LDIFF_SYM364
 LTDIE_46_REFERENCE:
 
 	.byte 14
-LDIFF_SYM370=LTDIE_46 - Ldebug_info_start
-	.long LDIFF_SYM370
+LDIFF_SYM365=LTDIE_46 - Ldebug_info_start
+	.long LDIFF_SYM365
 LTDIE_42:
 
 	.byte 5
 	.asciz "System_Delegate"
 
 	.byte 104,16
-LDIFF_SYM371=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM371
+LDIFF_SYM366=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM366
 	.byte 2,35,0,6
 	.asciz "method_ptr"
 
-LDIFF_SYM372=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM372
+LDIFF_SYM367=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM367
 	.byte 2,35,16,6
 	.asciz "invoke_impl"
 
-LDIFF_SYM373=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM373
+LDIFF_SYM368=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM368
 	.byte 2,35,24,6
 	.asciz "m_target"
 
-LDIFF_SYM374=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM374
+LDIFF_SYM369=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM369
 	.byte 2,35,32,6
 	.asciz "method"
 
-LDIFF_SYM375=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM375
+LDIFF_SYM370=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM370
 	.byte 2,35,40,6
 	.asciz "delegate_trampoline"
 
-LDIFF_SYM376=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM376
+LDIFF_SYM371=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM371
 	.byte 2,35,48,6
 	.asciz "extra_arg"
 
-LDIFF_SYM377=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM377
+LDIFF_SYM372=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM372
 	.byte 2,35,56,6
 	.asciz "method_code"
 
-LDIFF_SYM378=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM378
+LDIFF_SYM373=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM373
 	.byte 2,35,64,6
 	.asciz "method_info"
 
-LDIFF_SYM379=LTDIE_43_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM379
+LDIFF_SYM374=LTDIE_43_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM374
 	.byte 2,35,72,6
 	.asciz "original_method_info"
 
-LDIFF_SYM380=LTDIE_43_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM380
+LDIFF_SYM375=LTDIE_43_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM375
 	.byte 2,35,80,6
 	.asciz "data"
 
-LDIFF_SYM381=LTDIE_46_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM381
+LDIFF_SYM376=LTDIE_46_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM376
 	.byte 2,35,88,6
 	.asciz "method_is_virtual"
 
-LDIFF_SYM382=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM382
+LDIFF_SYM377=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM377
 	.byte 2,35,96,0,7
 	.asciz "System_Delegate"
 
-LDIFF_SYM383=LTDIE_42 - Ldebug_info_start
-	.long LDIFF_SYM383
+LDIFF_SYM378=LTDIE_42 - Ldebug_info_start
+	.long LDIFF_SYM378
 LTDIE_42_POINTER:
 
 	.byte 13
-LDIFF_SYM384=LTDIE_42 - Ldebug_info_start
-	.long LDIFF_SYM384
+LDIFF_SYM379=LTDIE_42 - Ldebug_info_start
+	.long LDIFF_SYM379
 LTDIE_42_REFERENCE:
 
 	.byte 14
-LDIFF_SYM385=LTDIE_42 - Ldebug_info_start
-	.long LDIFF_SYM385
+LDIFF_SYM380=LTDIE_42 - Ldebug_info_start
+	.long LDIFF_SYM380
 LTDIE_41:
 
 	.byte 5
 	.asciz "System_MulticastDelegate"
 
 	.byte 112,16
-LDIFF_SYM386=LTDIE_42 - Ldebug_info_start
-	.long LDIFF_SYM386
+LDIFF_SYM381=LTDIE_42 - Ldebug_info_start
+	.long LDIFF_SYM381
 	.byte 2,35,0,6
 	.asciz "delegates"
 
-LDIFF_SYM387=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM387
+LDIFF_SYM382=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM382
 	.byte 2,35,104,0,7
 	.asciz "System_MulticastDelegate"
 
-LDIFF_SYM388=LTDIE_41 - Ldebug_info_start
-	.long LDIFF_SYM388
+LDIFF_SYM383=LTDIE_41 - Ldebug_info_start
+	.long LDIFF_SYM383
 LTDIE_41_POINTER:
 
 	.byte 13
-LDIFF_SYM389=LTDIE_41 - Ldebug_info_start
-	.long LDIFF_SYM389
+LDIFF_SYM384=LTDIE_41 - Ldebug_info_start
+	.long LDIFF_SYM384
 LTDIE_41_REFERENCE:
 
 	.byte 14
-LDIFF_SYM390=LTDIE_41 - Ldebug_info_start
-	.long LDIFF_SYM390
+LDIFF_SYM385=LTDIE_41 - Ldebug_info_start
+	.long LDIFF_SYM385
 LTDIE_40:
 
 	.byte 5
 	.asciz "System_EventHandler`1"
 
 	.byte 112,16
-LDIFF_SYM391=LTDIE_41 - Ldebug_info_start
-	.long LDIFF_SYM391
+LDIFF_SYM386=LTDIE_41 - Ldebug_info_start
+	.long LDIFF_SYM386
 	.byte 2,35,0,0,7
 	.asciz "System_EventHandler`1"
 
-LDIFF_SYM392=LTDIE_40 - Ldebug_info_start
-	.long LDIFF_SYM392
+LDIFF_SYM387=LTDIE_40 - Ldebug_info_start
+	.long LDIFF_SYM387
 LTDIE_40_POINTER:
 
 	.byte 13
-LDIFF_SYM393=LTDIE_40 - Ldebug_info_start
-	.long LDIFF_SYM393
+LDIFF_SYM388=LTDIE_40 - Ldebug_info_start
+	.long LDIFF_SYM388
 LTDIE_40_REFERENCE:
 
 	.byte 14
-LDIFF_SYM394=LTDIE_40 - Ldebug_info_start
-	.long LDIFF_SYM394
+LDIFF_SYM389=LTDIE_40 - Ldebug_info_start
+	.long LDIFF_SYM389
 LTDIE_48:
 
 	.byte 5
 	.asciz "System_Array"
 
 	.byte 16,16
-LDIFF_SYM395=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM395
+LDIFF_SYM390=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM390
 	.byte 2,35,0,0,7
 	.asciz "System_Array"
 
-LDIFF_SYM396=LTDIE_48 - Ldebug_info_start
-	.long LDIFF_SYM396
+LDIFF_SYM391=LTDIE_48 - Ldebug_info_start
+	.long LDIFF_SYM391
 LTDIE_48_POINTER:
 
 	.byte 13
-LDIFF_SYM397=LTDIE_48 - Ldebug_info_start
-	.long LDIFF_SYM397
+LDIFF_SYM392=LTDIE_48 - Ldebug_info_start
+	.long LDIFF_SYM392
 LTDIE_48_REFERENCE:
 
 	.byte 14
-LDIFF_SYM398=LTDIE_48 - Ldebug_info_start
-	.long LDIFF_SYM398
+LDIFF_SYM393=LTDIE_48 - Ldebug_info_start
+	.long LDIFF_SYM393
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.EventHandler`1<Carousels.iCarouselItemSelectedEventArgs>:invoke_void_object_TEventArgs"
 	.asciz "wrapper_delegate_invoke_System_EventHandler_1_Carousels_iCarouselItemSelectedEventArgs_invoke_void_object_TEventArgs_object_Carousels_iCarouselItemSelectedEventArgs"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_EventHandler_1_Carousels_iCarouselItemSelectedEventArgs_invoke_void_object_TEventArgs_object_Carousels_iCarouselItemSelectedEventArgs
-	.quad Lme_21
+	.quad Lme_20
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM399=LTDIE_40_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM399
+LDIFF_SYM394=LTDIE_40_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM394
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM400=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM400
+LDIFF_SYM395=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM395
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM401=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM401
+LDIFF_SYM396=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM396
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM402=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM402
+LDIFF_SYM397=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM397
 	.byte 1,102,11
 	.asciz "V_1"
 
-LDIFF_SYM403=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM403
+LDIFF_SYM398=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM398
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM404=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM404
+LDIFF_SYM399=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM399
 	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM405=LTDIE_41_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM405
+LDIFF_SYM400=LTDIE_41_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM400
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM406=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM406
+LDIFF_SYM401=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM401
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM407=Lfde32_end - Lfde32_start
-	.long LDIFF_SYM407
-Lfde32_start:
+LDIFF_SYM402=Lfde31_end - Lfde31_start
+	.long LDIFF_SYM402
+Lfde31_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_EventHandler_1_Carousels_iCarouselItemSelectedEventArgs_invoke_void_object_TEventArgs_object_Carousels_iCarouselItemSelectedEventArgs
 
-LDIFF_SYM408=Lme_21 - wrapper_delegate_invoke_System_EventHandler_1_Carousels_iCarouselItemSelectedEventArgs_invoke_void_object_TEventArgs_object_Carousels_iCarouselItemSelectedEventArgs
-	.long LDIFF_SYM408
+LDIFF_SYM403=Lme_20 - wrapper_delegate_invoke_System_EventHandler_1_Carousels_iCarouselItemSelectedEventArgs_invoke_void_object_TEventArgs_object_Carousels_iCarouselItemSelectedEventArgs
+	.long LDIFF_SYM403
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,149,8,150,7,68,151,6,152,5,68,153,4,154,3
 	.align 3
-Lfde32_end:
+Lfde31_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_49:
 
 	.byte 5
-	.asciz "System_EventHandler`1"
+	.asciz "System_Func`2"
 
 	.byte 112,16
-LDIFF_SYM409=LTDIE_41 - Ldebug_info_start
-	.long LDIFF_SYM409
+LDIFF_SYM404=LTDIE_41 - Ldebug_info_start
+	.long LDIFF_SYM404
 	.byte 2,35,0,0,7
-	.asciz "System_EventHandler`1"
+	.asciz "System_Func`2"
 
-LDIFF_SYM410=LTDIE_49 - Ldebug_info_start
-	.long LDIFF_SYM410
+LDIFF_SYM405=LTDIE_49 - Ldebug_info_start
+	.long LDIFF_SYM405
 LTDIE_49_POINTER:
 
 	.byte 13
-LDIFF_SYM411=LTDIE_49 - Ldebug_info_start
-	.long LDIFF_SYM411
+LDIFF_SYM406=LTDIE_49 - Ldebug_info_start
+	.long LDIFF_SYM406
 LTDIE_49_REFERENCE:
 
 	.byte 14
-LDIFF_SYM412=LTDIE_49 - Ldebug_info_start
-	.long LDIFF_SYM412
-	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.EventHandler`1<UIKit.UIButtonEventArgs>:invoke_void_object_TEventArgs"
-	.asciz "wrapper_delegate_invoke_System_EventHandler_1_UIKit_UIButtonEventArgs_invoke_void_object_TEventArgs_object_UIKit_UIButtonEventArgs"
-
-	.byte 0,0
-	.quad wrapper_delegate_invoke_System_EventHandler_1_UIKit_UIButtonEventArgs_invoke_void_object_TEventArgs_object_UIKit_UIButtonEventArgs
-	.quad Lme_22
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM413=LTDIE_49_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM413
-	.byte 1,104,3
-	.asciz "param0"
-
-LDIFF_SYM414=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM414
-	.byte 1,105,3
-	.asciz "param1"
-
-LDIFF_SYM415=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM415
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM416=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM416
-	.byte 1,102,11
-	.asciz "V_1"
-
-LDIFF_SYM417=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM417
-	.byte 1,104,11
-	.asciz "V_2"
-
-LDIFF_SYM418=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM418
-	.byte 1,103,11
-	.asciz "V_3"
-
-LDIFF_SYM419=LTDIE_41_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM419
-	.byte 1,101,11
-	.asciz "V_4"
-
-LDIFF_SYM420=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM420
-	.byte 1,103,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM421=Lfde33_end - Lfde33_start
-	.long LDIFF_SYM421
-Lfde33_start:
-
-	.long 0
-	.align 3
-	.quad wrapper_delegate_invoke_System_EventHandler_1_UIKit_UIButtonEventArgs_invoke_void_object_TEventArgs_object_UIKit_UIButtonEventArgs
-
-LDIFF_SYM422=Lme_22 - wrapper_delegate_invoke_System_EventHandler_1_UIKit_UIButtonEventArgs_invoke_void_object_TEventArgs_object_UIKit_UIButtonEventArgs
-	.long LDIFF_SYM422
-	.long 0
-	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,149,8,150,7,68,151,6,152,5,68,153,4,154,3
-	.align 3
-Lfde33_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_50:
-
-	.byte 5
-	.asciz "System_Func`2"
-
-	.byte 112,16
-LDIFF_SYM423=LTDIE_41 - Ldebug_info_start
-	.long LDIFF_SYM423
-	.byte 2,35,0,0,7
-	.asciz "System_Func`2"
-
-LDIFF_SYM424=LTDIE_50 - Ldebug_info_start
-	.long LDIFF_SYM424
-LTDIE_50_POINTER:
-
-	.byte 13
-LDIFF_SYM425=LTDIE_50 - Ldebug_info_start
-	.long LDIFF_SYM425
-LTDIE_50_REFERENCE:
-
-	.byte 14
-LDIFF_SYM426=LTDIE_50 - Ldebug_info_start
-	.long LDIFF_SYM426
+LDIFF_SYM407=LTDIE_49 - Ldebug_info_start
+	.long LDIFF_SYM407
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`2<string,_bool>:invoke_TResult_T"
 	.asciz "wrapper_delegate_invoke_System_Func_2_string_bool_invoke_TResult_T_string"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_2_string_bool_invoke_TResult_T_string
-	.quad Lme_27
+	.quad Lme_25
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM427=LTDIE_50_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM427
+LDIFF_SYM408=LTDIE_49_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM408
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM428=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM428
+LDIFF_SYM409=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM409
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM429=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM429
+LDIFF_SYM410=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM410
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM430=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM430
+LDIFF_SYM411=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM411
 	.byte 1,105,11
 	.asciz "V_2"
 
-LDIFF_SYM431=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM431
+LDIFF_SYM412=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM412
 	.byte 1,104,11
 	.asciz "V_3"
 
-LDIFF_SYM432=LTDIE_41_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM432
+LDIFF_SYM413=LTDIE_41_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM413
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM433=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM433
+LDIFF_SYM414=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM414
 	.byte 1,104,11
 	.asciz "V_5"
 
-LDIFF_SYM434=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM434
+LDIFF_SYM415=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM415
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM435=Lfde34_end - Lfde34_start
-	.long LDIFF_SYM435
-Lfde34_start:
+LDIFF_SYM416=Lfde32_end - Lfde32_start
+	.long LDIFF_SYM416
+Lfde32_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_2_string_bool_invoke_TResult_T_string
 
-LDIFF_SYM436=Lme_27 - wrapper_delegate_invoke_System_Func_2_string_bool_invoke_TResult_T_string
-	.long LDIFF_SYM436
+LDIFF_SYM417=Lme_25 - wrapper_delegate_invoke_System_Func_2_string_bool_invoke_TResult_T_string
+	.long LDIFF_SYM417
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8,151,7,68,152,6,153,5,68,154,4
 	.align 3
-Lfde34_end:
+Lfde32_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -7240,31 +7273,122 @@ Lfde34_end:
 
 	.byte 5,78
 	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
-	.quad Lme_28
+	.quad Lme_26
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM437=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM437
+LDIFF_SYM418=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM418
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM438=Lfde35_end - Lfde35_start
-	.long LDIFF_SYM438
-Lfde35_start:
+LDIFF_SYM419=Lfde33_end - Lfde33_start
+	.long LDIFF_SYM419
+Lfde33_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
 
-LDIFF_SYM439=Lme_28 - System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
-	.long LDIFF_SYM439
+LDIFF_SYM420=Lme_26 - System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
+	.long LDIFF_SYM420
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
-Lfde35_end:
+Lfde33_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_50:
+
+	.byte 5
+	.asciz "System_EventHandler`1"
+
+	.byte 112,16
+LDIFF_SYM421=LTDIE_41 - Ldebug_info_start
+	.long LDIFF_SYM421
+	.byte 2,35,0,0,7
+	.asciz "System_EventHandler`1"
+
+LDIFF_SYM422=LTDIE_50 - Ldebug_info_start
+	.long LDIFF_SYM422
+LTDIE_50_POINTER:
+
+	.byte 13
+LDIFF_SYM423=LTDIE_50 - Ldebug_info_start
+	.long LDIFF_SYM423
+LTDIE_50_REFERENCE:
+
+	.byte 14
+LDIFF_SYM424=LTDIE_50 - Ldebug_info_start
+	.long LDIFF_SYM424
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.EventHandler`1<UIKit.UIButtonEventArgs>:invoke_void_object_TEventArgs"
+	.asciz "wrapper_delegate_invoke_System_EventHandler_1_UIKit_UIButtonEventArgs_invoke_void_object_TEventArgs_object_UIKit_UIButtonEventArgs"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_EventHandler_1_UIKit_UIButtonEventArgs_invoke_void_object_TEventArgs_object_UIKit_UIButtonEventArgs
+	.quad Lme_27
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM425=LTDIE_50_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM425
+	.byte 1,104,3
+	.asciz "param0"
+
+LDIFF_SYM426=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM426
+	.byte 1,105,3
+	.asciz "param1"
+
+LDIFF_SYM427=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM427
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM428=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM428
+	.byte 1,102,11
+	.asciz "V_1"
+
+LDIFF_SYM429=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM429
+	.byte 1,104,11
+	.asciz "V_2"
+
+LDIFF_SYM430=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM430
+	.byte 1,103,11
+	.asciz "V_3"
+
+LDIFF_SYM431=LTDIE_41_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM431
+	.byte 1,101,11
+	.asciz "V_4"
+
+LDIFF_SYM432=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM432
+	.byte 1,103,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM433=Lfde34_end - Lfde34_start
+	.long LDIFF_SYM433
+Lfde34_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_EventHandler_1_UIKit_UIButtonEventArgs_invoke_void_object_TEventArgs_object_UIKit_UIButtonEventArgs
+
+LDIFF_SYM434=Lme_27 - wrapper_delegate_invoke_System_EventHandler_1_UIKit_UIButtonEventArgs_invoke_void_object_TEventArgs_object_UIKit_UIButtonEventArgs
+	.long LDIFF_SYM434
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,149,8,150,7,68,151,6,152,5,68,153,4,154,3
+	.align 3
+Lfde34_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_51:
@@ -7275,54 +7399,54 @@ LTDIE_51:
 	.byte 16,7
 	.asciz "System_Collections_Generic_IEnumerable`1"
 
-LDIFF_SYM440=LTDIE_51 - Ldebug_info_start
-	.long LDIFF_SYM440
+LDIFF_SYM435=LTDIE_51 - Ldebug_info_start
+	.long LDIFF_SYM435
 LTDIE_51_POINTER:
 
 	.byte 13
-LDIFF_SYM441=LTDIE_51 - Ldebug_info_start
-	.long LDIFF_SYM441
+LDIFF_SYM436=LTDIE_51 - Ldebug_info_start
+	.long LDIFF_SYM436
 LTDIE_51_REFERENCE:
 
 	.byte 14
-LDIFF_SYM442=LTDIE_51 - Ldebug_info_start
-	.long LDIFF_SYM442
+LDIFF_SYM437=LTDIE_51 - Ldebug_info_start
+	.long LDIFF_SYM437
 	.byte 2
 	.asciz "System.Linq.Enumerable:ToArray<TSource_INT>"
 	.asciz "System_Linq_Enumerable_ToArray_TSource_INT_System_Collections_Generic_IEnumerable_1_TSource_INT"
 
 	.byte 6,215,6
 	.quad System_Linq_Enumerable_ToArray_TSource_INT_System_Collections_Generic_IEnumerable_1_TSource_INT
-	.quad Lme_29
+	.quad Lme_28
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM443=LTDIE_51_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM443
+LDIFF_SYM438=LTDIE_51_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM438
 	.byte 2,141,16,11
 	.asciz ""
 
-LDIFF_SYM444=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM444
+LDIFF_SYM439=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM439
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM445=Lfde36_end - Lfde36_start
-	.long LDIFF_SYM445
-Lfde36_start:
+LDIFF_SYM440=Lfde35_end - Lfde35_start
+	.long LDIFF_SYM440
+Lfde35_start:
 
 	.long 0
 	.align 3
 	.quad System_Linq_Enumerable_ToArray_TSource_INT_System_Collections_Generic_IEnumerable_1_TSource_INT
 
-LDIFF_SYM446=Lme_29 - System_Linq_Enumerable_ToArray_TSource_INT_System_Collections_Generic_IEnumerable_1_TSource_INT
-	.long LDIFF_SYM446
+LDIFF_SYM441=Lme_28 - System_Linq_Enumerable_ToArray_TSource_INT_System_Collections_Generic_IEnumerable_1_TSource_INT
+	.long LDIFF_SYM441
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde36_end:
+Lfde35_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_52:
@@ -7331,69 +7455,69 @@ LTDIE_52:
 	.asciz "_InternalEnumerator`1"
 
 	.byte 32,16
-LDIFF_SYM447=LTDIE_17 - Ldebug_info_start
-	.long LDIFF_SYM447
+LDIFF_SYM442=LTDIE_17 - Ldebug_info_start
+	.long LDIFF_SYM442
 	.byte 2,35,0,6
 	.asciz "array"
 
-LDIFF_SYM448=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM448
+LDIFF_SYM443=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM443
 	.byte 2,35,16,6
 	.asciz "idx"
 
-LDIFF_SYM449=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM449
+LDIFF_SYM444=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM444
 	.byte 2,35,24,0,7
 	.asciz "_InternalEnumerator`1"
 
-LDIFF_SYM450=LTDIE_52 - Ldebug_info_start
-	.long LDIFF_SYM450
+LDIFF_SYM445=LTDIE_52 - Ldebug_info_start
+	.long LDIFF_SYM445
 LTDIE_52_POINTER:
 
 	.byte 13
-LDIFF_SYM451=LTDIE_52 - Ldebug_info_start
-	.long LDIFF_SYM451
+LDIFF_SYM446=LTDIE_52 - Ldebug_info_start
+	.long LDIFF_SYM446
 LTDIE_52_REFERENCE:
 
 	.byte 14
-LDIFF_SYM452=LTDIE_52 - Ldebug_info_start
-	.long LDIFF_SYM452
+LDIFF_SYM447=LTDIE_52 - Ldebug_info_start
+	.long LDIFF_SYM447
 	.byte 2
 	.asciz "System.Array/InternalEnumerator`1<T_INT>:.ctor"
 	.asciz "System_Array_InternalEnumerator_1_T_INT__ctor_System_Array"
 
 	.byte 5,239,1
 	.quad System_Array_InternalEnumerator_1_T_INT__ctor_System_Array
-	.quad Lme_2b
+	.quad Lme_2a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM453=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM453
+LDIFF_SYM448=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM448
 	.byte 2,141,16,3
 	.asciz "param0"
 
-LDIFF_SYM454=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM454
+LDIFF_SYM449=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM449
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM455=Lfde37_end - Lfde37_start
-	.long LDIFF_SYM455
-Lfde37_start:
+LDIFF_SYM450=Lfde36_end - Lfde36_start
+	.long LDIFF_SYM450
+Lfde36_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_T_INT__ctor_System_Array
 
-LDIFF_SYM456=Lme_2b - System_Array_InternalEnumerator_1_T_INT__ctor_System_Array
-	.long LDIFF_SYM456
+LDIFF_SYM451=Lme_2a - System_Array_InternalEnumerator_1_T_INT__ctor_System_Array
+	.long LDIFF_SYM451
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde37_end:
+Lfde36_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -7403,31 +7527,31 @@ Lfde37_end:
 
 	.byte 5,245,1
 	.quad System_Array_InternalEnumerator_1_T_INT_Dispose
-	.quad Lme_2c
+	.quad Lme_2b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM457=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM457
+LDIFF_SYM452=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM452
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM458=Lfde38_end - Lfde38_start
-	.long LDIFF_SYM458
-Lfde38_start:
+LDIFF_SYM453=Lfde37_end - Lfde37_start
+	.long LDIFF_SYM453
+Lfde37_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_T_INT_Dispose
 
-LDIFF_SYM459=Lme_2c - System_Array_InternalEnumerator_1_T_INT_Dispose
-	.long LDIFF_SYM459
+LDIFF_SYM454=Lme_2b - System_Array_InternalEnumerator_1_T_INT_Dispose
+	.long LDIFF_SYM454
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde38_end:
+Lfde37_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -7437,36 +7561,36 @@ Lfde38_end:
 
 	.byte 5,250,1
 	.quad System_Array_InternalEnumerator_1_T_INT_MoveNext
-	.quad Lme_2d
+	.quad Lme_2c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM460=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM460
+LDIFF_SYM455=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM455
 	.byte 1,106,11
 	.asciz ""
 
-LDIFF_SYM461=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM461
+LDIFF_SYM456=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM456
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM462=Lfde39_end - Lfde39_start
-	.long LDIFF_SYM462
-Lfde39_start:
+LDIFF_SYM457=Lfde38_end - Lfde38_start
+	.long LDIFF_SYM457
+Lfde38_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_T_INT_MoveNext
 
-LDIFF_SYM463=Lme_2d - System_Array_InternalEnumerator_1_T_INT_MoveNext
-	.long LDIFF_SYM463
+LDIFF_SYM458=Lme_2c - System_Array_InternalEnumerator_1_T_INT_MoveNext
+	.long LDIFF_SYM458
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde39_end:
+Lfde38_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -7476,31 +7600,31 @@ Lfde39_end:
 
 	.byte 5,130,2
 	.quad System_Array_InternalEnumerator_1_T_INT_get_Current
-	.quad Lme_2e
+	.quad Lme_2d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM464=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM464
+LDIFF_SYM459=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM459
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM465=Lfde40_end - Lfde40_start
-	.long LDIFF_SYM465
-Lfde40_start:
+LDIFF_SYM460=Lfde39_end - Lfde39_start
+	.long LDIFF_SYM460
+Lfde39_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_T_INT_get_Current
 
-LDIFF_SYM466=Lme_2e - System_Array_InternalEnumerator_1_T_INT_get_Current
-	.long LDIFF_SYM466
+LDIFF_SYM461=Lme_2d - System_Array_InternalEnumerator_1_T_INT_get_Current
+	.long LDIFF_SYM461
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde40_end:
+Lfde39_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -7510,31 +7634,31 @@ Lfde40_end:
 
 	.byte 5,78
 	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_T_INT
-	.quad Lme_2f
+	.quad Lme_2e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM467=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM467
+LDIFF_SYM462=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM462
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM468=Lfde41_end - Lfde41_start
-	.long LDIFF_SYM468
-Lfde41_start:
+LDIFF_SYM463=Lfde40_end - Lfde40_start
+	.long LDIFF_SYM463
+Lfde40_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_T_INT
 
-LDIFF_SYM469=Lme_2f - System_Array_InternalArray__IEnumerable_GetEnumerator_T_INT
-	.long LDIFF_SYM469
+LDIFF_SYM464=Lme_2e - System_Array_InternalArray__IEnumerable_GetEnumerator_T_INT
+	.long LDIFF_SYM464
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29
 	.align 3
-Lfde41_end:
+Lfde40_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_53:
@@ -7543,33 +7667,33 @@ LTDIE_53:
 	.asciz "System_Linq_Buffer`1"
 
 	.byte 32,16
-LDIFF_SYM470=LTDIE_17 - Ldebug_info_start
-	.long LDIFF_SYM470
+LDIFF_SYM465=LTDIE_17 - Ldebug_info_start
+	.long LDIFF_SYM465
 	.byte 2,35,0,6
 	.asciz "items"
 
-LDIFF_SYM471=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM471
+LDIFF_SYM466=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM466
 	.byte 2,35,16,6
 	.asciz "count"
 
-LDIFF_SYM472=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM472
+LDIFF_SYM467=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM467
 	.byte 2,35,24,0,7
 	.asciz "System_Linq_Buffer`1"
 
-LDIFF_SYM473=LTDIE_53 - Ldebug_info_start
-	.long LDIFF_SYM473
+LDIFF_SYM468=LTDIE_53 - Ldebug_info_start
+	.long LDIFF_SYM468
 LTDIE_53_POINTER:
 
 	.byte 13
-LDIFF_SYM474=LTDIE_53 - Ldebug_info_start
-	.long LDIFF_SYM474
+LDIFF_SYM469=LTDIE_53 - Ldebug_info_start
+	.long LDIFF_SYM469
 LTDIE_53_REFERENCE:
 
 	.byte 14
-LDIFF_SYM475=LTDIE_53 - Ldebug_info_start
-	.long LDIFF_SYM475
+LDIFF_SYM470=LTDIE_53 - Ldebug_info_start
+	.long LDIFF_SYM470
 LTDIE_54:
 
 	.byte 17
@@ -7578,18 +7702,18 @@ LTDIE_54:
 	.byte 16,7
 	.asciz "System_Collections_Generic_IEnumerable`1"
 
-LDIFF_SYM476=LTDIE_54 - Ldebug_info_start
-	.long LDIFF_SYM476
+LDIFF_SYM471=LTDIE_54 - Ldebug_info_start
+	.long LDIFF_SYM471
 LTDIE_54_POINTER:
 
 	.byte 13
-LDIFF_SYM477=LTDIE_54 - Ldebug_info_start
-	.long LDIFF_SYM477
+LDIFF_SYM472=LTDIE_54 - Ldebug_info_start
+	.long LDIFF_SYM472
 LTDIE_54_REFERENCE:
 
 	.byte 14
-LDIFF_SYM478=LTDIE_54 - Ldebug_info_start
-	.long LDIFF_SYM478
+LDIFF_SYM473=LTDIE_54 - Ldebug_info_start
+	.long LDIFF_SYM473
 LTDIE_55:
 
 	.byte 17
@@ -7598,18 +7722,18 @@ LTDIE_55:
 	.byte 16,7
 	.asciz "System_Collections_Generic_ICollection`1"
 
-LDIFF_SYM479=LTDIE_55 - Ldebug_info_start
-	.long LDIFF_SYM479
+LDIFF_SYM474=LTDIE_55 - Ldebug_info_start
+	.long LDIFF_SYM474
 LTDIE_55_POINTER:
 
 	.byte 13
-LDIFF_SYM480=LTDIE_55 - Ldebug_info_start
-	.long LDIFF_SYM480
+LDIFF_SYM475=LTDIE_55 - Ldebug_info_start
+	.long LDIFF_SYM475
 LTDIE_55_REFERENCE:
 
 	.byte 14
-LDIFF_SYM481=LTDIE_55 - Ldebug_info_start
-	.long LDIFF_SYM481
+LDIFF_SYM476=LTDIE_55 - Ldebug_info_start
+	.long LDIFF_SYM476
 LTDIE_56:
 
 	.byte 17
@@ -7618,84 +7742,84 @@ LTDIE_56:
 	.byte 16,7
 	.asciz "System_Collections_Generic_IEnumerator`1"
 
-LDIFF_SYM482=LTDIE_56 - Ldebug_info_start
-	.long LDIFF_SYM482
+LDIFF_SYM477=LTDIE_56 - Ldebug_info_start
+	.long LDIFF_SYM477
 LTDIE_56_POINTER:
 
 	.byte 13
-LDIFF_SYM483=LTDIE_56 - Ldebug_info_start
-	.long LDIFF_SYM483
+LDIFF_SYM478=LTDIE_56 - Ldebug_info_start
+	.long LDIFF_SYM478
 LTDIE_56_REFERENCE:
 
 	.byte 14
-LDIFF_SYM484=LTDIE_56 - Ldebug_info_start
-	.long LDIFF_SYM484
+LDIFF_SYM479=LTDIE_56 - Ldebug_info_start
+	.long LDIFF_SYM479
 	.byte 2
 	.asciz "System.Linq.Buffer`1<TElement_INT>:.ctor"
 	.asciz "System_Linq_Buffer_1_TElement_INT__ctor_System_Collections_Generic_IEnumerable_1_TElement_INT"
 
 	.byte 6,141,20
 	.quad System_Linq_Buffer_1_TElement_INT__ctor_System_Collections_Generic_IEnumerable_1_TElement_INT
-	.quad Lme_30
+	.quad Lme_2f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM485=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM485
+LDIFF_SYM480=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM480
 	.byte 2,141,56,3
 	.asciz "param0"
 
-LDIFF_SYM486=LTDIE_54_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM486
+LDIFF_SYM481=LTDIE_54_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM481
 	.byte 1,106,11
 	.asciz "items"
 
-LDIFF_SYM487=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM487
+LDIFF_SYM482=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM482
 	.byte 1,104,11
 	.asciz "count"
 
-LDIFF_SYM488=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM488
+LDIFF_SYM483=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM483
 	.byte 1,103,11
 	.asciz "collection"
 
-LDIFF_SYM489=LTDIE_55_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM489
+LDIFF_SYM484=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM484
 	.byte 1,102,11
 	.asciz "item"
 
-LDIFF_SYM490=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM490
+LDIFF_SYM485=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM485
 	.byte 1,106,11
 	.asciz ""
 
-LDIFF_SYM491=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM491
+LDIFF_SYM486=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM486
 	.byte 3,141,200,0,11
 	.asciz "newItems"
 
-LDIFF_SYM492=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM492
+LDIFF_SYM487=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM487
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM493=Lfde42_end - Lfde42_start
-	.long LDIFF_SYM493
-Lfde42_start:
+LDIFF_SYM488=Lfde41_end - Lfde41_start
+	.long LDIFF_SYM488
+Lfde41_start:
 
 	.long 0
 	.align 3
 	.quad System_Linq_Buffer_1_TElement_INT__ctor_System_Collections_Generic_IEnumerable_1_TElement_INT
 
-LDIFF_SYM494=Lme_30 - System_Linq_Buffer_1_TElement_INT__ctor_System_Collections_Generic_IEnumerable_1_TElement_INT
-	.long LDIFF_SYM494
+LDIFF_SYM489=Lme_2f - System_Linq_Buffer_1_TElement_INT__ctor_System_Collections_Generic_IEnumerable_1_TElement_INT
+	.long LDIFF_SYM489
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,149,14,150,13,68,151,12,152,11,68,154,10
 	.align 3
-Lfde42_end:
+Lfde41_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -7705,36 +7829,36 @@ Lfde42_end:
 
 	.byte 6,170,20
 	.quad System_Linq_Buffer_1_TElement_INT_ToArray
-	.quad Lme_31
+	.quad Lme_30
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM495=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM495
+LDIFF_SYM490=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM490
 	.byte 1,106,11
 	.asciz "result"
 
-LDIFF_SYM496=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM496
+LDIFF_SYM491=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM491
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM497=Lfde43_end - Lfde43_start
-	.long LDIFF_SYM497
-Lfde43_start:
+LDIFF_SYM492=Lfde42_end - Lfde42_start
+	.long LDIFF_SYM492
+Lfde42_start:
 
 	.long 0
 	.align 3
 	.quad System_Linq_Buffer_1_TElement_INT_ToArray
 
-LDIFF_SYM498=Lme_31 - System_Linq_Buffer_1_TElement_INT_ToArray
-	.long LDIFF_SYM498
+LDIFF_SYM493=Lme_30 - System_Linq_Buffer_1_TElement_INT_ToArray
+	.long LDIFF_SYM493
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,154,5
 	.align 3
-Lfde43_end:
+Lfde42_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_57:
@@ -7743,69 +7867,69 @@ LTDIE_57:
 	.asciz "_InternalEnumerator`1"
 
 	.byte 32,16
-LDIFF_SYM499=LTDIE_17 - Ldebug_info_start
-	.long LDIFF_SYM499
+LDIFF_SYM494=LTDIE_17 - Ldebug_info_start
+	.long LDIFF_SYM494
 	.byte 2,35,0,6
 	.asciz "array"
 
-LDIFF_SYM500=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM500
+LDIFF_SYM495=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM495
 	.byte 2,35,16,6
 	.asciz "idx"
 
-LDIFF_SYM501=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM501
+LDIFF_SYM496=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM496
 	.byte 2,35,24,0,7
 	.asciz "_InternalEnumerator`1"
 
-LDIFF_SYM502=LTDIE_57 - Ldebug_info_start
-	.long LDIFF_SYM502
+LDIFF_SYM497=LTDIE_57 - Ldebug_info_start
+	.long LDIFF_SYM497
 LTDIE_57_POINTER:
 
 	.byte 13
-LDIFF_SYM503=LTDIE_57 - Ldebug_info_start
-	.long LDIFF_SYM503
+LDIFF_SYM498=LTDIE_57 - Ldebug_info_start
+	.long LDIFF_SYM498
 LTDIE_57_REFERENCE:
 
 	.byte 14
-LDIFF_SYM504=LTDIE_57 - Ldebug_info_start
-	.long LDIFF_SYM504
+LDIFF_SYM499=LTDIE_57 - Ldebug_info_start
+	.long LDIFF_SYM499
 	.byte 2
 	.asciz "System.Array/InternalEnumerator`1<T_REF>:.ctor"
 	.asciz "System_Array_InternalEnumerator_1_T_REF__ctor_System_Array"
 
 	.byte 5,239,1
 	.quad System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
-	.quad Lme_32
+	.quad Lme_31
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM505=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM505
+LDIFF_SYM500=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM500
 	.byte 2,141,16,3
 	.asciz "param0"
 
-LDIFF_SYM506=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM506
+LDIFF_SYM501=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM501
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM507=Lfde44_end - Lfde44_start
-	.long LDIFF_SYM507
-Lfde44_start:
+LDIFF_SYM502=Lfde43_end - Lfde43_start
+	.long LDIFF_SYM502
+Lfde43_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
 
-LDIFF_SYM508=Lme_32 - System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
-	.long LDIFF_SYM508
+LDIFF_SYM503=Lme_31 - System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
+	.long LDIFF_SYM503
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde44_end:
+Lfde43_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -7815,41 +7939,41 @@ Lfde44_end:
 
 	.byte 5,197,1
 	.quad System_Array_InternalArray__get_Item_T_INT_int
-	.quad Lme_33
+	.quad Lme_32
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM509=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM509
+LDIFF_SYM504=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM504
 	.byte 2,141,24,3
 	.asciz "param0"
 
-LDIFF_SYM510=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM510
+LDIFF_SYM505=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM505
 	.byte 1,106,11
 	.asciz "value"
 
-LDIFF_SYM511=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM511
+LDIFF_SYM506=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM506
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM512=Lfde45_end - Lfde45_start
-	.long LDIFF_SYM512
-Lfde45_start:
+LDIFF_SYM507=Lfde44_end - Lfde44_start
+	.long LDIFF_SYM507
+Lfde44_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__get_Item_T_INT_int
 
-LDIFF_SYM513=Lme_33 - System_Array_InternalArray__get_Item_T_INT_int
-	.long LDIFF_SYM513
+LDIFF_SYM508=Lme_32 - System_Array_InternalArray__get_Item_T_INT_int
+	.long LDIFF_SYM508
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde45_end:
+Lfde44_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -7859,26 +7983,26 @@ Lfde45_end:
 
 	.byte 5,164,24
 	.quad System_Array_Empty_T_INT
-	.quad Lme_34
+	.quad Lme_33
 
 	.byte 2,118,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM514=Lfde46_end - Lfde46_start
-	.long LDIFF_SYM514
-Lfde46_start:
+LDIFF_SYM509=Lfde45_end - Lfde45_start
+	.long LDIFF_SYM509
+Lfde45_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_Empty_T_INT
 
-LDIFF_SYM515=Lme_34 - System_Array_Empty_T_INT
-	.long LDIFF_SYM515
+LDIFF_SYM510=Lme_33 - System_Array_Empty_T_INT
+	.long LDIFF_SYM510
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde46_end:
+Lfde45_end:
 
 .section __DWARF, __debug_info,regular,debug
 

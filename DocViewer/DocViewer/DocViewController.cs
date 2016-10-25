@@ -83,27 +83,33 @@ namespace DocViewer
 			{
 				//using (var alert = new UIAlertView("Item Selected", string.Format("You have selected the document '{0}'.", args.Index), null, "OK"))
 				//	alert.Show();
-				UIActionSheet sheet = new UIActionSheet();
-				sheet.AddButton("Accept");
-				sheet.AddButton("Reject");
-				sheet.AddButton("Sign & Accept");
-				sheet.Dismissed += (_, e) =>
-				{
+				//UIActionSheet sheet = new UIActionSheet();
+				//sheet.AddButton("Accept");
+				//sheet.AddButton("Reject");
+				//sheet.AddButton("Sign & Accept");
+				//sheet.Dismissed += (_, e) =>
+				//{
 					
 
-					if (e.ButtonIndex != -1)
-					{
-						if (e.ButtonIndex == 2) { 
+					//if (e.ButtonIndex != -1)
+					//{
+					//	if (e.ButtonIndex == 2) { 
 							signaturepad = new SignaturePadView(View.Frame);
+							//signaturepad = new SignaturePadView(new CGRect(0, 0, 250.0f, 300.0f));
 							//signaturepad.Caption.Font = UIFont.FromName("Marker Felt", 16f);
 							//signaturepad.CaptionText = "Authorization Signature";
+							signaturepad.CaptionText = "";
+							signaturepad.Caption.Hidden = true;
+							signaturepad.SignatureLine.Hidden = true;
 							//signaturepad.SignaturePromptText = "☛";
+							signaturepad.SignaturePromptText = "";
+							signaturepad.SignaturePrompt.Hidden = true;
 							//signaturepad.SignaturePrompt.Font = UIFont.FromName("Helvetica", 32f);
 							//signaturepad.BackgroundColor = UIColor.FromRGB(255, 255, 200); // a light yellow.
-							//signaturepad.BackgroundImageView.Image = UIImage.FromBundle("logo-galaxy-black-64.png");
-							//signaturepad.BackgroundImageView.Alpha = 0.0625f;
-							//signaturepad.BackgroundImageView.ContentMode = UIViewContentMode.ScaleToFill;
-							//signaturepad.BackgroundImageView.Frame = new System.Drawing.RectangleF(20, 20, 256, 256);
+				signaturepad.BackgroundImageView.Image = UIImage.FromBundle(getImageForIndex(args.Index));
+							//signaturepad.BackgroundImageView.Alpha = 0.625f;
+							signaturepad.BackgroundImageView.ContentMode = UIViewContentMode.ScaleToFill;
+							signaturepad.BackgroundImageView.Frame = new System.Drawing.RectangleF(20, 20, 256, 256);
 							//signaturepad.Layer.ShadowOffset = new System.Drawing.SizeF(0, 0);
 							//signaturepad.Layer.ShadowOpacity = 1f;
 
@@ -152,13 +158,13 @@ namespace DocViewer
 							//	}
 							//};
 							//View.AddSubviews(btnSave);
-						}						
-					}
+					//	}						
+					//}
 
-				};
+				//};
 
 				// show the popup
-				sheet.ShowInView(View);
+				//sheet.ShowInView(View);
 
 			};
 
@@ -220,6 +226,46 @@ namespace DocViewer
 		//	btnSave.Frame = new CGRect(10, View.Bounds.Height - 47, 120, 37);
 		//	btnLoad.Frame = new CGRect(View.Bounds.Width - 130, View.Bounds.Height - 47, 120, 37);
 		//}
+
+		public static string getImageForIndex(nint index) {
+			string defImg = "Index11.png";
+			switch (index) {
+				case 0:
+					defImg = "Index00.png";
+					break;
+				case 1:
+					defImg = "Index11.png";
+					break;
+				case 2:
+					defImg = "Index22.png";
+					break;
+				case 3:
+					defImg = "Index33.png";
+					break;
+				case 4:
+					defImg = "Index44.png";
+					break;
+				case 5:
+					defImg = "Index55.png";
+					break;
+				case 6:
+					defImg = "Index66.png";
+					break;
+				case 7:
+					defImg = "Index77.png";
+					break;
+				case 8:
+					defImg = "Index88.png";
+					break;
+				case 9:
+					defImg = "Index99.png";
+					break;
+				default:
+					defImg = "Index11.png";
+					break;
+			}
+			return defImg;
+		}
 		private class CarouselDataSource : iCarouselDataSource
 		{
 			int[] items;
@@ -244,15 +290,38 @@ namespace DocViewer
 				UILabel labelContent = null;
 				UILabel labelContent2 = null;
 				UIImageView imageView = null;
-
+				UIImageView imageViewChild = null;
 
 				if (view == null)
 				{
 					// create new view if no view is available for recycling
 					imageView = new UIImageView(new CGRect(0, 0, 250.0f, 300.0f));
 					imageView.Image = UIImage.FromBundle("page.png");
+					//if (index == 0)
+					//{
+						//imageView.Image = UIImage.FromBundle("page.png");
+
+						imageViewChild = new UIImageView(new CGRect(30, 50, 200.0f, 200.0f));
+						imageViewChild.Image = UIImage.FromBundle(getImageForIndex(index));
+						imageViewChild.ContentMode = UIViewContentMode.Center;
+						imageView.AddSubview(imageViewChild);
+
+					//}
+					//else { 
+						//imageView.Image = UIImage.FromBundle("page.png");
+					//}
+
 					imageView.ContentMode = UIViewContentMode.Center;
 
+
+
+
+
+				
+				}
+				else {
+					// get a reference to the label in the recycled view
+					imageView = (UIImageView)view;
 					label = new UILabel(imageView.Bounds);
 					label.BackgroundColor = UIColor.Clear;
 					label.TextAlignment = UITextAlignment.Center;
@@ -260,7 +329,7 @@ namespace DocViewer
 					label.Tag = 1;
 					imageView.AddSubview(label);
 
-					labelContent = new UILabel(new CGRect(0, 0,250.0f, 350.0f));
+					labelContent = new UILabel(new CGRect(0, 0, 250.0f, 350.0f));
 					labelContent.BackgroundColor = UIColor.Clear;
 					labelContent.TextAlignment = UITextAlignment.Center;
 					labelContent.Font = label.Font.WithSize(7);
@@ -274,22 +343,24 @@ namespace DocViewer
 					labelContent2.Tag = 3;
 					labelContent2.LineBreakMode = UILineBreakMode.WordWrap;
 					imageView.AddSubview(labelContent2);
-				}
-				else {
-					// get a reference to the label in the recycled view
-					imageView = (UIImageView)view;
 					label = (UILabel)view.ViewWithTag(1);
 					labelContent = (UILabel)view.ViewWithTag(2);
 					labelContent = (UILabel)view.ViewWithTag(3);
+					// set the values of the view
+					label.Text = "Document " + items[index].ToString();
+					labelContent.Text = "Lorem Ipsum is simply dummy text Lorem Ipsum ";
+					labelContent2.Text = "Lorem Ipsum is simply dummy text Lorem ... ";
 				}
 
-				// set the values of the view
-				label.Text = "Document "+items[index].ToString();
-				labelContent.Text = "Lorem Ipsum is simply dummy text Lorem Ipsum ";
-				labelContent2.Text = "Lorem Ipsum is simply dummy text Lorem ... ";
+
+
+
 
 				return imageView;
 			}
+
+
+		
 		}
 	}
 }

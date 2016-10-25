@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{9F635E4C-93C4-454B-AEA5-CEDB4EE5970F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DocViewer/Info.plist">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="DocViewer/AppDelegate.cs" Line="16" Column="10" />
-      <File FileName="DocViewer/DocViewController.cs" Line="74" Column="21" />
-      <File FileName="DocViewer/Info.plist" />
+      <File FileName="DocViewer/DocViewController.cs" Line="363" Column="3" />
+      <File FileName="../../../../../../Library/Frameworks/Xamarin.iOS.framework/Versions/10.0.0.6/lib/mono/2.1/Xamarin.iOS.Common.targets" Line="1" Column="1" />
+      <File FileName="DocViewer/Resources/AppIcons.appiconset/Contents.json" Line="27" Column="6" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhone" />

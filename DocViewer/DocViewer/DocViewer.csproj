@@ -9,6 +9,8 @@
     <RootNamespace>DocViewer</RootNamespace>
     <AssemblyName>DocViewer</AssemblyName>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <ReleaseVersion>1.9</ReleaseVersion>
+    <SynchReleaseVersion>false</SynchReleaseVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
     <DebugType>pdbonly</DebugType>
@@ -27,24 +29,39 @@
     <MtouchTlsProvider>Default</MtouchTlsProvider>
     <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debuginsimulator|iPhoneSimulator' ">
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\debuginsimulator</OutputPath>
+    <DefineConstants></DefineConstants>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchUseSGen>true</MtouchUseSGen>
+    <MtouchUseRefCounting>true</MtouchUseRefCounting>
+    <MtouchLink>None</MtouchLink>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <MtouchTlsProvider>Default</MtouchTlsProvider>
+    <MtouchDebug>true</MtouchDebug>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.iOS" />
-    <Reference Include="iCarousel">
-      <HintPath>..\Components\icarousel-1.8.2.1\lib\ios-unified\iCarousel.dll</HintPath>
-    </Reference>
     <Reference Include="SignaturePad">
       <HintPath>..\packages\Xamarin.Controls.SignaturePad.1.4.0\lib\Xamarin.iOS\SignaturePad.dll</HintPath>
+    </Reference>
+    <Reference Include="iCarousel">
+      <HintPath>Components\icarousel-1.8.2.1\lib\ios-unified\iCarousel.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Image.imageset\Contents.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
+    <Folder Include="Resources\Images\" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
@@ -114,6 +131,19 @@
     <BundleResource Include="Resources\background.png" />
     <BundleResource Include="Resources\page.png" />
     <BundleResource Include="Resources\placeholder.png" />
+    <BundleResource Include="Resources\Index2.png" />
+    <BundleResource Include="Resources\Index6.jpeg" />
+    <BundleResource Include="Resources\Index7.jpeg" />
+    <BundleResource Include="Resources\Index00.png" />
+    <BundleResource Include="Resources\Index11.png" />
+    <BundleResource Include="Resources\Index22.png" />
+    <BundleResource Include="Resources\Index33.png" />
+    <BundleResource Include="Resources\Index44.png" />
+    <BundleResource Include="Resources\Index55.png" />
+    <BundleResource Include="Resources\Index66.png" />
+    <BundleResource Include="Resources\Index77.png" />
+    <BundleResource Include="Resources\Index88.png" />
+    <BundleResource Include="Resources\Index99.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

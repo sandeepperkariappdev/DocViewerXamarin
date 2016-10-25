@@ -9,5 +9,20 @@
 			<string>/Users/urocrtt-mac2/Documents/MyApplications/DocViewerXamarin/DocViewer/DocViewer/obj/iPhone/Release/actool/partial-info.plist</string>
 		</array>
 	</dict>
+	<key>com.apple.actool.document.warnings</key>
+	<array>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./Image.imageset/[iphone][][][2x][][][][][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/urocrtt-mac2/Documents/MyApplications/DocViewerXamarin/DocViewer/DocViewer/Assets.xcassets</string>
+			<key>message</key>
+			<string>The file "page.png" for the image set "Image" does not exist.</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+	</array>
 </dict>
 </plist>

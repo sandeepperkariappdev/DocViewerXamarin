@@ -1,0 +1,9 @@
+/Users/urocrtt-mac2/Documents/MyApplications/DocViewerXamarin/DocViewer/DocViewer/obj/iPhoneSimulator/debuginsimulator/mtouch-cache/Link/Xamarin.iOS.dll
+/Users/urocrtt-mac2/Documents/MyApplications/DocViewerXamarin/DocViewer/DocViewer/obj/iPhoneSimulator/debuginsimulator/mtouch-cache/Link/iCarousel.dll
+/Users/urocrtt-mac2/Documents/MyApplications/DocViewerXamarin/DocViewer/DocViewer/obj/iPhoneSimulator/debuginsimulator/mtouch-cache/Link/Mono.Dynamic.Interpreter.dll
+/Users/urocrtt-mac2/Documents/MyApplications/DocViewerXamarin/DocViewer/DocViewer/obj/iPhoneSimulator/debuginsimulator/mtouch-cache/Link/SignaturePad.dll
+/Users/urocrtt-mac2/Documents/MyApplications/DocViewerXamarin/DocViewer/DocViewer/obj/iPhoneSimulator/debuginsimulator/mtouch-cache/Link/System.Xml.dll
+/Users/urocrtt-mac2/Documents/MyApplications/DocViewerXamarin/DocViewer/DocViewer/obj/iPhoneSimulator/debuginsimulator/mtouch-cache/Link/System.dll
+/Users/urocrtt-mac2/Documents/MyApplications/DocViewerXamarin/DocViewer/DocViewer/obj/iPhoneSimulator/debuginsimulator/mtouch-cache/Link/mscorlib.dll
+/Users/urocrtt-mac2/Documents/MyApplications/DocViewerXamarin/DocViewer/DocViewer/obj/iPhoneSimulator/debuginsimulator/mtouch-cache/Link/System.Core.dll
+/Users/urocrtt-mac2/Documents/MyApplications/DocViewerXamarin/DocViewer/DocViewer/obj/iPhoneSimulator/debuginsimulator/mtouch-cache/Link/DocViewer.exe
